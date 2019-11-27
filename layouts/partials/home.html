@@ -1,0 +1,322 @@
+{{ with .home }}
+<div id=hero class="section -top -storyHero">
+    <div class=container>
+        <div class="content -medium -space-v-2">
+            <h1 class=heading-top>
+               {{ .heading1 }} <br>
+               {{ .heading2 }}
+            </h1>
+            <h3 class=heading-top-bot>
+                {{ .heading3 }}<br><br>
+                {{ .heading4 }}<br><br>
+            </h3>
+            <div class="bannerIconsRow">
+                {{ range .miniIconSection }}
+                <div class="bannerIconBlock">
+                    <img src="{{ .image }}" alt="School App">
+                    <h5>{{ .heading }}</h5>
+                </div>
+                {{ end }}
+            </div>
+            <div class=sign-up-btn-panel>
+                <!--<a class=sign-up-btn href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
+                <a class=sign-up-btn href="/register">Register Now</a>
+            </div>
+            </h3>
+        </div>
+        <div id=scroll-start class="up-down-arrow storyHeroScroll"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
+    </div>
+</div>
+
+{{ with .helpSection }}
+<div class=home-tilrPaths>
+    <div class=tilrPaths>
+        <p class=intro-heading>How myly helps</p>
+        <div class="tilrPaths-section -one">
+            <div class="grid -fullHeight -align-middle -rtl">
+                <div class=col>
+                    <div class=tilrPaths-section-content>
+                        {{with .one }}
+                        <img src="{{ .image }}" alt="School Principal" class="tilrPaths-section-content-graphic -deborah" />
+                        <div class="tilrPaths-section-content-text -small-right">
+                            <h2>{{ .heading1 }}</h2>
+                            <h3>{{ .heading2 }}</h3>
+                            <p>{{ .paragraph1 }}</p>
+                            <p>{{ .paragraph2 }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 24" class="tilrPath -one">
+                            <path stroke-dashoffset=0 stroke-dasharray=0 d="m 0 3  h -0.8   c 0 0, -1 0, -1 1	v 2		c 0 0, 0 1, 1 1		h 0	  c 0 0, 1 0, 1 1	v 7	   c 0 0, 0 1, 1 1	   c 0 0, 1 0, 1 1		v 1.5		c 0 0, 0 1, -1 1	h -2.2		c 0 0, -1 0, -1 1		v 5.5" class="tilrPath-path -one"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs visible-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 24" class="tilrPath -one">
+                            <path stroke-dashoffset=0 stroke-dasharray=0 d="							m 0 3							h -1.6							c 0 0, -1 0, -1 1							v 2							c 0 0, 0 1, 1 1							h 1.25							c 0 0, 1 0, 1 1							v 7							c 0 0, 0 1, 1 1							c 0 0, 1 0, 1 1							v 1.5							c 0 0, 0 1, -1 1							h -2.8							c 0 0, -1 0, -1 1							v 5.5						" class="tilrPath-path -one"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm visible-md visible-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 24" class="tilrPath -one">
+                            <path stroke-dashoffset=0 stroke-dasharray=0 d="							m 0 3							h -2							c 0 0, -1 0, -1 1							v 2							c 0 0, 0 1, 1 1							h 2.25							c 0 0, 1 0, 1 1							v 7							c 0 0, 0 1, 1 1							c 0 0, 1 0, 1 1							v 1.5							c 0 0, 0 1, -1 1							h -2.8							c 0 0, -1 0, -1 1							v 5.5						" class="tilrPath-path -one"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tilrPaths-section tilrPaths-section-third">
+            <div id=scroll-start class="up-down-arrow storyHeroScroll1" style="z-index:1200;position:relative"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
+            <div class="grid -fullHeight -align-middle">
+                <div class=col>
+                    <div class="tilrPaths-section-content -align-right">
+                        {{with .two }}  
+                      <img src="{{ .image }}" alt="School Teacher" class="tilrPaths-section-content-graphic -daniel" />
+                        <div class=tilrPaths-section-content-text>
+                            <h2 style=margin:0>{{ .heading1 }}</h2>
+                            <h3>{{ .heading2 }}</h3>
+                            <p>{{ .paragraph1 }}</p>
+                            <p>{{ .paragraph2 }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 18" class="tilrPath -two tilrPath-res">
+                            <path d="m 0 3.5	h 1		c 0 0, 1 0, 1 1		v 2		c 0 0, 0 1, -1 1	h -1.8	c 0 0, -1 0, -1 1	 v 2	c 0 0, 0 1, 1 1		h 1.80		c 0 0, 1 0, 1 1		v 8						" class="tilrPath-path -two"> </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs visible-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 18" class="tilrPath -two tilrPath-res">
+                            <path d="							m 0 3.5							h 1.6							c 0 0, 1 0, 1 1							v 2							c 0 0, 0 1, -1 1							h -3.5							c 0 0, -1 0, -1 1							v 2							c 0 0, 0 1, 1 1							h 3.55							c 0 0, 1 0, 1 1							v 8						" class="tilrPath-path -two"> </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm visible-md visible-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 18" class="tilrPath -two tilrPath-res">
+                            <path d="							m 0 3.5							h 3							c 0 0, 1 0, 1 1							v 2							c 0 0, 0 1, -1 1							h -6							c 0 0, -1 0, -1 1							v 2							c 0 0, 0 1, 1 1							h 3.55							c 0 0, 1 0, 1 1							v 8						" class="tilrPath-path -two"> </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id=scroll-start class="up-down-arrow storyHeroScroll2" style="z-index:1200;position:relative"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
+        <div class="tilrPaths-section tilrPaths-section-four-peter">
+            <div class="grid -fullHeight -align-middle -rtl">
+                <div class=col>
+                    <div class=tilrPaths-section-content>
+                        {{with .three }}
+                        <img src="{{ .image }}" alt=Parent class="tilrPaths-section-content-graphic -caralyn" />
+                        <div class="tilrPaths-section-content-text -small-right">
+                            <h2>{{ .heading1 }}</h2>
+                            <h3>{{ .heading2 }}</h3>
+                            <p>{{ .paragraph1 }}</p>
+                            <p>{{ .paragraph2 }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 12" class="tilrPath -three tilrPath-two-res">
+                            <path d="m 1.8 3	h -1	c 0 0, -1 0, -1 1	v 2	    c 0 0, 0 1, -1 1	  c 0 0, -1 0, -1 1		v 3		c 0 0, 0 1, 1 1		h 1.49		c 0 0, 1 0, 1 1		v 1" class="tilrPath-path -three"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs visible-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 12" class="tilrPath -three tilrPath-two-res">
+                            <path d="							m 1 3							h -0.7							c 0 0, -1 0, -1 1							v 2							c 0 0, 0 1, -1 1							c 0 0, -1 0, -1 1							v 3							c 0 0, 0 1, 1 1							h 1.49							c 0 0, 1 0, 1 1							v 1						" class="tilrPath-path -three"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm visible-md visible-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 12" class="tilrPath -three tilrPath-two-res">
+                            <path d="							m 0 3							h -1							c 0 0, -1 0, -1 1							v 2							c 0 0, 0 1, -1 1							c 0 0, -1 0, -1 1							v 3							c 0 0, 0 1, 1 1							h 1.49							c 0 0, 1 0, 1 1							v 1						" class="tilrPath-path -three"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id=scroll-start class="up-down-arrow storyHeroScroll3" style="z-index:1200;position:relative"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
+        <div class="tilrPaths-section -four tilrPaths-section-four-chirtina">
+            <div class="grid -fullHeight -align-middle">
+                <div class=col>
+                    <div class="tilrPaths-section-content -align-right">
+                      {{ with .four }}  
+                      <img src="{{ .image }}" alt="School student" class="tilrPaths-section-content-graphic -peter" />
+                        <div class=tilrPaths-section-content-text>
+                            <h2>{{ .heading1 }}</h2>
+                            <h3>{{ .heading2 }}</h3>
+                            <p>{{ .paragraph1 }}</p>
+                            <p>{{ .paragraph2 }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 6" class="tilrPath -four">
+                            <path d="m -1.0 3		h 0.80		c 0 0, 1 0, 1 1		v 1		c 0 0, 0 1, -1 1		h -0		c 0 0, -1 0, -1 1		v 1" class="tilrPath-path -four"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs visible-sm hidden-md hidden-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 6" class="tilrPath -four">
+                            <path d="							m 0 3							h 1.5							c 0 0, 1 0, 1 1							v 1							c 0 0, 0 1, -1 1							h -1.48							c 0 0, -1 0, -1 1							v 1						" class="tilrPath-path -four"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm visible-md visible-lg">
+                    <div class=col>
+                        <svg viewBox="0 0 12 6" class="tilrPath -four">
+                            <path d="							m 0 3							h 3							c 0 0, 1 0, 1 1							v 1							c 0 0, 0 1, -1 1							h -1.48							c 0 0, -1 0, -1 1							v 1						" class="tilrPath-path -four"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div id=scroll-start class="up-down-arrow storyHeroScroll4" style="z-index:1200;position:relative"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+
+
+
+
+<div class=technology-section>
+    <div class=container>
+        <h2>myly can easily meet the needs of all of them. <br>With an integrated solution, myly is one of the best educational apps.</h2>
+        <h3>#makingSchoolsSmarter <br></h3>
+        <!--<a class="sign-up-btn sign-up-btn-home" href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
+        <a class="sign-up-btn sign-up-btn-home" href=" /register">Register</a>
+    </div>
+</div>
+<div class="fourthSection serviceSection">
+    <div class=container>
+        <h2>{{ .heading7 }}</h2>
+        <div class=sectionContent>
+          {{ range $key, $val := .schoolOwnerSection }}
+            <div class=row>
+              {{ range $val }}
+                <div class="col-sm-6 col-md-4">
+                    <div class=serviceBox>
+                        <figure class=serviceImg>
+                            <a href=#><img src="{{ .image }}" alt=></a>
+                        </figure>
+                        <h3>{{ .heading }}</h3>
+                        <div class=textDesc>{{ .paragraph }}</div>
+                    </div>
+                </div>
+               {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<div class="fifthSection serviceSection">
+    <div class=container>
+        <h2>{{ .heading7 }}</h2>
+        <div class=sectionContent>
+           {{ range $key, $val := .schoolStaffSection }}
+            <div class=row>
+               {{ range $val }}
+                <div class="col-sm-6 col-md-4">
+                    <div class=serviceBox>
+                        <figure class=serviceImg>
+                            <a href=#><img src="{{ .image}}" alt=></a>
+                        </figure>
+                        <h3>{{ .heading }}</h3>
+                        <div class=textDesc>{{ .paragraph }}</div>
+                    </div>
+                  </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<div class="sixthSection serviceSection">
+    <div class=container>
+        <h2>{{ .heading8 }}</h2>
+        <div class=sectionContent>
+          {{ range $key, $val := .parentsStudentsSection }}
+            <div class=row>
+              {{ range $val }}
+                <div class="col-sm-6 col-md-4">
+                    <div class=serviceBox>
+                        <figure class=serviceImg>
+                            <a href=#><img src="{{ .image }}" alt=></a>
+                        </figure>
+                        <h3>{{ .heading }}</h3>
+                        <div class=textDesc>{{ .paragraph }}</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+
+<div class="newCustomersSection">
+    <div class="container">
+        <div class="swiper-container logoSwiper">
+            <h2 class=text-center>{{ .heading9 }}</h2><br><br>
+            <div class="swiper-wrapper">
+                {{ range $key, $val := .clientSection }}
+                    <div class="swiper-slide">
+                    {{ range $val }}
+                      <div class="logoBlock">
+                      <img src="{{ .image }}" height=130 alt=""><br><br>
+                     <h5>{{ .heading  }}</h5>
+                      </div>
+                    {{ end }}
+                  </div>
+                 {{ end }}
+            </div>
+            <div class="logoPagination"></div>
+        </div>
+    </div>
+</div>
+
+<div class="customerSaySection">
+    <div class=container>
+        <div class=swiper-container>
+            <h2 class=text-center>What our customers say</h2>
+            <br>
+            <div class=swiper-wrapper>
+                {{ range  .customerSaySection }}
+                <div class=swiper-slide>
+                    <div class=slide-bg>
+                        <div class=auther-img> <img class=img-responsive src="{{ .image }}" alt="{{ .alternateText }}" /> </div>
+                        <h5>
+                            {{ .heading }}<br>
+                            <span>{{ .span }}</span>
+                        </h5>
+                        <p>{{ .paragraph }}</p>
+                        <p>{{ .paragraph2 }}</p>
+                    </div>
+                </div>
+               {{ end }}
+            </div>
+            <div class=swiper-pagination></div>
+            <div class=swiper-button-next></div>
+            <div class=swiper-button-prev></div>
+        </div>
+    </div>
+</div>
+{{ end }}

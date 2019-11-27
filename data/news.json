@@ -1,0 +1,105 @@
+{
+  "newsContent":
+      {
+        "heading": "News",
+        
+        "one":[
+        {
+        "image":"/image/the-economic-times.jpg",
+        "paragraph":"School management software app ‘myly’ acquired by US-based investor"
+        },
+        {
+          "image":"/image/myly-Bhamashah-Techno-Fund.png",
+          "paragraph":"EduCommerce Technologies was chosen in one of the top 7 start-ups in Rajasthan from 700+ companies."
+          
+        },
+        {
+            "image":"/image/edtech1000.png",
+            "paragraph":"myly was listed in the Global EdTech 1000 Companies Transforming Education by EdTech Digest, USA."
+        },
+        {
+          "image":"/image/edstart-up.png",
+          "paragraph":"Disruption 2017: 50 EdStartups That Will Redefine The Education System!"
+        },
+      
+ 
+          {
+            "image":"/image/school-assistance.png",
+            "paragraph":"School Assistance App a Class Apart"
+          },
+          {
+             "image":"/image/world-education.png",
+             "paragraph":"myly awarded the Best Technology Enabled Learning Platform at World Education Summit 2016, Dubai"
+          },
+          {
+             "image":"/image/page-swipe.png",
+             "paragraph":"EduCommerce technologies owned edtech startup "
+           },
+           {
+             "image":"/image/tech-circle.jpg",
+            "paragraph":"Ed-tech startup myly raises $100K in seed funding"                
+           },            
+        
+          {
+            "image":"/image/i-am-wire.jpg",
+            "paragraph":"Communication App for educational institutes myly raises funding"
+           },
+           {
+            "image":"/image/the-economic-times.jpg",
+            "paragraph":"Ed-tech focused mobile app myly raises $100,000 in seed funding"                 
+           },
+           {
+             "image":"/image/school-news-logo.png",
+             "paragraph":"Why schools need Apps and ERPs: Gaurav Mundra, CEO, myly App"                 
+           },
+           {
+             "image":"/image/ein-logo.png",
+             "paragraph":"myly-School Mobile App” launches its Premium version to connect Schools, Teachers &amp; Parents"                  
+           },
+        
+           {
+            "image":"/image/img-star.png",
+            "paragraph":"How Madhup Bansal and Gaurav Mundra Started myly"
+           },
+           {
+            "image":"/image/dc.jpg",
+            "paragraph":"How start-up myly raised $100,000 in seed funding"                 
+           },
+           {
+            "image":"/image/dsa.jpg",
+            "paragraph":"India Dealbok: myly raise seed funding"
+           },
+           {
+            "image":"/image/gad-360.jpg",
+            "paragraph":"<p>India funding roundup: myly"                  
+           },
+       
+           {
+             "image":"/image/inc-42.jpg",
+             "paragraph":"App for school-parent interaction, myly, raises seed funding"
+           },
+           {
+             "image":"/image/vccircle.jpg",
+             "paragraph":"Ed-tech startup myly raises $100K in seed funding"                 
+           },
+           {
+             "image":"/image/crunch-base.jpg",
+             "paragraph":"myly - EduCommerce Technologies"
+           },
+           {
+            "image":"/image/knowstartup.jpg",
+            "paragraph":"Jaipur based ed-tech startup myly raises $100,000 in seed funding"                  
+           },
+   
+  {
+  "image":"/image/thetechportal.jpg",
+  "paragraph":"Ed-Tech mobile app myly Gets seeded with $100K"
+   },
+   {
+    "image":"/image/nextbigwhat.jpg",
+    "paragraph":"myly mobile app raises $100,000 in seed funding"                 
+  }
+  
+]  
+ }
+}

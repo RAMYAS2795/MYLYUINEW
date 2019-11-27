@@ -1,0 +1,164 @@
+
+<script type="text/javascript" src="banner.json">
+        jQuery(document).ready(function () {
+          var activePath = window.location.pathname;
+          document.getElementById('firstP').innerText = activePath; 
+          var mydata = JSON.parse(data);
+          alert(mydata.url);    
+        })
+</script>   
+        <header class="header">
+            <div class="headerWidth">
+                <div class="grid -layout-auto">
+                    <div class="col header-left"> <a href="/" class="logoLink"><img src="/image/logo.png" alt="myly logo"></a> </div>
+                    <div class="col header-right">
+                        <div class="navToggle">
+                            <svg height="24" viewBox="0 0 24 24" width="24" stroke-width="2" stroke-linecap="round" class="navToggle-icon -open">
+                                <line x1="2" x2="22" y1="6.5" y2="6.5"></line>
+                                <line x1="7" x2="22" y1="12.5" y2="12.5"></line>
+                                <line x1="2" x2="22" y1="18.5" y2="18.5"></line>
+                                <path d="M50,50
+             L100,100"
+                                      style="stroke:#660000; fill:none;" />
+                            </svg> </svg> <img src="/images/cancel.png" class="navToggle-icon -close" />
+                        </div>
+                        <div class="nav">
+                            <nav role=navigation class=nav-menu>
+                                <ul class=sb-menu-center>
+                                    <li id=sb-menu-app-li class=dropdown>
+                                        <a class=dropdown-toggle data-toggle=dropdown href=#>Solutions</a>
+                                        <script type="text/javascript">
+                                            /*<![CDATA[*/
+                                            $("ul.sb-menu-center li#sb-menu-app-li").hover(function () {
+                                                $(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn(500);
+                                                $(this).addClass('open');
+                                            });
+                                            /*]]>*/
+                                            $(document).click(function (e) {
+                                                //e.stopPropagation();
+                                                var container = $("li#sb-menu-app-li");
+                                                //check if the clicked area is dropDown or not
+                                                if (container.has(e.target).length == 0) {
+                                                    $(container).find(".dropdown-menu").hide();
+                                                    $(container).parent('.dropdown').removeClass('open');
+                                                }
+                                            });
+                                        </script>
+                                        <script type="text/javascript">
+                                            $(document).ready(function () {
+                                                $("li.sub-menu > a").click(function () {
+                                                    if ($(this).parent().hasClass('openSub')) {
+                                                        $(this).parent().removeClass('openSub');
+                                                        $(this).next('.d').slideUp();
+                                                    } else {
+                                                        $("li.sub-menu").find('.d').slideUp();
+                                                        $("li.sub-menu").removeClass('openSub');
+                                                        $(this).parent().addClass('openSub');
+                                                        $(this).next('.d').slideDown();
+                                                    }
+                                                });
+                                            });
+                                        </script>
+                                        <ul id=sb-menu-app class="dropdown-menu dropdown-menu-center">
+                                                
+                                                        {{ range .Site.Menus.forteachers }}
+                                                        <li class=li-option-base-erp>
+                                                        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                        </li>
+                                                        {{ end }}
+                                                        {{ range .Site.Menus.forparents }}
+                                                        <li class=li-option-base-erp>
+                                                        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                        </li>
+                                                        {{ end }}
+                                                         
+                                                  
+                                                
+                                                <!--<li class=li-option-base-erp><a href=/admission-crm>Admission CRM</a></li>-->
+                                                {{ range .Site.Menus.admission }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+                                                {{ range .Site.Menus.baseerp }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+
+
+                                                {{ range .Site.Menus.attendance }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+                                               
+                                               
+
+                                                {{ range .Site.Menus.fees }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+                                                
+
+                                                {{ range .Site.Menus.gradebook }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+
+                                                {{ range .Site.Menus.timetable }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+                                                {{ range .Site.Menus.transport }}
+                                                <li class=li-option-base-erp>
+                                                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                                </li>
+                                                {{ end }}
+                                              
+                                    
+                                        </ul>
+                                    </li>
+                                    {{ range .Site.Menus.news }}
+                                    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                    {{ end }}
+                                    <li><a href=/blog target=_blank>Blog</a></li>
+                                    <li>
+                                        <div class=nav-callout>
+                                            <div class=dropdown>
+                                                <button class="-options -secondary -less-padding dropdown-toggle btn-grad" type=button data-toggle=dropdown> Get started <span class=caret></span></button>
+                                                <ul class="dropdown-menu dropdown-menu-btn" data-dropdown-in=flipInX data-dropdown-out=flipOutX>
+                                                    <li><a href=https://web.mylyapp.com/ target=_blank>Login</a></li>
+                                                    <li><a href="/register">Register</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="header-underline"></div>
+            <p id='firstP'> First P</p> -->
+            {{ .Title }}
+        </header>
+        
+        <script>
+                $(document).ready(function() {
+                $('li.li-option-base-erp a').click(function() {
+                    window.location.href =  $(this).attr('href');
+                   var href =  $(this).attr('href');
+                });
+                });
+        </script>
+
+        
+
+        
+

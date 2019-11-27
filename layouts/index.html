@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+
+
+  {{ "<!-- topics -->" | safeHTML }}
+  
+  {{ partial "home.html" (dict "home" .Site.Data.index.indexSection ) }}
+
+{{ end }}

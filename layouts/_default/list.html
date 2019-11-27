@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{$x := .Title}}
+{{range $key, $val := .Site.Data.content}}
+{{ if eq $x $key }}
+{{ partial "pageLayout.html"  $val }}
+{{ end }}
+{{ end }}
+
+{{ end }}
+

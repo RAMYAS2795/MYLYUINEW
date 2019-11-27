@@ -1,0 +1,288 @@
+{
+  
+
+    "indexSection" : {
+    "heading1": "The most trusted",
+    "heading2":"School Management App",
+    "heading3":"Easy to use Smartphone based School Management System",
+    "heading4":"Everything you need for your school",
+    
+    "heading6":"myly for School Owners",
+    "heading7":"myly for School Staff",
+    "heading8":"myly for Parents & Students",
+    "heading9":"Some of our Esteemed Clients",
+    "miniIconSection":
+        [
+          {
+            "image":"/image/services-icon/mobile-app.png",
+            "heading":"School App"      
+          },
+          {
+            "image":"/image/services-icon/school-management.png",
+            "heading":"School Management"
+          },
+          {
+            "image":"/image/services-icon/student-security.png",
+            "heading":"Student Security"
+          },
+          {
+            "image":"/image/services-icon/online-course.png",
+            "heading":"Learning"
+          }
+        ],
+      "helpSection":
+      {"heading5":"How myly helps",
+        "one": {
+         "image":"/image/Deborah.jpg",
+         "heading1":"Meet Mr. Sharma",
+         "heading2":"He owns Quality Kids School.",
+         "paragraph1":"He is concerned about data security, financial management and transparency.",
+         "paragraph2":"He wants to manage all the information and records of his school on a single school ERP and increase the efficiency of his staff."
+        }, 
+        "two":{
+          "image":"/image/child-student.jpg",
+          "heading1":"This is Mallika",
+          "heading2":"A teacher in Quality Kids School.",
+          "paragraph1":"She has to share messages, pictures and news to her students and their parents.",
+          "paragraph2":"She wishes to organize essential daily tasks like taking attendance, responding to parents and sending circulars &amp; homework from her school app."
+         },   
+         "three":{
+          "image":"/image/school-teacher.png",
+          "heading1":"Meet Christina",
+          "heading2":"Her child studies in Quality Kids School.",
+          "paragraph1":"She is worried about getting timely info &amp; about her child’s progress in class.",
+          "paragraph2":"She wants to communicate with the teacher, get all info on her parent app and pay fees without having to stand in queues at the school."
+         } ,                                      
+         "four":{
+          "image":"/image/student.png",
+          "heading1":"There’s also Peter",
+          "heading2":"He is a student of Quality Kids School.",
+          "paragraph1":"He wishes to keep a check on his homework, exams and time-table.",
+          "paragraph2":"He wishes to clarify doubts from teachers and compare results with the rest of the class. All through his school app."
+         }
+      },
+      "schoolOwnerSection":
+      {"1":[
+        {
+         "image":"/image/services-icon/001.png",
+         "heading":"Admission Management",
+         "paragraph":"Systematic computerized admission process with student data & document collection and fees collection, complete visibility."       
+        },
+        {
+          "image":"/image/services-icon/002.png",
+          "heading":"Fees Management",
+          "paragraph":"Schedule session-wide fees, setup penalties & waivers, automatic due fees reminders, payment from app, website & in school, dashboard & MIS."       
+        },
+        {
+          "image":"/image/services-icon/003.png",
+          "heading":"Communication Control",
+          "paragraph":"Control which staff member can communicate with which class, get report of all messages exchanged, allow parents to reply or send message to teachers."       
+         }
+         
+        ],
+        "2" : [ 
+          {
+            "image":"/image/services-icon/004.png",
+            "heading":"Student Security",
+            "paragraph":"Complete peace of mind with School Bus Tracking and RFID Bus attendance features. View all school vehicles on your smartphone."       
+           },
+          {
+            "image":"/image/services-icon/005.png",
+            "heading":"School Branding",
+            "paragraph":"Promote your school brand through your very own school app. Let parents, students and teachers be your brand ambassador."
+            },
+            {
+              "image":"/image/services-icon/006.png",
+              "heading":"Multi-Branch/Franchise Management",
+              "paragraph":"If you have multiple branches or franchisees, control and monitor operations and data of all branches from one place."
+          } ]
+      },
+      "schoolStaffSection":
+      {"1":[
+        {
+         "image":"/image/services-icon/007.png",
+         "heading":"Attendance Management",
+         "paragraph":"Teachers can take attendance directly on their app or upload via excel. Leave approval and real-time update sent to parents on their app."       
+        },
+        {
+          "image":"/image/services-icon/008.png",
+          "heading":"Exam-Result Management",
+          "paragraph":"Create custom exam patterns, schedule exams, publish results and print customized report cards for different classes in a jiffy."       
+        },
+        {
+          "image":"/image/services-icon/009.png",
+          "heading":"Transport Management",
+          "paragraph":"Create transport routes, assign students, manage pick-up drop points and live track school buses on web or app. AIS-140 compliant."       
+         }
+         
+        ],
+        "2" : [ 
+          {
+            "image":"/image/services-icon/010.png",
+            "heading":"Timetable Management",
+            "paragraph":"Publish time-tables for classes and teachers visible to them on their apps. Manage Teacher substitution (Arrangements) in a click!"       
+           },
+          {
+            "image":"/image/services-icon/002.png",
+            "heading":"Fees Collection",
+            "paragraph":"Schedule reminders, allow collection via app and web in addition to fees collection counters in school premises. Send receipts on app."
+            },
+            {
+              "image":"/image/services-icon/011.png",
+              "heading":"Library Management",
+              "paragraph":"Library management system where Students and Teachers can check books availability from their app, pay overdue fees and more."
+          }
+         ]
+      },
+      "parentsStudentsSection":
+      {"1":[
+        {
+         "image":"/image/services-icon/003.png",
+         "heading":"School Communication",
+         "paragraph":"School messages, notices & circulars, homework and more in one single place for anywhere anytime access from smartphone app"       
+        },
+        {
+          "image":"/image/services-icon/012.png",
+          "heading":"Academics information",
+          "paragraph":"Get information about subjects & teachers, daily class time-table and learning content with attachments as shared by the teachers"       
+        },
+        {
+          "image":"/image/services-icon/002.png",
+          "heading":"Fees reminders & payment",
+          "paragraph":"See all due fees on the app, get fees due reminders and pay using credit/debit card, net-banking or eWallets directly from the app."       
+         }
+         
+        ],
+        "2" : [ 
+          {
+            "image":"/image/services-icon/007.png",
+            "heading":"Attendance & Leave",
+            "paragraph":"Get real-time attendance notifications from the school for your ward. Send leave application with attachments from the app."       
+           },
+          {
+            "image":"/image/services-icon/008.png",
+            "heading":"Exam-Result",
+            "paragraph":"Get exam schedules, automated reminders before exams, published results with analytics and more on your smartphone app."
+            },
+            {
+              "image":"/image/services-icon/009.png",
+              "heading":"School Bus Tracking",
+              "paragraph":"View School Bus pick-up and drop routes, live school bus location and get RFID attendance notifications for your ward."
+          }
+         ]
+      },
+      "clientSection":
+      {"1":
+        [
+          {
+            "image":"/image/client/001.png",
+            "heading":"DPS, Sundernagar"      
+          },
+          {
+            "image":"/image/client/002.jpg",
+            "heading":"Birla Divya Jyoti, Siliguri"
+          },
+          {
+            "image":"/image/client/003.jpg",
+            "heading":"Don Bosco, Kharagpur"
+          },
+          {
+            "image":"/image/client/004.jpg",
+            "heading":"The Newtown School, Kolkata"
+          }
+        ],
+        "2":
+        [
+          {
+            "image":"/image/client/005.jpg",
+            "heading":"Euro Kids, Patna"      
+          },
+          {
+            "image":"/image/client/006.jpg",
+            "heading":"Bachpan School, Bengaluru"
+          },
+          {
+            "image":"/image/client/007.jpg",
+            "heading":"Arise 'n' Shine, Chennai"
+          },
+          {
+            "image":"/image/client/008.jpg",
+            "heading":"Maple Bear, Bengaluru"
+          }
+        ],
+        "3":
+        [
+          {
+            "image":"/image/client/009.png",
+            "heading":"YS Group, Barnala"      
+          },
+          {
+            "image":"/image/client/010.jpg",
+            "heading":"Rawal Group, Faridabad"
+          },
+          {
+            "image":"/image/client/011.jpg",
+            "heading":"RIMS Undri, Pune"
+          },
+          {
+            "image":"/image/client/012.png",
+            "heading":"Adamas International, Kolkata "
+          }
+        ],
+        "4":
+        [
+          {
+            "image":"/image/client/013.jpg",
+            "heading":"GEMS Akademia, Kolkata"      
+          },
+          {
+            "image":"/image/client/014.jpg",
+            "heading":"Sunbeam, Vellore"
+          },
+          {
+            "image":"/image/client/015.jpg",
+            "heading":"RN Shah, Mumbai"
+          },
+          {
+            "image":"/image/client/016.jpg",
+            "heading":"Royal Global, Guwahati"
+          }
+        ]
+      },
+
+      "customerSaySection" :[{
+        "image" : "/image/georgea-arvind.jpg",
+        "alternateText" : "Dr. George A Arvind",
+        "heading" : "Dr. H. George Arvind, M.B.B.S., Deputy Chairman,",
+        "span" : "Sunbeam Matric Hr. Sec. School Vellore",
+        "paragraph" : "The myly team is truly top notch at every level of engagement. Having a partner like myly has helped our organization in so many ways and they are always there to assist with any issue. Support from this team has surpassed our expectations! Hats off to myly for its brilliance, great support and for building such an amicable relationship.",
+        "paragraph2" : ""
+        },
+        {
+          "image" : "/image/Parvez Alam.jpg",
+          "alternateText" : "Parvez Alam",
+          "heading" : "Parvez Alam, Relationship Manager,",
+          "span" : "GEMS Akademia International School, Kolkata, West Bengal",      
+          "paragraph" : "Our association with myly has been a significant one so far. The app has made life very easier for the school in terms of the communication with our parents. Our parents now seem to be happy and enjoying the services.",
+          "paragraph2" : "myly has truly lived up to the promises they made. The frequent updates and constant follow-up tells you that they mean business. All in all a very good and satisfying experience so far. We wish them all-the-best in their future endeavours."
+        },
+        {
+          "image" : "/image/nitesh-mathur.jpg",
+          "alternateText" : "Nitesh Mathur",
+          "heading" : "Nitesh Mathur, Owner, Super Kids,",
+          "span" : "Jaipur, Rajasthan",      
+          "paragraph" : "myly app has been a real boon for all the students, staff and community. It has allowed all of us to stay connected and engaged like a one big happy family. There are so many features in the app, yet it is so user friendly and easy to use. Alerts, reminders, photos, attendance, application, online fee submission, you name the feature, the app has it.",
+          "paragraph2" : "The regular use of the app has ensured that there is no confusion between the school and parent/teacher as every information reaches them on time and also keeps the parent updated about their child’s progress regularly."
+        },
+        {
+          "image" : "/image/jigar-shah.jpg",
+          "alternateText" : "Jigar Shah",
+          "heading" : "Jigar Shah, Chairman,",
+          "span" : "Nirmala Niketan High School, Bhayandar, Maharashtra",      
+          "paragraph" : "Nirmala Niketan High School is using myly App since Feb 2016 and we find the app very useful and advantageous. The app is not only convenient but also user-friendly.",
+          "paragraph2" : "Every school must try this app to reveal the importance of it. This app solved the communication issue of my school completely &amp; ensured timely updates to parents about their child."
+        }
+      ]
+      
+  }
+  }
