@@ -2,14 +2,14 @@
   p {
       text-align: center;
   }
-
- 
-
   .slick-slide {
       margin: 0;
   }
 </style>
-<div class="hero-panel" style="text-align:center;"><img src="{{.image}}" alt="Myly Admin App for Teachers" /></div>
+
+{{ if ne .title "forSchoolStaff" }}
+<div class="hero-panel" style="text-align:center;"><img src="{{.image}}" alt="{{ .alternateTextImage }}" /></div>
+{{ end }}
         <!--<div class="teacher-app-banner"></div>-->
         <section id="fms-panel">
             <div class="container">
@@ -21,21 +21,22 @@
                             <p>{{ .paragraph1 }}<br>{{ .paragraph11 }}</p>
                             <p style="margin:0 0 18px">{{ .paragraph2 }}</p>
                         </article>
-                        <div style="margin:auto; display:table;"><button class="-options -secondary -less-padding font-incress rtpf">Download brochure</button></div>
+                        <!-- <div style="margin:auto; display:table;"><button class="-options -secondary -less-padding font-incress rtpf">Download brochure</button></div> -->
                     </div>
                 </div>
 
             </div>
         </section>
+       
         {{ $t := .title }}
-        {{ $a := cond (eq .title "forSchoolStaff" ) "fms-features" "base-features" }}
-        {{ $b := cond (eq .title "forSchoolStaff" ) "iph-mobile-admin" "base-features" }}
-        {{ $c := cond (eq .title "forSchoolStaff" ) "col-md-4" "col-md-5" }}
-        {{ $d := cond (eq .title "forSchoolStaff" ) "" "margin:0;" }}
-        {{ $e := cond (eq .title "forSchoolStaff") "mobile lapi-admin" "mobile lapi-fms" }}
-        {{ $f := cond (eq .title "forSchoolStaff") "" "fees-slide-mgmt" }}
-        {{ $g := cond (eq .title "forSchoolStaff") "col-md-6" "col-md-5" }}
-        {{ $h := cond (eq .title "forSchoolStaff") "width:17%;" "" }}
+        {{ $a := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "fms-features" "base-features" }}
+        {{ $b := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "iph-mobile-admin" "base-features" }}
+        {{ $c := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "col-md-4" "col-md-5" }}
+        {{ $d := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "" "margin:0;" }}
+        {{ $e := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "mobile lapi-admin" "mobile lapi-fms" }}
+        {{ $f := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "" "fees-slide-mgmt" }}
+        {{ $g := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "col-md-6" "col-md-5" }}
+        {{ $h := cond (or (eq .title "forParents") (eq .title "forSchoolStaff")) "width:17%;" "" }}
         <div class="clearfix"></div>
         <section id="{{ $a }}">
             <div class="container">
@@ -51,9 +52,9 @@
                                     <div data-index="1">
                                         {{ if eq $t "forSchoolStaff" }}
                                         <img class="zoomIt " id="zoom_02" style="width:17%;" src="{{ .image }}"
-                                             alt="Intuitive Layout" />
+                                             alt="{{ .alternateText }}" />
                                          {{ else }}    
-                                        <img class="zoomIt {{ $f }}" id="zoom_02" src="{{ .image }}" alt="Fees Scheduling" />
+                                        <img class="zoomIt {{ $f }}" id="zoom_02" src="{{ .image }}" alt="{{ .alternateText }}" />
                                          {{ end }}
                                     </div>
                                   {{ end }}
@@ -84,7 +85,7 @@
                       <div class="col-slide">
                             <h4 class="feature-heading"><strong>{{ .heading }}</strong></h4>
                             <p class="features-text">{{ .paragraph }}</p>
-                            <img src="{{ .imageRes }}" alt="Intuitive Layout" />
+                            <img src="{{ .imageRes }}" alt="{{ .alternateTextRes }}" />
                         </div>
                         {{ end }}
                     </div>
@@ -97,7 +98,7 @@
                 <div class="row">
                     {{range $val }}
                     <div class="col-sm-4 text-center">
-                        <i class="icon-fms-features" aria-hidden="true"><img src="{{ .image }}" alt="Message to students" /></i>
+                        <i class="icon-fms-features" aria-hidden="true"><img src="{{ .image }}" alt="{{ .alternateText }}" /></i>
                         <h3>{{ .heading }}</h3>
                         <p>{{ .paragraph }}</p>
                     </div>
@@ -115,10 +116,9 @@
                 <div class="clearfix"></div>
             </div>
         </section>
-
         <div class="clearfix"></div>
 
-        {{ if and (ne $t "forSchoolStaff") (ne $t "base-erp") }}
+        {{ if and (ne $t "forSchoolStaff") (ne $t "base-erp") (ne $t "forParents")}}
         <section class="gps-howitworks-panel text-center">
                 <h2 class="title-webpanel">How it works</h2>
                 <!--<h1 id="p_form_H">How it works? <span>Morning</span></h1>-->
@@ -143,14 +143,11 @@
                         
                     </div>
                 </div>
-    
-    
             </section>
             {{ end }}
-    
-
-
+            
         <div class="clearfix"></div>
+        {{ if ne .title "forParents" }}
         <section id="brocher-info" class="brocher-info" data-id="pform" style="margin: 0; background: #fff; border: none;">
             <div class="container">
                 <hr />
@@ -204,3 +201,4 @@
                 </div>
             </div>
         </section>
+        {{ end }}

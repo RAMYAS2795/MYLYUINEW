@@ -1,11 +1,20 @@
 {{ define "main" }}
 
 {{$x := .Title}}
-{{range $key, $val := .Site.Data.content}}
+{{ if ne $x "schoolMobileApp" }}
+{{range $key, $val := .Site.Data.content.pageContent }}
 {{ if eq $x $key }}
 {{ partial "pageLayout.html"  $val }}
 {{ end }}
 {{ end }}
+{{ end }}
+
+{{ if eq $x "schoolMobileApp" }}
+{{range $key, $val := .Site.Data.content.pageContent.schoolMobileApp }}
+{{ partial "pageLayout.html"  $val }}
+{{ end }}
+{{ end }}
+
 
 {{ end }}
 

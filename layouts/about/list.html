@@ -1,13 +1,7 @@
 {{ define "main" }}
-{{ partial "page-title.html" . }}
 
-{{ partial "about-sm.html" . }}
 
-{{ partial "philosophy.html" . }}
+{{ partial "about.html" (dict "about" .Site.Data.about.aboutContent ) }}
 
-{{ partial "team.html" . }}
-
-{{ partial "cta.html" . }}
 
 {{ end }}
-

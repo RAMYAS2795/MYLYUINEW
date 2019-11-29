@@ -61,18 +61,11 @@
                                         </script>
                                         <ul id=sb-menu-app class="dropdown-menu dropdown-menu-center">
                                                 
-                                                        {{ range .Site.Menus.forteachers }}
+                                                        {{ range .Site.Menus.schoolmobileapp }}
                                                         <li class=li-option-base-erp>
                                                         <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                                                         </li>
                                                         {{ end }}
-                                                        {{ range .Site.Menus.forparents }}
-                                                        <li class=li-option-base-erp>
-                                                        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-                                                        </li>
-                                                        {{ end }}
-                                                         
-                                                  
                                                 
                                                 <!--<li class=li-option-base-erp><a href=/admission-crm>Admission CRM</a></li>-->
                                                 {{ range .Site.Menus.admission }}
@@ -118,23 +111,20 @@
                                                 <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                                                 </li>
                                                 {{ end }}
-                                              
+                                               
+                                                
                                     
                                         </ul>
                                     </li>
                                     {{ range .Site.Menus.news }}
-                                    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                                    <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
                                     {{ end }}
                                     <li><a href=/blog target=_blank>Blog</a></li>
+                                    <a href=https://web.mylyapp.com/ target=_blank>Sign In</a>
                                     <li>
-                                        <div class=nav-callout>
-                                            <div class=dropdown>
-                                                <button class="-options -secondary -less-padding dropdown-toggle btn-grad" type=button data-toggle=dropdown> Get started <span class=caret></span></button>
-                                                <ul class="dropdown-menu dropdown-menu-btn" data-dropdown-in=flipInX data-dropdown-out=flipOutX>
-                                                    <li><a href=https://web.mylyapp.com/ target=_blank>Login</a></li>
-                                                    <li><a href="/register">Register</a></li>
-                                                </ul>
-                                            </div>
+                                    
+                                                <button class="-secondary -less-padding " type=button ><a href="/register">Register</a></button>
+                                        
                                         </div>
                                     </li>
                                     
@@ -144,9 +134,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="header-underline"></div>
-            <p id='firstP'> First P</p> -->
-            {{ .Title }}
+          <div class="header-underline"></div>
+            
         </header>
         
         <script>

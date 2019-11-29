@@ -105,14 +105,14 @@ li.sub-menu.openSub>a:before {content:"\f056";}
 .parent-app-banner, .teacher-app-banner {height:150px;}
 }
 
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+/* @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
 body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif !important;
   -webkit-font-smoothing: antialiased;
-}
+} */
 
-p {
+/* p {
   font-family: "Titillium Web", sans-serif !important;
   color: #9a9a9a;
   font-size: 15px;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif !important;
   font-size: 14px;
   border-radius: 3px;
-}
+} */
 
 
 

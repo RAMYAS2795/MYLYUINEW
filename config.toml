@@ -127,12 +127,6 @@ DefaultContentLanguage = "en"
         videoThumb = "images/slider/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
-    # About 2 Section
-    [Languages.en.params.aboutSm]
-        enable  = true
-        title   = "We have explored the digital landscape with passion for a long time"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
-
     # Blog Section On Homepage
     [Languages.en.params.blog]
         enable  = true
@@ -157,14 +151,6 @@ DefaultContentLanguage = "en"
         mapLatitude = "51.507351"
         mapLongitude= "-0.127758"
         mapMarker   = "images/marker.png"
-
-    # Call to Action Section on About Page
-    [Languages.en.params.cta]
-        enable  = true
-        bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-        title   = "Let's Create Something Together"
-        subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-        btnText = "Contact Us"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
@@ -366,15 +352,10 @@ DefaultContentLanguage = "en"
        url = "attendance"
     
     #navigation url
-    [[menu.forteachers]]
-       name = "For School Staff"
-       url = "myly-admin-app-for-teachers"
+    [[menu.schoolmobileapp]]
+       name = "School Mobile App"
+       url = "school-mobile-app"
     
-    #navigation url
-    [[menu.forparents]]
-       name = "For Parents"
-       url = "myly-app-for-parents-and-students"
-
     #navigation url
     [[menu.fees]]
        name = "Fees"
@@ -404,8 +385,36 @@ DefaultContentLanguage = "en"
     [[menu.news]]
        name = "News"
        url = "news"
-     
 
+    #navigation url
+    [[menu.about]]
+       name = "About"
+       url = "about"
+
+    #navigation url
+    [[menu.careers]]
+       name = "Careers"
+       url = "careers"  
+
+     #navigation url
+    [[menu.be_a_partner]]
+       name = "Be a partner"
+       url = "be-a-partner"    
+     
+    #navigation url
+    [[menu.contact]]
+       name = "Contact"
+       url = "contact" 
+
+    #navigation url
+    [[menu.privacy]]
+       name = "Privacy Policy"
+       url = "privacy" 
+
+    #navigation url
+    [[menu.terms]]
+       name = "Terms Of Use"
+       url = "terms"     
     
 
    

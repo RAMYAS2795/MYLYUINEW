@@ -5,17 +5,34 @@
         <div class=footer-section>
             <div class=footer-right-side>
                 <div class=footer-logo><img src="/image/logo1.png" alt="myly logo"></div>
-                <a class=trm-policy href=/privacy>Privacy Policy</a> <span style="float:left;padding:0 5px">|</span> <a class=trm-policy href=/terms>Terms Of Use</a>
+                            {{ range .Site.Menus.privacy }}<a class=trm-policy href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ end }} <span style="float:left;padding:0 5px">|</span> {{ range .Site.Menus.terms }}<a class=trm-policy href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ end }}
                 <div class=clearfix></div>
                 <p class=copy-right> © 2018-19 EduCommerce Technologies Pvt. Ltd. All rights reserved. </p>
             </div>
             <div class="footer-right -space-v-1">
                 <div class=footer-info>
                     <ul id=menu-footer class=links>
-                        <li><a href=/about>About</a></li>
-                        <li><a href=/career>Careers</a></li>
-                        <li><a href=/be-a-partner>Be a partner</a></li>
-                        <li><a href=/contact>Contact</a></li>
+                            {{ range .Site.Menus.about }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                     
+                            {{ range .Site.Menus.careers }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                            {{ range .Site.Menus.be_a_partner }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                            {{ range .Site.Menus.contact }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
                     </ul>
                 </div>
                 <div class=footer-social>

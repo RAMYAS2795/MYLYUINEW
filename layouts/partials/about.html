@@ -1,42 +1,71 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.about }}
-    {{ if .enable }}
-    {{ "<!-- About Section Start -->" | safeHTML }}
-    <section class="about section-sm" id="about">
-        <div class="container">
-            {{ range .item }}
-                {{ if .positionRight }}
-                    <div class="row mt-50 justify-content-center">
-                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
-                            <div class="content">
-                                <h2>{{ .title }}</h2>
-                                <p>
-                                    {{ .description }}
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-5 col-sm-12 text-center">
-                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+{{ with .about }}
+<div id="about-panel">
+    <div class="container">
+        <div class="about-panel-inner">
+            <div class="sections-company">
+                <h1>{{ .heading }}</h1>
+                <p> {{ .paragraph }}</p>
+                <p style="margin:0 0 28px;">{{ .paragraph1 }}</p>
+                <p style="margin:0 0 28px;">
+                        {{ .paragraph2 }}<br>
+                        {{ .paragraph3 }} <br>
+                        {{ .paragraph4 }}
+                </p>
+            </div>
+        </div>
+        <div class="about-panel-inner">
+            <div class="sections-company">
+                <h1>{{ .headingLeadership }}</h1>
+            </div>
+            <div class="leadership-panel">
+                    {{ range $key, $val := .Leadership }}
+                <div class="row">
+                        {{range $val }}
+                    <div class="col-lg-4 col-sm-4 text-center">
+                        <img class="img-circle img-responsive img-center" src="{{ .image }}" alt="{{ .altName }}">
+                        <h3>
+                            {{ .heading }}<br>
+                            <small>{{ .position }}</small>
+                        </h3>
+                        <p class="abt-lead-content">{{ .bio }}</p>
+                        <div class="image-socials-box">
+                            <div class="vertical-align"> <a target="_blank" href="{{ .linkedInLink }}"> <img src="{{ .linkedInImage }}" alt="" /> </a> </div>
                         </div>
                     </div>
-                {{ else }}
-                    <div class="row mb-50 justify-content-center">
-                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
-                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                   {{ end }}
+                </div>
+               {{ end }}
+            </div>
+        </div>
+        <div class="about-panel-inner" style="border:none; margin:0;">
+            <div class="sections-company">
+                <h1>{{ .LifeAtMylyContentHead.heading }}</h1>
+                <p>{{ .LifeAtMylyContentHead.paragraph }}</p>
+            </div>
+        </div>
+        <div class="life-panel">
+            {{ range $key,$val := .LifeAtMyly }}
+            <div class="row">
+                {{ range $val }}
+                <div class="col-sm-12">
+                    <p><b>{{ .mylyPara11 }}</b>{{ .mylyPara12 }}</p><p>{{ .mylyPara13 }}</p>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        {{ range .image }}
+                        <div class="award_pic-img">
+                            <div class="col-sm-4"> <img src="{{ .image }}" alt="" width="100%"></div>
                         </div>
-                        <div class="col-md-5 col-sm-12">
-                            <div class="content">
-                                <h2>{{ .title }}</h2>
-                                <p>
-                                    {{ .description }}
-                                </p>
-                            </div>
-                        </div>
+                       {{ end }}
                     </div>
+                    <br>
+                </div>
+                <p>&nbsp;</p>
+                <div class="clearfix"></div>
                 {{ end }}
+            </div>
             {{ end }}
         </div>
-    </section>
-    {{"<!-- About section End -->" | safeHTML}}
+    </div>
+    </div>
     {{ end }}
-{{ end }}

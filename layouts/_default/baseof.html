@@ -4,7 +4,21 @@
    
 {{ partial "homeHeadScript.html" . }} 
 
-{{ partial "pageheader.html" . }}
+{{$x := .Title}}
+{{ if ne $x "schoolMobileApp" }}
+{{range $key, $val := .Site.Data.content.pageContent }}
+{{ if eq $x $key }}
+{{ partial "pageheader.html" $val }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ if eq $x "schoolMobileApp" }}
+{{ with .Site.Data.content.pageContent.schoolMobileApp.forParents }}
+{{ partial "pageheader.html"  . }}
+{{ end }}
+{{ end }}
+
 </head>
 
 <body>
