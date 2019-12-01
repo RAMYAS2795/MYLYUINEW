@@ -20,7 +20,7 @@
             </div>
             <div class=sign-up-btn-panel>
                 <!--<a class=sign-up-btn href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
-                <a class=sign-up-btn href="/register">Register Now</a>
+                <a class=sign-up-btn href="https://www.mylyapp.com/register">Register Now</a>
             </div>
             </h3>
         </div>
@@ -198,78 +198,41 @@
 
 <div class=technology-section>
     <div class=container>
-        <h2>myly can easily meet the needs of all of them. <br>With an integrated solution, myly is one of the best educational apps.</h2>
+        <h2>myly can easily meet the needs of all of them.<br> With an integrated solution, myly is one of the best school management software.</h2>
         <h3>#makingSchoolsSmarter <br></h3>
         <!--<a class="sign-up-btn sign-up-btn-home" href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
-        <a class="sign-up-btn sign-up-btn-home" href=" /register">Register</a>
+        <a class="sign-up-btn sign-up-btn-home" href="https://www.mylyapp.com/register">Register</a>
     </div>
 </div>
-<div class="fourthSection serviceSection">
+
+
+
+{{ range $key , $val := .featureDescription }}
+<div class="{{ .class }}">
     <div class=container>
-        <h2>{{ .heading7 }}</h2>
+        <h2>{{ .heading }}</h2>
         <div class=sectionContent>
-          {{ range $key, $val := .schoolOwnerSection }}
+          {{ range $key, $val := $val }}
             <div class=row>
+              {{ if  and ( ne $key "heading") (ne $key "class") }}
               {{ range $val }}
                 <div class="col-sm-6 col-md-4">
                     <div class=serviceBox>
                         <figure class=serviceImg>
-                            <a href=#><img src="{{ .image }}" alt=></a>
+                            <img src="{{ .image }}" alt=>
                         </figure>
                         <h3>{{ .heading }}</h3>
                         <div class=textDesc>{{ .paragraph }}</div>
                     </div>
                 </div>
                {{ end }}
+               {{ end }}
             </div>
             {{ end }}
         </div>
     </div>
 </div>
-<div class="fifthSection serviceSection">
-    <div class=container>
-        <h2>{{ .heading7 }}</h2>
-        <div class=sectionContent>
-           {{ range $key, $val := .schoolStaffSection }}
-            <div class=row>
-               {{ range $val }}
-                <div class="col-sm-6 col-md-4">
-                    <div class=serviceBox>
-                        <figure class=serviceImg>
-                            <a href=#><img src="{{ .image}}" alt=></a>
-                        </figure>
-                        <h3>{{ .heading }}</h3>
-                        <div class=textDesc>{{ .paragraph }}</div>
-                    </div>
-                  </div>
-                {{ end }}
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</div>
-<div class="sixthSection serviceSection">
-    <div class=container>
-        <h2>{{ .heading8 }}</h2>
-        <div class=sectionContent>
-          {{ range $key, $val := .parentsStudentsSection }}
-            <div class=row>
-              {{ range $val }}
-                <div class="col-sm-6 col-md-4">
-                    <div class=serviceBox>
-                        <figure class=serviceImg>
-                            <a href=#><img src="{{ .image }}" alt=></a>
-                        </figure>
-                        <h3>{{ .heading }}</h3>
-                        <div class=textDesc>{{ .paragraph }}</div>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</div>
+{{ end }}
 
 
 <div class="newCustomersSection">

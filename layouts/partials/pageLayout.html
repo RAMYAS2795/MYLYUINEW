@@ -18,7 +18,7 @@
                     <div class="introduction-panel">
                         <article>
                             <h1 class="text-center" style="color:#000;"><strong>{{ .heading }}</strong></h1>
-                            <p>{{ .paragraph1 }}<br>{{ .paragraph11 }}</p>
+                            <p>{{ .paragraph1 }}</p>
                             <p style="margin:0 0 18px">{{ .paragraph2 }}</p>
                         </article>
                         <!-- <div style="margin:auto; display:table;"><button class="-options -secondary -less-padding font-incress rtpf">Download brochure</button></div> -->
@@ -126,8 +126,8 @@
                 <div class="container-two">
                     <div class="container">
                         {{ range .workFlow }}
-                        
-                        <div class="cols cols-fees text-center">
+                        {{ $class := cond (or (eq .image "/image/time-table-pattern.jpg") (eq .image "/image/periods-add.jpg") (eq .image "/image/teacher-subject.jpg") (eq .image "/image/publish-parent.jpg") ) "cols cols-quiz-section text-center" "cols cols-fees text-center" }}
+                        <div class="{{ $class }}">
                             <img class="img-circle img-responsive img-center" src="{{ .image }}" alt="School Schedules Fees" />
                             <h3>{{ .heading }}</h3>
                         </div>

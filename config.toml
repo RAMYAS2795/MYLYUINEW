@@ -364,7 +364,7 @@ DefaultContentLanguage = "en"
     #navigation url
     [[menu.baseerp]]
        name = "School Information System"
-       url = "base-erp"
+       url = "studentinformationsystem"
  
    #navigation url
     [[menu.timetable]]

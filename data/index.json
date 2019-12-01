@@ -5,9 +5,7 @@
     "heading3":"Easy to use Smartphone based School Management System",
     "heading4":"Everything you need for your school",
     
-    "heading6":"myly for School Owners",
-    "heading7":"myly for School Staff",
-    "heading8":"myly for Parents & Students",
+    
     "heading9":"Some of our Esteemed Clients",
     "miniIconSection":
         [
@@ -59,8 +57,12 @@
           "paragraph2":"He wishes to clarify doubts from teachers and compare results with the rest of the class. All through his school app."
          }
       },
-      "schoolOwnerSection":
-      {"1":[
+      
+      "featureDescription" : {
+      "0":
+      {"class" : "fourthSection serviceSection",
+        "heading" : "myly for School Management",
+        "0":[
         {
          "image":"/image/services-icon/001.png",
          "heading":"Admission Management",
@@ -78,7 +80,7 @@
          }
          
         ],
-        "2" : [ 
+        "1" : [ 
           {
             "image":"/image/services-icon/004.png",
             "heading":"Student Security",
@@ -95,8 +97,10 @@
               "paragraph":"If you have multiple branches or franchisees, control and monitor operations and data of all branches from one place."
           } ]
       },
-      "schoolStaffSection":
-      {"1":[
+      "1":
+      { "class" : "fifthSection serviceSection",
+        "heading" : "myly for School Staff",
+        "0":[
         {
          "image":"/image/services-icon/007.png",
          "heading":"Attendance Management",
@@ -114,7 +118,7 @@
          }
          
         ],
-        "2" : [ 
+        "1" : [ 
           {
             "image":"/image/services-icon/010.png",
             "heading":"Timetable Management",
@@ -132,8 +136,10 @@
           }
          ]
       },
-      "parentsStudentsSection":
-      {"1":[
+      "2":
+      { "class" : "sixthSection serviceSection",
+        "heading" : "myly for Parents & Students",
+        "0":[
         {
          "image":"/image/services-icon/003.png",
          "heading":"School Communication",
@@ -151,7 +157,7 @@
          }
          
         ],
-        "2" : [ 
+        "1" : [ 
           {
             "image":"/image/services-icon/007.png",
             "heading":"Attendance & Leave",
@@ -168,9 +174,10 @@
               "paragraph":"View School Bus pick-up and drop routes, live school bus location and get RFID attendance notifications for your ward."
           }
          ]
-      },
+      }
+    },
       "clientSection":
-      {"1":
+      {"0":
         [
           {
             "image":"/image/client/001.png",
@@ -189,7 +196,7 @@
             "heading":"The Newtown School, Kolkata"
           }
         ],
-        "2":
+        "1":
         [
           {
             "image":"/image/client/005.jpg",
@@ -208,7 +215,7 @@
             "heading":"Maple Bear, Bengaluru"
           }
         ],
-        "3":
+        "2":
         [
           {
             "image":"/image/client/009.png",
@@ -227,7 +234,7 @@
             "heading":"Adamas International, Kolkata "
           }
         ],
-        "4":
+        "3":
         [
           {
             "image":"/image/client/013.jpg",

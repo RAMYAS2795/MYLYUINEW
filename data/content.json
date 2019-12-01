@@ -4,9 +4,9 @@
     "title" : "Admission",
     "image":"/image/hero-online-assessment.jpg",
     "alternateTextImage" : "Admission Process",
-    "heading": "School Admission Management",
+    "heading": "Admission Software",
     "paragraph1": "myly provides a Systematic computerized admission process with student data & document collection and fees collection along with complete transparency.",
-    "paragraph2": "Integrated with the myly school ERP, myly Admission Management is the perfect software for school admission management, and makes private school's admission process very easy. Admission process includes fees payment to ensure no revenue leakage for the school. You can decide to apply any fees as per the yearly fees plan at the time of admission.Parents will get fees payment details and receipts on their app. A 2-step approval system ensures control for the school management.",
+    "paragraph2": "Integrate with myly School Management Software, myly Admission Software is the perfect software for school admission management, and makes private school's admission process very easy. Admission process includes fees payment to ensure no revenue leakage for the school. You can decide to apply any fees as per the yearly fees plan at the time of admission.Parents will get fees payment details and receipts on their app. A 2-step approval system ensures control for the school management.",
     "featureImage" : "/image/webpanel-three.png",
     "alternateText" : "hand-iphone",
     "meta" : {
@@ -66,7 +66,7 @@
       }
     ],
       "services":
-      {"1":[
+      {"0":[
         {
         "image":"/image/reminders.jpg",
         "alternateText" : "Automatic Reminders",
@@ -85,7 +85,7 @@
             "heading":"Apply Fees",
             "paragraph":"Ensure that all necessary fees is applied at the time of admission itself"
         } ],
-          "2" : [ {
+          "1" : [ {
               "image":"/image/finance-manager.jpg",
               "alternateText" : "Role-based access",
               "heading":"Role-based access",
@@ -103,7 +103,7 @@
                   "heading":"Reduce Delays",
                   "paragraph":"Reduce delay in admission and fees collection."
               } ],
-             "3":[ {
+             "2":[ {
               "image":"/image/errorfree.png",
               "alternateText" : "Error-free",
               "heading":"Error-free",
@@ -125,25 +125,25 @@
       "workFlow":
       [
         {
-          "i" : "1",
+          "i" : "0",
           "image":"/image/school-schedules-fees.jpg",
           "alternateText" : "School Schedules Fees",
           "heading":"Capture admission data"
         },
         {
-          "i" : "2",
+          "i" : "1",
           "image":"/image/fees-reminder.jpg",
           "alternateText" : "Automated fees reminder sent to Parents",
           "heading":"Capture demographic details"    
         },
         {
-          "i" : "3",
+          "i" : "2",
           "image":"/image/parents-pay-online.jpg",
           "alternateText" : "Parents pay from app or physically",
           "heading":"Apply due fees"
         },
         {
-          "i" : "4",
+          "i" : "3",
           "image":"/image/bank-building.jpg",
           "alternateText" : "Fees directly deposited in school’s bank account",
           "heading":"Collect due fees"
@@ -169,9 +169,9 @@
       "title" : "Fees",
       "image":"/image/hero-fees.jpg",
       "alternateTextImage":"Fees",
-      "heading": "School Fees Management Simplified",
-      "paragraph1": "myly Fees Management provides an comprehensive solution to schools to automate their fees scheduling, collection & reporting process. ",
-      "paragraph2": "Integrated with the myly school ERP, myly Fees Management is the perfect software for fees management, and makes private school fees management very easy. Create multiple types of fees, fix penalties and waivers, send automated reminders and ability to collect fees from parents via mobile app, over the web and physically via cheque or cash. Centralized reporting allows reporting across classes, fee heads, payment modes etc. ",
+      "heading": "Fees Management Software",
+      "paragraph1": "myly Fees Management Software provides a comprehensive solution to schools to automate their fees scheduling, collection & reporting process. ",
+      "paragraph2": "Integrated with myly School Management Software, myly Fees Management Software is the perfect software for fees management, and makes private school fees management very easy. Create multiple types of fees, fix penalties and waivers, send automated reminders and ability to collect fees from parents via mobile app, over the web and physically via cheque or cash. Centralized reporting allows reporting across classes, fee heads, payment modes etc. ",
       "featureImage" : "/image/webpanel-three.png",
       "alternateText":"hand-iphone",
 
@@ -227,7 +227,7 @@
           }
         ],
         "services":
-        {"1":[
+        {"0":[
           {
           "image":"/image/reminders.jpg",
           "alternateText":"Automatic Reminders",
@@ -246,7 +246,7 @@
               "heading":"Online Fees Collection",
               "paragraph":"Highly secure online payment gateway system comes in-built with the fees management solution."
           } ],
-            "2" : [ {
+            "1" : [ {
                 "image":"/image/finance-manager.jpg",
                 "alternateText":"Role-based access",
                 "heading":"Role-based access",
@@ -264,7 +264,7 @@
                     "heading":"Reduce Delays",
                     "paragraph":"Reduce delay in fees collection by providing anytime anywhere fees payment facility."
                 } ],
-               "3":[ {
+               "2":[ {
                 "image":"/image/errorfree.png",
                 "alternateText":"Error-free",
                 "heading":"Error-free",
@@ -286,25 +286,25 @@
         "workFlow":
         [
           {
-            "i" : "1",
+            "i" : "0",
             "image":"/image/school-schedules-fees.jpg",
             "alternateText":"School Schedules Fees",
             "heading":"School Schedules Fees"
           },
           {
-            "i" : "2",
+            "i" : "1",
             "image":"/image/fees-reminder.jpg",
             "alternateText":"Automated fees reminder sent to Parents",
             "heading":"Automated fees reminder sent to Parents"
           },
           {
-            "i" : "3",
+            "i" : "2",
             "image":"/image/parents-pay-online.jpg",
             "alternateText":"Parents pay from app or physically",
             "heading":"Parents pay from app or physically"
           },
           {
-            "i" : "4",
+            "i" : "3",
             "image":"/image/bank-building.jpg",
             "alternateText":"Fees directly deposited in school’s bank account",
             "heading":"Fees directly deposited in school’s bank account"
@@ -317,15 +317,13 @@
           }
         ]     
       },
-
-      
  
  "base-erp": {
   "title" : "base-erp",
   "image":"/image/hero-base-erp.jpg",
   "alternateTextImage" : "Base ERP",
-  "heading": "myly Base ERP",
-  "paragraph1": "School ERP foundation with cloud-based data management and secure storage. This allows you to access your data from anywhere at any time. You don’t need to invest in any new hardware or software. All you need is a PC/laptop/smart-phone connected to the Internet and you are ready to go!",
+  "heading": "Student Information System",
+  "paragraph1": "Student Information System is built on the foundation of cloud-based data management and secure storage. This allows you to access your data from anywhere at any time. You don’t need to invest in any new hardware or software. All you need is a PC/laptop/smart-phone connected to the Internet and you are ready to go!",
   "featureImage" : "/image/webpanel-three.png",
   "alternateText" : "hand-iphone",
   "meta" : {
@@ -385,7 +383,7 @@
     }
   ],
   "services":
-  {"1":[
+  {"0":[
     {
     "image":"/image/bace-student.jpg",
     "alternateText" : "Student Lifecycle Management",
@@ -404,7 +402,7 @@
         "heading":"Dashboard, Reports & Analytics",
         "paragraph":"myly Base ERP features an automatic reporting service to send key information to School Admin by email. Track app engagement, teacher's communication, fees collection details & more."
     } ],
-      "2" : [ 
+      "1" : [ 
         {
           "image":"/image/secure-data.jpg",
           "alternateText" : "Secure Data Storage",
@@ -430,9 +428,9 @@
   "title" : "Attendence",
   "image":"/image/hero-attendance-leave.jpg",
   "alternateTextImage":"Attendance-and-Leave",
-  "heading": "Attendance and Leave Management",
-  "paragraph1": "myly Attendance Management provides an complete solution to schools to automate attendance taking, attendance reporting, leave application, leave approval and attendance analytics.",
-  "paragraph2":"Integrated deeply with the school management system, myly Attendance software allows schools to capture attendance in multiple ways - teacher taking attendance on app, taking attendance on web-panel or uploading attendance by excel file. Parents are notified on their app in case the child is marked absent or on-leave in the school. Parents can apply for leave from their app and even submit medical certificate from the app.",
+  "heading": "Attendance Software",
+  "paragraph1": "myly attendance software provides a complete solution to schools to automate attendance taking, attendance reporting, leave application, leave approval and attendance analytics.",
+  "paragraph2":"Integrated deeply with School Management Software , myly Attendance software allows schools to capture attendance in multiple ways - teacher taking attendance on app, taking attendance on web-panel or uploading attendance by excel file. Parents are notified on their app in case the child is marked absent or on-leave in the school. Parents can apply for leave from their app and even submit medical certificate from the app.",
   "featureImage" : "/image/webpanel-three.png",
   "alternateText":"hand-iphone",
   "featureBenefit":
@@ -487,7 +485,7 @@
         }
       ],
       "services":
-      {"1":[
+      {"0":[
         {
         "image":"/image/time-saving.png",
         "alternateText":"Time Saving",
@@ -506,7 +504,7 @@
             "heading":"Daily record on parent app",
             "paragraph":"Parents can access daily attendance record or a monthly calendar view of attendance."
         } ],
-          "2" : [ 
+          "1" : [ 
             {
               "image":"/image/role-based-access.png",
               "alternateText":"Role-based access",
@@ -526,7 +524,7 @@
                   "paragraph":"Reduce delay in attendance process by providing attendance on app facility."
               } 
             ],
-            "3":[ {
+            "2":[ {
               "image":"/image/errorfree.png",
               "heading":"Error-free",
               "paragraph":"Attendance process becomes error-free as there is minimum manual intervention."
@@ -549,25 +547,25 @@
      "workFlow":
       [
         {
-          "i" : "1",
+          "i" : "0",
           "image":"/image/parents-can-apply-for-leave.png",
           "alternateText":"Parents can apply for leave",
           "heading":"Parents can apply for leave"
         },
         {
-          "i" : "2",
+          "i" : "1",
           "image":"/image/leave-approval-by-admin.png",
           "alternateText":"Leave approval by admin",
           "heading":"Leave approval by admin"
         },
         {
-          "i" : "3",
+          "i" : "2",
           "image":"/image/teacher-takes-attendance.png",
           "alternateText":"Teacher takes attendance",
           "heading":"Teacher takes attendance"
         },
         {
-          "i" : "4",
+          "i" : "3",
           "image":"/image/notification-to-parents-on-app.png",
           "alternateText":"Notification to parents on app",
           "heading":"Notification to parents on app"
@@ -588,9 +586,9 @@
   "title" : "Gradebook",
   "image":"/image/hero-exam-result.jpg",
   "alternateTextImage":"Exam Result",
-  "heading": "Exam Result Management",
+  "heading": "Gradebook Software",
   "paragraph1": "Managing the scheduling of exams in your school, publishing results and printing report cards could be a time-consuming task. Not anymore!",
-  "paragraph2": "myly Exam-Result management module allows you to schedule your exams in advance and publish them as needed. Automatic reminders are sent by the system automatically before the exam. Results can be uploaded in marks or grades and get automatic analytics about your results. Set your own exam pattern or copy from our standard patterns list. You can print your own report cards any time.",
+  "paragraph2": "myly Gradebook Software allows you to schedule your exams in advance and publish them as needed. Automatic reminders are sent by the system automatically before the exam. Results can be uploaded in marks or grades and get automatic analytics about your results. Set your own gradebook pattern or copy from our standard patterns list. You can print your own report cards any time.",
   "featureImage" : "/image/webpanel-three.png",
   "alternateImage":"hand-iphone",
   "featureBenefit":
@@ -645,7 +643,7 @@
         }
       ],
       "services":
-      {"1":[
+      {"0":[
         {
         "image":"/image/exam-notification.jpg",
         "alternateImage":"Exam Notifications",
@@ -664,7 +662,7 @@
             "heading":"Role-based access",
             "paragraph":"Only staff members you authorize will be able to access Exam-result details."
         } ],
-          "2" : [ {
+          "1" : [ {
                 "image":"/image/exam.jpg",
                 "alternateImage":"Syllabus with exam",
                 "heading":"Syllabus with exam",
@@ -683,7 +681,7 @@
               "paragraph":"You can even create your own PDF results and publish to parents on myly app"
            
               }],
-             "3":[ {
+             "2":[ {
               "image":"/image/errorfree.png.jpg",
               "alternateImage":"Error-free",
               "heading":"Error-free",
@@ -705,25 +703,25 @@
       "workFlow":
       [
         {
-          "i" : "1",
+          "i" : "0",
           "image":"/image/exam-pattern.jpg",
           "alternateImage":"Create Exam Pattern",
           "heading":"Create Exam Pattern"
         },
         {
-          "i" : "2",
+          "i" : "1",
           "image":"/image/schedule-exams.jpg",
           "alternateImage":"Schedule exams & publish",
           "heading":"Schedule exams & publish"
         },
         {
-          "i" : "3",
+          "i" : "2",
           "image":"/image/result-upload.jpg",
           "alternateImage":"Upload results for exams",
           "heading":"Upload results for exams"
         },
         {
-          "i" : "4",
+          "i" : "3",
           "image":"/image/print-report.jpg",
           "alternateImage":"Print report cards",
           "heading":"Print report cards"
@@ -749,9 +747,9 @@
       "title" : "Timetable",
       "image":"/image/hero-time-table.jpg",
       "alternateTextImage":"Time Table",
-      "heading": "Time-table Management",
-      "paragraph1": "myly Time-table Management provides an easy way to publish your time-table and manage teacher arrangement/substitution for absent teachers. ",
-      "paragraph2": "Publishing time-table is one of the biggest challenges in a school. Most education boards are mandating a lighter bag for students which can be attained by ensuring an updated time-table is visible to students and parents. myly Time-Table Publishing helps a school to publish its time-table, notifying parents and students on their app. Daily time-table will be visible to parents and students on the myly app and all changes to the same will be reflected in real-time manner on the app.",
+      "heading": "Time Table Software",
+      "paragraph1": "myly Time Table Software provides an easy way to publish your time-table and manage teacher arrangement/substitution for absent teachers. ",
+      "paragraph2": "Publishing time-table is one of the biggest challenges in a school. Most education boards are mandating a lighter bag for students which can be attained by ensuring an updated time-table is visible to students and parents. myly Time Table Software helps a school to publish its time-table, notifying parents and students on their app. Daily time-table will be visible to parents and students on the myly app and all changes to the same will be reflected in real-time manner on the app.",
       "featureImage" : "/image/webpanel-three.png",
       "alternateText":"hand-iphone",
       "featureBenefit":
@@ -808,19 +806,19 @@
         "workFlow":
         [
           {
-            "i" : "1",
+            "i" : "0",
             "image":"/image/time-table-pattern.jpg",
             "alternateText":"Create time-table pattern",
             "heading":"Create time-table pattern"
           },
           {
-            "i" : "2",
+            "i" : "1",
             "image":"/image/periods-add.jpg",
             "alternateText":"Add periods to each day",
             "heading":"Add periods to each day"
           },
           {
-            "i" : "3",
+            "i" : "2",
             "image":"/image/teacher-subject.jpg",
             "alternateText":"Add teachers to each subject",
             "heading":"Add teachers to each subject"
@@ -839,9 +837,9 @@
 
       "Transport" : {
         "image":"/image/transport-solution.jpg",
-        "alternateTextImage":"Transport Solution",
+        "alternateTextImage":"Transport Software",
         "heading": "Transport Solution",
-        "paragraph1": "myly Transport Solution provides a quick and secure way to track the location of all your school vehicles that ferry students to and from the school.",
+        "paragraph1": "myly Transport Software provides a quick and secure way to track the location of all your school vehicles that ferry students to and from the school.",
         "paragraph2": "Each vehicle is fitted with a GPS tracking unit which allows school authorities to see the location of the vehicles from their web-panel access. School can create groups of students for each vehicle. Parents of these students can see the location of their child's vehicle in their myly app in real-time. We also provide RFID based attendance and video camera integration with the GPS device.",
         "featureImage" : "/image/webpanel-three.png",
         "alternateText":"hand-iphone",
@@ -874,7 +872,7 @@
             }           
           ],
           "services":
-          {"1":[
+          {"0":[
             {
             "image":"/image/time-saving.png",
             "alternateText":"Time Saving",
@@ -893,29 +891,30 @@
                 "heading":"Allow access to Parents",
                 "paragraph":"Parents can access vehicle location of their child on their myly app."
             } ]
-            },   
+            },  
+             
           "workFlow":
           [
             {
-              "i" : "1",
+              "i" : "0",
               "image":"/image/school-vehicles-fitted.jpg",
               "alternateText":"School vehicles fitted with GPS",
               "heading":"School vehicles fitted with GPS"
             },
             {
-              "i" : "2",
+              "i" : "1",
               "image":"/image/student-groups-vehicle.jpg",
               "alternateText":"Student groups by vehicle",
               "heading":"Student groups by vehicle"
             },
             {
-              "i" : "3",
+              "i" : "2",
               "image":"/image/tracking--school.jpg",
               "alternateText":"Tracking by school on web",
               "heading":"Tracking by school on web"
             },
             {
-              "i" : "4",
+              "i" : "3",
               "image":"/image/tracking-parents.jpg",
               "alternateText":"Tracking by parents on app",
               "heading":"Tracking by parents on app"
@@ -944,8 +943,8 @@
   "alternateText" : "hand-iphone",
   "meta" : {
     "title" : "myly - School Mobile App",
-    "keywords" : "",
-    "description" : ""
+    "keywords" : "school app for parents, education apps for students, teacher parent communication app, parent teacher communication, parent teacher app, educational apps, free educational apps",
+    "description" : "myly improves parent-teacher communication via dedicated mobile apps. Share messages, circulars, events, photos and more."
   },
   "featureBenefit":
       [
@@ -999,7 +998,7 @@
         }
       ],
       "services":
-      {"1":[
+      {"0":[
         {
         "image":"/image/Academics.jpg",
         "alternateText" : "Academics",
@@ -1018,7 +1017,7 @@
             "heading":"Newsletter",
             "paragraph":"Get the inside information about your ward’s school. Receive detailed newsletters from the school that you can download and view."
         } ],
-          "2" : [ 
+          "1" : [ 
             {
               "image":"/image/quesion.jpg",
               "alternateText" : "Quiz",
@@ -1038,7 +1037,7 @@
                   "paragraph":"Send a message to the teachers who teach your ward. No need to visit the school or wait on phone to speak to the teacher. Connect anytime!"
               } 
             ],
-            "3":[ {
+            "2":[ {
               "image":"/image/request.jpg",
               "alternateText" : "Send request",
               "heading":"Send request",
@@ -1063,8 +1062,7 @@
   "title" : "forSchoolStaff",
   "heading" : "myly Admin App for Teachers",
   
-  "paragraph1" : "myly Admin App for Teachers and School Admin, provides the power of technology in their hands. ",
-  "paragraph11" : "Unlike conventional school management software used by a handful of admin staff, myly is used by every teacher in the school, every day.",
+  "paragraph1" : "myly Admin App for Teachers and School Admin, provides the power of technology in their hands. Unlike conventional school management software used by a handful of admin staff, myly is used by every teacher in the school, every day.",
   "paragraph2" : "Completely integrated with myly School ERP, myly Admin App makes life easy for the teacher by eliminating paper based process with the use of technology. Attendance taking for a class of 50 can be done in less than 30 seconds!! Homework and photos can be shared from within the class in real-time.",
   "featureImage" : "/image/admin-mobile.png",
   "alternateText" : "hand-iphone",
@@ -1116,7 +1114,7 @@
                         "alternateTextRes" : "Work Offline"
                       }
                      ],
-    "services" :{"1" : [{ 
+    "services" :{"0" : [{ 
       "image" : "/image/message-student.jpg" , 
       "alternateText" : "Message to students",
       "heading" : "Message to students" , 
@@ -1134,7 +1132,7 @@
       "heading" : "Coursework" , 
       "paragraph" : "Teachers can share homework and classwork from the myly admin app itself. Send a photo or type out the text. You can send a variety of files as attachments too!"
     }], 
-    "2" : [{ 
+    "1" : [{ 
       "image" : "/image/newsletter.jpg" ,
       "alternateText" : "Newsletter",
       "heading" : "Newsletter" , 

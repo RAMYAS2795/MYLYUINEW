@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
-   
-{{ partial "homeHeadScript.html" . }} 
+
 
 {{$x := .Title}}
+{{ partial "homeHeadScript.html" . }} 
+
 {{ if ne $x "schoolMobileApp" }}
 {{range $key, $val := .Site.Data.content.pageContent }}
 {{ if eq $x $key }}
@@ -36,9 +37,15 @@
 
 </body>
 
+
 {{ partial "homeFooterScript.html" . }}
 
+
+{{range $key, $val := .Site.Data.content.pageContent }}
+{{ if eq $x $key }}
 {{ partial "pagefooter.html" . }}
+{{ end }}
+{{ end }}
 
 </html>
 
