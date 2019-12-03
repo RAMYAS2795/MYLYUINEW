@@ -165,7 +165,7 @@
 
 
 
-    "Fees" : {
+    "FeesManagement" : {
       "title" : "Fees",
       "image":"/image/hero-fees.jpg",
       "alternateTextImage":"Fees",
@@ -174,7 +174,11 @@
       "paragraph2": "Integrated with myly School Management Software, myly Fees Management Software is the perfect software for fees management, and makes private school fees management very easy. Create multiple types of fees, fix penalties and waivers, send automated reminders and ability to collect fees from parents via mobile app, over the web and physically via cheque or cash. Centralized reporting allows reporting across classes, fee heads, payment modes etc. ",
       "featureImage" : "/image/webpanel-three.png",
       "alternateText":"hand-iphone",
-
+      "meta" : {
+        "title" : "myly - Best school fees management software",
+        "keywords" : "school fees, private school fees, school fees software, online fees payment",
+        "description" : "myly is a school fees management software that helps plan, publish, send reminders and collect all fees on a single platform. "
+      },
       "featureBenefit":
         [
           {
@@ -318,8 +322,8 @@
         ]     
       },
  
- "base-erp": {
-  "title" : "base-erp",
+ "StudentInformationSystem": {
+  "title" : "StudentInformationSystem",
   "image":"/image/hero-base-erp.jpg",
   "alternateTextImage" : "Base ERP",
   "heading": "Student Information System",
@@ -327,9 +331,9 @@
   "featureImage" : "/image/webpanel-three.png",
   "alternateText" : "hand-iphone",
   "meta" : {
-    "title" : "School app|School ERP software|Student database Management - myly",
-    "keywords" : "school ERP, school management ERP, ERP for schools, ERP software, ERP system, school app, Student database management",
-    "description" : "myly school ERP management system, helps schools in student database management allowing saving of time and cost via better administration and automation of daily tasks."
+    "title" : "School app|Student Information System|Student database Management - myly",
+    "keywords" : "school ERP, school management ERP, ERP for schools, ERP software, ERP system, school app, Student database management,Student Information System",
+    "description" : "myly Student Information System, helps schools in student database management allowing saving of time and cost via better administration and automation of daily tasks."
   },
   "featureBenefit":
   [
@@ -433,6 +437,11 @@
   "paragraph2":"Integrated deeply with School Management Software , myly Attendance software allows schools to capture attendance in multiple ways - teacher taking attendance on app, taking attendance on web-panel or uploading attendance by excel file. Parents are notified on their app in case the child is marked absent or on-leave in the school. Parents can apply for leave from their app and even submit medical certificate from the app.",
   "featureImage" : "/image/webpanel-three.png",
   "alternateText":"hand-iphone",
+  "meta" : {
+    "title" : "Attendance management system | Leave management system - myly",
+    "keywords" : "leave management system, attendance management system, attendance system, leave management, attendance management software, online attendance system, online attendance management system, attendance tracker, attendance monitoring system, leave management software, attendance punching machine",
+    "description" : "myly app enables teachers to easily manage essential everyday tasks like attendance and leave management online, with its user-friendly interface."
+  },
   "featureBenefit":
       [
         {
@@ -591,6 +600,11 @@
   "paragraph2": "myly Gradebook Software allows you to schedule your exams in advance and publish them as needed. Automatic reminders are sent by the system automatically before the exam. Results can be uploaded in marks or grades and get automatic analytics about your results. Set your own gradebook pattern or copy from our standard patterns list. You can print your own report cards any time.",
   "featureImage" : "/image/webpanel-three.png",
   "alternateImage":"hand-iphone",
+  "meta" : {
+    "title" : "Exam result online | Performance management - myly",
+    "keywords" : "Exam management, report card software, report card printing, exam scheduling",
+    "description" : "myly helps schools manage their exams and results. Get results on app, print custom report cards and see result analytics."
+  },
   "featureBenefit":
       [
         {
@@ -748,17 +762,22 @@
       "image":"/image/hero-time-table.jpg",
       "alternateTextImage":"Time Table",
       "heading": "Time Table Software",
-      "paragraph1": "myly Time Table Software provides an easy way to publish your time-table and manage teacher arrangement/substitution for absent teachers. ",
-      "paragraph2": "Publishing time-table is one of the biggest challenges in a school. Most education boards are mandating a lighter bag for students which can be attained by ensuring an updated time-table is visible to students and parents. myly Time Table Software helps a school to publish its time-table, notifying parents and students on their app. Daily time-table will be visible to parents and students on the myly app and all changes to the same will be reflected in real-time manner on the app.",
+      "paragraph1": "myly Time Table Software provides an easy way to publish your timetable and manage teacher arrangement/substitution for absent teachers. ",
+      "paragraph2": "Publishing timetable is one of the biggest challenges in a school. Most education boards are mandating a lighter bag for students which can be attained by ensuring an updated timetable is visible to students and parents. myly Time Table Software helps a school to publish its timetable, notifying parents and students on their app. Daily timetable will be visible to parents and students on the myly app and all changes to the same will be reflected in real-time manner on the app.",
       "featureImage" : "/image/webpanel-three.png",
       "alternateText":"hand-iphone",
+      "meta" : {
+        "title" : "Timetable software | School timetable | Timetable app - myly",
+        "keywords" : "timetable management system, timetable software, time management for students, school timetable, timetable creator, time table app, time table management software, school timetable software, time table making software",
+        "description" : "Timetable management, publishing, class arrangement and teacher substitution with myly timetable solution. Students and teachers can see timetables on app."
+      },
       "featureBenefit":
         [
           {
             "image":"/image/class-wise-time-table.jpg",
             "alternateText":"Class-wise Time-table",
-            "heading":"Class-wise Time-table",
-            "paragraph":"Create class-wise and section-wise time-table and share with teachers and parents.",
+            "heading":"Class-wise Timetable",
+            "paragraph":"Create class-wise and section-wise timetable and share with teachers and parents.",
             "imageRes":"/image/class-wise-time-table-res.jpg",
             "alternateTextRes":"Class-wise Time-table"
           },
@@ -766,7 +785,7 @@
             "image":"/image/Schedule-assembly-breaks.jpg",
             "alternateText":"Schedule assembly and breaks",
             "heading":"Schedule assembly and breaks",
-            "paragraph":"Include assembly and multiple breaks in your daily time-table.",
+            "paragraph":"Include assembly and multiple breaks in your daily timetable.",
             "imageRes":"/image/Schedule-assembly-breaks-res.jpg",
             "alternateTextRes":"Schedule assembly and breaks"
           },
@@ -809,7 +828,7 @@
             "i" : "0",
             "image":"/image/time-table-pattern.jpg",
             "alternateText":"Create time-table pattern",
-            "heading":"Create time-table pattern"
+            "heading":"Create timetable pattern"
           },
           {
             "i" : "1",
@@ -838,11 +857,16 @@
       "Transport" : {
         "image":"/image/transport-solution.jpg",
         "alternateTextImage":"Transport Software",
-        "heading": "Transport Solution",
+        "heading": "Transport Software",
         "paragraph1": "myly Transport Software provides a quick and secure way to track the location of all your school vehicles that ferry students to and from the school.",
         "paragraph2": "Each vehicle is fitted with a GPS tracking unit which allows school authorities to see the location of the vehicles from their web-panel access. School can create groups of students for each vehicle. Parents of these students can see the location of their child's vehicle in their myly app in real-time. We also provide RFID based attendance and video camera integration with the GPS device.",
         "featureImage" : "/image/webpanel-three.png",
         "alternateText":"hand-iphone",
+        "meta" : {
+          "title" : "School bus GPS | School bus tracker | School transport services - myly",
+          "keywords" : "school bus, transport software, transportation solutions, school transport services, school bus tracker, school bus gps, bus route planning software",
+          "description" : "Now see real-time location of school buses on Web and mobile app. Child safety is a school's top-most responsibility, myly helps you with complete GPS solution."
+        },
         "featureBenefit":
           [
             {
@@ -975,8 +999,8 @@
         {
           "image":"/image/time-table-parent.jpg",
           "alternateText" : "Time-table",
-          "heading":"Time-table",
-          "paragraph":"Real-time updates about daily time-table with timings and teacher names. Bye-by heavy school bags, take only what is needed every-day!",
+          "heading":"Timetable",
+          "paragraph":"Real-time updates about daily timetable with timings and teacher names. Bye-by heavy school bags, take only what is needed every-day!",
           "imageRes":"/image/time-table-parent-res.jpg",
           "alternateTextRes" : "Time-table"
         },
@@ -1152,6 +1176,45 @@
     }]
   }
 }
+}
+},
+
+
+"navigationContent" : {
+    "name" : "Solutions",
+    "subMenu" : {
+  "0" : {
+    "name" : "School Information System",
+    "url"  : "studentinformationsystem"
+  },
+  "1" : {
+    "name" : "Admission",
+    "url" : "admission"
+  },
+  "2" : {
+    "name" : "School Mobile App",
+    "url"  : "school-mobile-app"
+  },
+  "3" : {
+    "name" : "Attendance",
+    "url"  : "attendance"
+  },
+  "4" : {
+    "name" : "Fees Management",
+    "url"  : "feesmanagement"
+  },
+  "5" : {
+    "name" : "Timetable",
+    "url"  : "timetable"
+  },
+  "6" : {
+    "name" : "Gradebook",
+    "url"  : "gradebook"
+  },
+  "7" : {
+    "name" : "Transport",
+    "url"  : "transport"
+  }
 }
 }
 }

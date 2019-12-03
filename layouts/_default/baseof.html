@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
-
-
 {{$x := .Title}}
+{{ if and (ne $x "Admission") (ne $x "Attendence") (ne $x "FeesManagement") (ne $x "Gradebook") (ne $x "schoolMobileApp") (ne $x "StudentInformationSystem") (ne $x "Timetable") (ne $x "Transport")}}
 {{ partial "homeHeadScript.html" . }} 
-
+{{ end }}
 {{ if ne $x "schoolMobileApp" }}
 {{range $key, $val := .Site.Data.content.pageContent }}
 {{ if eq $x $key }}
@@ -13,39 +12,26 @@
 {{ end }}
 {{ end }}
 {{ end }}
-
 {{ if eq $x "schoolMobileApp" }}
 {{ with .Site.Data.content.pageContent.schoolMobileApp.forParents }}
 {{ partial "pageheader.html"  . }}
 {{ end }}
 {{ end }}
-
 </head>
-
 <body>
-
 <div class=site-page>
-
 {{ partial "navigation.html" . }}
-
 {{- block "main" . }}{{- end }}
-
-
 {{ partial "footer.html" . }} 
-
 </div>
-
 </body>
-
-
+{{ if and (ne $x "Admission") (ne $x "Attendence") (ne $x "FeesManagement") (ne $x "Gradebook") (ne $x "schoolMobileApp") (ne $x "StudentInformationSystem") (ne $x "Timetable") (ne $x "Transport")}}
 {{ partial "homeFooterScript.html" . }}
-
-
+{{ end }}
 {{range $key, $val := .Site.Data.content.pageContent }}
 {{ if eq $x $key }}
 {{ partial "pagefooter.html" . }}
 {{ end }}
 {{ end }}
-
 </html>
 

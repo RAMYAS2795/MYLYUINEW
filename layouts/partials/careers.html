@@ -20,7 +20,7 @@
                         
                         {{ range $key , $val := .working }}
                         {{ with $val }}
-                        {{ if or (eq $key "0") (eq $key "2")}}
+                        {{ if eq $key "0" }}
                         <div class="panel-group">
                             <div class="db" style="margin:0 0 10px;">{{ .subHeading }}</div>
                         {{ end }}
@@ -66,4 +66,5 @@
                 </div>
                 <br>
                 </div>
+                
 {{ end }}

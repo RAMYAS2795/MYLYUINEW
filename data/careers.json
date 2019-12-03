@@ -15,7 +15,7 @@
          { 
         "subHeading":"Overview:",
         "paragraph1":"MYLY is looking for a dynamic, responsive and detail-oriented person for managing operations. This position is ideal for someone who has a keen sense of customer service, understands technology products and is willing to roll his/her sleeves and get hands dirty. You will be reporting directly to the CEO (also the co-founder of MYLY)!",
-        "paragraph2":"LOCATION: Jaipur, Rajasthan",
+        "paragraph2":"LOCATION: Bengaluru, Karnataka",
         "paragraph3":"STATUS: On-premise, full-time",
         "paragraph4":"EDUCATION: Bachelor’s/Master’s degree holder from an accredited college/university",
         "paragraph5":"COMPENSATION: As per experience"
@@ -58,7 +58,7 @@
   { 
  "subHeading":"Overview:",
  "paragraph1":"myly is looking for a dynamic, responsive and detail-oriented person to be a part of the operations team. This position is ideal for someone who has a keen sense of customer service, is willing ot understand technology products and is willing to roll his/her sleeves and get hands dirty. You will be reporting to Manager - Operations. ",
- "paragraph2":"LOCATION: Jaipur, Rajasthan",
+ "paragraph2":"LOCATION: Bengaluru, Karnataka",
  "paragraph3":"STATUS: On-premise, full-time",
  "paragraph4":"EDUCATION: Bachelor’s/Master’s degree holder from an accredited college/university",
  "paragraph5":"COMPENSATION: As per experience"
@@ -87,48 +87,7 @@
      {"paragraph":"Must possess a positive & learning attitude"}]
      
    }
-},
-"2" :{
-  "subHeading":"Department – Sales",
-  "heading":"Intern - Sales",
-  "href" : "#collapsethree",
-  "id" : "collapsethree",
-  "overview": 
-  { 
- "subHeading":"Overview:",
- "paragraph1":"myly is looking for a dynamic, responsive and detail-oriented person to be a part of the operations team. This position is ideal for someone who has a keen sense of customer service, is willing ot understand technology products and is willing to roll his/her sleeves and get hands dirty. You will be reporting to Manager - Operations. ",
- "paragraph2":"LOCATION: Jaipur/Delhi/Mumbai/Bangalore",
- "paragraph3":"STATUS: Full-time (Field Job)",
- "paragraph4":"EDUCATION: Must be enrolled in a Bachelor’s/Master’s Program at an accredited college/university",
- "paragraph5":"COMPENSATION: Attractive Incentives on successful sales closures; Expenses reimbursable on approval",
- "heading1":"This MYLY internship program is ideal for someone who is interested in furthering his or her education and experience in the world of B2B Sales. This internship will provide an opportunity to handle various aspects of B2B communication, product positioning, negotiation strategies, deal-making and sales closures. It will also entail a detailed understanding of Software Product Sales, one of the most sought after skills in the Indian IT industry. You will be meeting owners/directors/principals of schools, reputed school chains &amp; coaching class giants selling them world-class cloud-based solution."
- },
- "dutiesResponsibility" :  {
-
-   "heading":"Duties & Responsibilities",
-   "paragraph" : [{
-   "paragraph":"Prospecting and identifying potential sales opportunities"},
-   {"paragraph":"Initiating contacts via digital medium for product presentation, discussions, needs assessment &amp; customer fitment"},
-   {"paragraph":"Setting up &amp; coordinating meetings with prospects"},
-   {"paragraph":"Visiting and meeting prospects for in-person discussion and sales closure; Senior MYLY members may accompany you for meetings"}]
-   
-   },               
-   "knowledge":{
-     "heading":"Knowledge, Skills & Abilities",
-     "paragraph" : [{
-     "paragraph":"Must be extremely detail oriented with strong attention to follow-through"},
-     {"paragraph":"Strong persuasion skills"},
-     {"paragraph":"Communicate effectively in both written + verbal form"},
-     {"paragraph":"Ability to accept NO as answer"},
-     {"paragraph":"Ability to manage multiple leads"},
-     {"paragraph":"Ability to assess pain areas and needs of the prospect and mapping with MYLY offerings"},
-     {"paragraph":"Own 2-wheeler for travel in the city of choice"},
-     {"paragraph":"PC proficiency + strong skills in MS Office Suite (Outlook, Word, PPT, Excel) essential"},
-     {"paragraph":"Must be able to spend 8-10 hours a day in the field meeting and following up with prospects"},
-     {"paragraph":"Perseverance will be the biggest virtue"}]
-     
-        }
-      }
-    }
-  }
+}
+}
+}
 }

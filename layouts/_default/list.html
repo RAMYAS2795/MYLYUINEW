@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 {{$x := .Title}}
 {{ if ne $x "schoolMobileApp" }}
 {{range $key, $val := .Site.Data.content.pageContent }}
@@ -8,13 +7,10 @@
 {{ end }}
 {{ end }}
 {{ end }}
-
 {{ if eq $x "schoolMobileApp" }}
 {{range $key, $val := .Site.Data.content.pageContent.schoolMobileApp }}
 {{ partial "pageLayout.html"  $val }}
 {{ end }}
 {{ end }}
-
-
 {{ end }}
 

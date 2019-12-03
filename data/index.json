@@ -1,31 +1,11 @@
 {
     "indexSection" : {
-    "heading1": "The most trusted",
-    "heading2":"School Management App",
-    "heading3":"Easy to use Smartphone based School Management System",
-    "heading4":"Everything you need for your school",
+    "heading1": "The Operating System of your School",
+    "heading2":"Looking for a one stop solution to manage your school administration, fees collection, academics, transport and communication.",
     
     
     "heading9":"Some of our Esteemed Clients",
-    "miniIconSection":
-        [
-          {
-            "image":"/image/services-icon/mobile-app.png",
-            "heading":"School App"      
-          },
-          {
-            "image":"/image/services-icon/school-management.png",
-            "heading":"School Management"
-          },
-          {
-            "image":"/image/services-icon/student-security.png",
-            "heading":"Student Security"
-          },
-          {
-            "image":"/image/services-icon/online-course.png",
-            "heading":"Learning"
-          }
-        ],
+    
       "helpSection":
       {"heading5":"How myly helps",
         "one": {
@@ -33,7 +13,7 @@
          "heading1":"Meet Mr. Sharma",
          "heading2":"He owns Quality Kids School.",
          "paragraph1":"He is concerned about data security, financial management and transparency.",
-         "paragraph2":"He wants to manage all the information and records of his school on a single school ERP and increase the efficiency of his staff."
+         "paragraph2":"He wants to manage all the information and records of his school on a single School Management Software and increase the efficiency of his staff."
         }, 
         "two":{
           "image":"/image/child-student.jpg",
@@ -57,7 +37,11 @@
           "paragraph2":"He wishes to clarify doubts from teachers and compare results with the rest of the class. All through his school app."
          }
       },
-      
+      "technologySection" : {
+          "heading1" : "myly can easily meet the needs of all of them. With an integrated solution, myly is one of the best school management software.",
+          "heading2" : "Having your school branded mobile app for parents is great! ",
+          "heading3" : "myly publishes and maintains mobile app for parents in schools’ own brand."
+        },
       "featureDescription" : {
       "0":
       {"class" : "fourthSection serviceSection",
@@ -108,8 +92,8 @@
         },
         {
           "image":"/image/services-icon/008.png",
-          "heading":"Exam-Result Management",
-          "paragraph":"Create custom exam patterns, schedule exams, publish results and print customized report cards for different classes in a jiffy."       
+          "heading":"Gradebook Software",
+          "paragraph":"Create custom Gradebook Pattern class wise, Send report on mobile app, Print bulk report cards, Upload marks through excel sheet."       
         },
         {
           "image":"/image/services-icon/009.png",
@@ -255,6 +239,12 @@
         ]
       },
 
+
+
+      "franchiseeGroupSchoolOffering" : {
+        "heading" : "Running a school trust or chain of schools, myly is for you also!",
+        "paragraph" : "myly would provide you a ‘super admin’ login to have a composite view of student data and monitor the real time fees collection & attendance data across all the branches. If you collect royalty on the fees collection, you can have a real time visibility of due royalty; and can even plan for automatic credit of royalty in your corporate account."
+      },
       "customerSaySection" :[{
         "image" : "/image/georgea-arvind.jpg",
         "alternateText" : "Dr. George A Arvind",

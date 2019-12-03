@@ -1,31 +1,32 @@
 {{ with .home }}
 <div id=hero class="section -top -storyHero">
-    <div class=container>
-        <div class="content -medium -space-v-2">
-            <h1 class=heading-top>
-               {{ .heading1 }} <br>
-               {{ .heading2 }}
-            </h1>
-            <h3 class=heading-top-bot>
-                {{ .heading3 }}<br><br>
-                {{ .heading4 }}<br><br>
-            </h3>
-            <div class="bannerIconsRow">
-                {{ range .miniIconSection }}
-                <div class="bannerIconBlock">
-                    <img src="{{ .image }}" alt="School App">
-                    <h5>{{ .heading }}</h5>
+        <div class=container>
+            <div class="row bannerRow">
+                <div class="col-md-6">
+                    <div class="content -medium -space-v-2">
+                        <h1 class="heading-top text-left">
+                            {{ .heading1 }}
+                        </h1>
+                        <h3 class="heading-top-bot text-left">
+                            {{ .heading2 }}
+                        </h3> <br>
+                        <div class="sign-up-btn-panel text-left">
+                            <!--<a class=sign-up-btn href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
+                            <a class=sign-up-btn href="/register">Sign Up</a>
+                        </div>
+                        <!--<h4 class="introPara text-left">-->
+                            <!--myly helps you manage your school operations seamlessly from web and mobile. It's easy to use interface and excellent support, help you embark the digital journey of your school with very little training.-->
+                        <!--</h4>-->
+
+                    </div>
                 </div>
-                {{ end }}
+                <div class="col-md-6">
+                    <img class="bannerImg" src="/image/mylyBannerImage.png">
+                </div>
             </div>
-            <div class=sign-up-btn-panel>
-                <!--<a class=sign-up-btn href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
-                <a class=sign-up-btn href="https://www.mylyapp.com/register">Register Now</a>
-            </div>
-            </h3>
+            <p class="introPara"></p>
+            <div id="scroll-start" class="up-down-arrow storyHeroScroll"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
         </div>
-        <div id=scroll-start class="up-down-arrow storyHeroScroll"><a href=#scroll-start><i class="fa fa-chevron-down" aria-hidden=true></i></a></div>
-    </div>
 </div>
 
 {{ with .helpSection }}
@@ -195,16 +196,16 @@
 
 
 
-
+{{ with .technologySection }}
 <div class=technology-section>
     <div class=container>
-        <h2>myly can easily meet the needs of all of them.<br> With an integrated solution, myly is one of the best school management software.</h2>
+        <h2>{{ .heading1 }}</h2>
         <h3>#makingSchoolsSmarter <br></h3>
         <!--<a class="sign-up-btn sign-up-btn-home" href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
-        <a class="sign-up-btn sign-up-btn-home" href="https://www.mylyapp.com/register">Register</a>
+        <a class="sign-up-btn sign-up-btn-home" href="https://www.mylyapp.com/register">Sign Up</a>
     </div>
 </div>
-
+{{ end }}
 
 
 {{ range $key , $val := .featureDescription }}
@@ -234,6 +235,16 @@
 </div>
 {{ end }}
 
+{{ with .technologySection}}
+<div class=technology-section>
+        <div class=container>
+            <h2>{{ .heading2 }}<br>{{ .heading3 }}</h2>
+            <h3>#schoolbranding<br></h3>
+            <!--<a class="sign-up-btn sign-up-btn-home" href=https://web.mylyapp.com/SignUp.aspx target=_blank> Sign-up free</a>-->
+            <a class="sign-up-btn sign-up-btn-home" href=" /register">Sign Up</a>
+        </div>
+</div>
+{{ end }}
 
 <div class="newCustomersSection">
     <div class="container">
@@ -255,6 +266,24 @@
         </div>
     </div>
 </div>
+
+{{ with .franchiseeGroupSchoolOffering }}
+<div class="franchiseeGroupSchoolOffering">
+        <div class=container>
+            <h2>{{ .heading }}</h2>
+            <div class=sectionContent>
+                <div class=row>
+                    <div class="col-sm-12 col-md-12">
+                        <p class="textDesc">
+                            {{ .paragraph }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{{ end }}
+
 
 <div class="customerSaySection">
     <div class=container>
