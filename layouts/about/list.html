@@ -1,7 +1,15 @@
 {{ define "main" }}
 
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "bio" }}
+{{ .Render "bio" }}
+{{ end }}
+{{end}}
 
-{{ partial "about.html" (dict "about" .Site.Data.about.aboutContent ) }}
-
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "events" }}
+{{ .Render "events" }}
+{{ end }}
+{{end}}
 
 {{ end }}

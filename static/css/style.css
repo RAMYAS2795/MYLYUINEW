@@ -3380,3 +3380,19 @@ li.sub-menu.openSub>a:before {
 	padding:10px 20px;
 	background-color:#5199d3
 }
+
+.def{
+	background-color: blue;
+}
+
+.abc{
+	color: yellow;
+}
+
+.efg{
+	padding: 60px;
+}
+
+.xyz{
+	margin: 0 0 28px;
+}

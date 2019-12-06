@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "introduction" }}
+{{ .Render "introduction" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "featuresBenefits" }}
+{{ .Render "featuresBenefits" }}
+{{ end }}
+{{end}}
+
+{{ end }}
