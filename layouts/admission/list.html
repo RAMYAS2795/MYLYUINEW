@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+<div class="hero-panel admissionBannerBg" style="text-align:center;" ><img src="/image/hero-online-assessment.jpg" alt="Admission Process" /></div>
+
 {{range .Pages}}
 {{ if eq .Params.typeOfPage "introduction" }}
 {{ .Render "introduction" }}
@@ -11,5 +13,19 @@
 {{ .Render "featuresBenefits" }}
 {{ end }}
 {{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "services" }}
+{{ .Render "services" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "workflow" }}
+{{ .Render "workflow" }}
+{{ end }}
+{{end}}
+
+{{ .Render "solutionsForm" }}
 
 {{ end }}

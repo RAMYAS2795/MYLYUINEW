@@ -1,0 +1,27 @@
+        <section class="gps-howitworks-panel text-center">
+                <h2 class="title-webpanel">How it works</h2>
+                <!--<h1 id="p_form_H">How it works? <span>Morning</span></h1>-->
+    
+                <div class="container-two">
+                    <div class="container">
+                        {{ range $key,$val := .Params.workFlowContent }}
+                        {{ $class := cond (or (eq .image "/image/time-table-pattern.jpg") (eq .image "/image/periods-add.jpg") (eq .image "/image/teacher-subject.jpg") (eq .image "/image/publish-parent.jpg") ) "cols cols-quiz-section text-center" "cols cols-fees text-center" }}
+                        <div class="{{ $class }}">
+                            <img class="img-circle img-responsive img-center" src="{{ $val.image }}" alt="{{ $val.alternateText }}" />
+                            <h3>{{ $val.heading }}</h3>
+                        </div>
+                        {{ if ne $val.i "end" }}
+                        <div class="cols2 cols-top-margin hidden-lg visible-sm hidden-md visible-xs">
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="cols2 visible-lg hidden-sm visible-md hidden-xs">
+                            <i class="fa fa-arrow-right fa-arrow-top" aria-hidden="true"></i>
+                        </div>
+                        {{ end }} 
+                        {{ end }}
+                        
+                    </div>
+                </div>
+            </section>
+            
+        <div class="clearfix"></div>

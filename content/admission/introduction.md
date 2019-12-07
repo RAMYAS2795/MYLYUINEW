@@ -1,4 +1,5 @@
 ---
+title: "Admission"
 heading: "School Admission Management"
 typeOfPage: "introduction"
 weight:
