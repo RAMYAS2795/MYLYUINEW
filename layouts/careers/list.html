@@ -1,7 +1,24 @@
 {{ define "main" }}
 
+<div id="career-panel">
+    <div class="banner-career"></div>
+    <div class="container">
+        <div class="sections-company">
+            <h1>Careers</h1>
+            <p> We are always looking for people who are thinkers and doers. We welcome the technical brains ready to cross the job boundaries for tasks never done before and people who are willing to explore the world of new possibilities and opportunities. </p>
 
-{{ partial "careers.html" (dict "careers" .Site.Data.careers.careersContent ) }}
 
+            <div class="clearfix"></div>
+            <br>
+
+            {{range .Pages}}
+            {{ if eq .Params.typeOfPage "operations" }}
+            {{ .Render "operations" }}
+            {{ end }}
+            {{end}}
+
+        </div>
+    </div>
+    <br>
 
 {{ end }}

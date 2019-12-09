@@ -1,7 +1,11 @@
 {{ define "main" }}
 
 
-{{ partial "news.html" (dict "news" .Site.Data.news.newsContent ) }}
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "News" }}
+{{ .Render "news" }}
+{{ end }}
+{{end}}
 
 
 {{ end }}

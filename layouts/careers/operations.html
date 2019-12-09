@@ -1,0 +1,15 @@
+{{ if eq .Params.isHeading 1 }}
+<div class="panel-group">
+    <div class="db" style="margin:0 0 10px;">{{ .Params.heading }}</div>
+{{ end }}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title"> <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="{{ .Params.href }}">{{ .Params.subheading }}</a> </h4>
+        </div>
+        <div id="{{ .Params.id }}" class="panel-collapse collapse">
+            <div class="panel-body">
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,12 +1,14 @@
 ---
 title: 
 fmsImage:
-image: []
-alternateText: []
-imageRes: []
-alternateTextRes: []
-heading: []
-paragraph: []
+alternateTextFmsImage:
+contentFeaturesAndBenefits: [{img: "",
+alt:  "",
+imgRes: "",
+altRes: "",
+heading: "",
+description: ""
+}]
 weight:
-type: "featuresBenefits"
+typeOfPage: "featuresBenefits"
 ---

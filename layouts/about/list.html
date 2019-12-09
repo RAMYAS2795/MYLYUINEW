@@ -1,15 +1,52 @@
 {{ define "main" }}
 
+
+<div id="about-panel">
+    <div class="container">
+        <div class="about-panel-inner">
+            <div class="sections-company">
+                <h1>The Company</h1>
+                <p> myly’s vision is “to improve learning outcomes for students” </p>
+                <p style="margin:0 0 28px;">myly’s mission is “to allow teachers to focus on their core job – teaching, increase parents’ involvement in learning process, and to offer personalized learning for every student”</p>
+                <p style="margin:0 0 28px;">
+                    Reduce administrative load of non-teaching functions of teachers via technology interventions <br>
+                    Bridging communication gap between teachers &amp; parents <br>
+                    Providing targeted contextual learning content based on analytics &amp; learning needs of each student
+                </p>
+            </div>
+        </div>
+        <div class="about-panel-inner">
+            <div class="sections-company">
+                <h1>Leadership</h1>
+            </div>
+            <div class="leadership-panel">
+             
+
 {{range .Pages}}
 {{ if eq .Params.typeOfPage "bio" }}
 {{ .Render "bio" }}
 {{ end }}
 {{end}}
 
+</div>
+</div>
+<div class="about-panel-inner" style="border:none; margin:0;">
+    <div class="sections-company">
+        <h1>Life at myly</h1>
+        <p>We maintain a balanced mix of work and fun and follow a transparent, collaborative approach where everyone is updated about the happenings in every department through regular communication. Suggestions are invited for improvements and implemented to the extent possible!</p>
+    </div>
+</div>
+<div class="life-panel">
+    <div class="row">
+
 {{range .Pages}}
 {{ if eq .Params.typeOfPage "events" }}
 {{ .Render "events" }}
 {{ end }}
 {{end}}
+<p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
 
 {{ end }}

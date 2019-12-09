@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="hero-panel"><img style="margin-left:150px" src="/image/hero-base-erp.jpg" alt="Base ERP" /></div>
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "introduction" }}
+{{ .Render "introduction" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "featuresBenefits" }}
+{{ .Render "featuresBenefits" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "services" }}
+{{ .Render "services" }}
+{{ end }}
+{{end}}
+
+{{ .Render "solutionsForm" }}
+
+{{ end }}

@@ -1,17 +1,33 @@
-<div class="clearfix"></div>
-        <section id="fms-features">
+        {{ $t := .Params.title }}
+        {{ $a := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "fms-features" "base-features" }}
+        {{ $b := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "iph-mobile-admin" "base-features" }}
+        {{ $c := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "col-md-4" "col-md-5" }}
+        {{ $d := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "" "margin:0;" }}
+        {{ $e := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "mobile lapi-admin" "mobile lapi-fms" }}
+        {{ $f := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "" "fees-slide-mgmt" }}
+        {{ $g := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "col-md-6" "col-md-5" }}
+        {{ $h := cond (or (eq .Params.title "forParents") (eq .Params.title "forSchoolStaff")) "width:17%;" "" }}
+        <div class="clearfix"></div>
+        <section id="{{ $a }}">
             <div class="container">
                 <h2 class="banner-heading text-center"> <strong>Features &amp; Benefits</strong> </h2>
                 <div class="arrow-fms-left col-sm-1 hidden-xs visible-sm visible-md visible-lg" onclick="callFmsLeftArrow()"><i class="fa fa-angle-left" style="cursor:pointer" aria-hidden="true"></i></div>
-                <div class="col-xs-12 col-sm-10 col-md-5 hidden-xs visible-sm visible-md visible-lg">
-                    <div class="iph-mobile right-align tofade animated fadeInUp">
+                <div class="col-xs-12 col-sm-10 {{ $c }} hidden-xs visible-sm visible-md visible-lg">
+                    <div class="iph-mobile {{ $b }} right-align tofade animated fadeInUp">
                         <p>
                             <img alt="{{.Params.alternateTextFmsImage}}" src="{{.Params.fmsImage}}" class="alignnone" />
-                            <div id="mobile" class="mobile lapi-fms">
+                            <div id="mobile" class="{{ $e }}">
                                 <div class="tech-slide-panal">
-                                  {{ range $key,$val := .Params.contentFeaturesAndBenefits }}
-                                    <div data-index="1"> <img class="zoomIt fees-slide-mgmt" id="zoom_02" src="{{$val.img}}" alt="{{$val.alt}}" /> </div>
-                                  {{ end }}
+                                        {{ range $key,$val := .Params.contentFeaturesAndBenefits }}
+                                        <div data-index="1">
+                                        {{ if eq $t "forSchoolStaff" }}
+                                        <img class="zoomIt " id="zoom_02" style="width:17%;" src="{{$val.img}}"
+                                             alt="{{$val.alt}}" />
+                                         {{ else }}    
+                                        <img class="zoomIt {{ $f }}" id="zoom_02" src="{{$val.img}}" alt="{{$val.alt}}" />
+                                         {{ end }}
+                                    </div>
+                                       {{ end }}
                                 </div>
                             </div>
                         </p>
@@ -20,14 +36,14 @@
                 <div class="col-sm-1 hidden-xs visible-sm hidden-md hidden-lg">
                     <div class="arrow-fms-right" onclick="callFmsRightArrow()"><i class="fa fa-angle-right" style="cursor:pointer" aria-hidden="true"></i></div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-5 hidden-xs visible-sm visible-md visible-lg">
+                <div class="col-xs-12 col-sm-12 {{ $g }} hidden-xs visible-sm visible-md visible-lg">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-right">
-                      {{ range $key,$val := .Params.contentFeaturesAndBenefits }}
-                      <div class="col-slide" data-id="1">
+                            {{ range $key,$val := .Params.contentFeaturesAndBenefits }}
+                            <div class="col-slide" data-id="1">
                             <h4 class="feature-heading"><strong>{{$val.heading}}</strong></h4>
                             <p class="features-text">{{$val.description}}</p>
                         </div>
-                      {{ end }}
+                           {{ end }}
                     </div>
                 </div>
                 <div class="col-sm-1 hidden-xs hidden-sm visible-md visible-lg">
@@ -35,13 +51,13 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-5 hidden-md hidden-lg hidden-sm visible-xs">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-res">
-                     {{ range $key,$val := .Params.contentFeaturesAndBenefits }}
-                      <div class="col-slide">
+                            {{ range $key,$val := .Params.contentFeaturesAndBenefits }}
+                            <div class="col-slide">
                             <h4 class="feature-heading"><strong>{{$val.heading}}</strong></h4>
                             <p class="features-text">{{$val.description}}</p>
                             <img src="{{$val.imgRes}}" alt="{{$val.altRes}}" />
                         </div>
-                     {{ end }}  
+                           {{ end }}
                     </div>
                 </div>
                 <div class="clearfix"></div>

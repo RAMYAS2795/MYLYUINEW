@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="hero-panel" style="text-align:center;"><img src="/image/parent-app-banner.jpg" alt="Parent App Banner" /></div>
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "introduction_forParents" }}
+{{ .Render "introduction" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "featuresBenefits_forParents" }}
+{{ .Render "featuresBenefits" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "services_forParents" }}
+{{ .Render "services" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "introduction_forSchoolStaff" }}
+{{ .Render "introduction" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "featuresBenefits_forSchoolStaff" }}
+{{ .Render "featuresBenefits" }}
+{{ end }}
+{{end}}
+
+{{range .Pages}}
+{{ if eq .Params.typeOfPage "services_forSchoolStaff" }}
+{{ .Render "services" }}
+{{ end }}
+{{end}}
+
+{{ .Render "solutionsForm" }}
+
+{{ end }}
