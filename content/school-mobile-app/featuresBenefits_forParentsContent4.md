@@ -3,7 +3,7 @@ title: "forParents"
 img : "/image/time-table-parent.jpg"
 alt : "Time-table"
 imgRes : "/image/time-table-parent-res.jpg"
-alternateTextRes : "Time-table"
+altRes : "Time-table"
 heading: "Timetable"
 weight: 4
 typeOfPage : "featuresBenefits_forParents"

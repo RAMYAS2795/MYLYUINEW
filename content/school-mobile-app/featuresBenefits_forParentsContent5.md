@@ -1,6 +1,6 @@
 ---
 title: "forParents"         
-image : "/image/exam-result-parent.jpg"
+img : "/image/exam-result-parent.jpg"
 alt : "Exam-Result Updates"
 imgRes : "/image/exam-result-parent-res.jpg"
 altRes : "Exam-Result Updates" 
