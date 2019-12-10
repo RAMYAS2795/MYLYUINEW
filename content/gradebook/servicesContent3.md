@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : "/image/profiles.png"
 alternateText: "Role-based access"
 heading: "Role-based access"

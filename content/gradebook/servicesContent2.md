@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : "/image/reminders.jpg"
 alternateText: "Automated Reminders"
 heading: "Automated Reminders"

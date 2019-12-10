@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : "/image/exam.jpg"
 alternateText: "Syllabus with exam"
 heading: "Syllabus with exam"

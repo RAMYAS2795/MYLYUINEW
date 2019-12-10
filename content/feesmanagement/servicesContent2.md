@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/payment.jpg"
 alternateText: "Partial/Advance Fees"
 heading: "Partial/Advance Fees"

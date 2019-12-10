@@ -1,14 +1,14 @@
 ---
-title: "Attendance"
-image : "/image/quesion.jpg"
-alternateText: "Quiz"
-heading: "Quiz"
+title: "student Information System"
+image : "/image/secure-data.jpg"
+alternateText: "Secure Data Storage"
+heading: "Secure Data Storage"
 typeOfPage: "services"
 series: "services"
 weight: 4
 draft: false
 ---
 
-<p>Teachers can share quizzes that students can take on the app. Once completed, get your score and the right answers to improve your knowledge</p>
+<p>myly is hosted on some of the world's most secure servers. That means you don't have to worry about your data security and availability in the unforeseen events of virus attacks, floods, power outages etc.</p>
 
 

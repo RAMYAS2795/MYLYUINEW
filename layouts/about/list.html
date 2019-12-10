@@ -22,9 +22,17 @@
             <div class="leadership-panel">
              
 
-{{range .Pages}}
+{{range $key,$value := .Pages}}
 {{ if eq .Params.typeOfPage "bio" }}
+{{ $cols := 2 }}
+{{ $len := len .Pages }}
+{{ if modBool $key $cols}}
+<div class="row">
+{{ end }}
 {{ .Render "bio" }}
+{{ if (or (not (modBool $key $cols)) (eq (add $key 1) $len)) }}
+</div>
+{{ end }}
 {{ end }}
 {{end}}
 

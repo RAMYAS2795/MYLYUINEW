@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/fees-collection.jpg"
 alternateText: "Reduce Delays"
 heading: "Reduce Delays"

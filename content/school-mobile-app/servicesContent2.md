@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "forParents"
 image : "/image/club-house.jpg"
 alternateText: "Club/House"
 heading: "Club/House"

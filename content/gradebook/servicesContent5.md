@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : "/image/result.jpg"
 alternateText: "Result on myly app"
 heading: "Result on myly app"

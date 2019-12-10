@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : /image/exam-notification.jpg"
 alternateText: "Exam Notifications"
 heading: "Exam Notifications"

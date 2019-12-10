@@ -1,11 +1,11 @@
 ---
-title: "Attendance"
+title: "forSchoolStaff"
 image : "/image/newsletter.jpg"
 alternateText: "Newsletter"
 heading: "Newsletter"
 typeOfPage: "services"
-series: "services"
-weight: 9
+series: "services_forSchoolStaff"
+weight: 4
 draft: false
 ---
 

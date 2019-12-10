@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/time.png"
 alternateText: "Save Time"
 heading: "Save Time"

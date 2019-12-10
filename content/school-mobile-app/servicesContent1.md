@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "forParents"
 image : "/image/Academics.jpg"
 alternateText: "Academics"
 heading: "Academics"

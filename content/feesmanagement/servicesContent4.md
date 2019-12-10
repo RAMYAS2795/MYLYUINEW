@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/finance-manager.jpg"
 alternateText: "Role-based access"
 heading: "Role-based access"

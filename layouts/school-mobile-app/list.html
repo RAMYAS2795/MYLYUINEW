@@ -8,17 +8,10 @@
 {{ end }}
 {{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "featuresBenefits_forParents" }}
 {{ .Render "featuresBenefits" }}
-{{ end }}
-{{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "services_forParents" }}
 {{ .Render "services" }}
-{{ end }}
-{{end}}
+
 
 {{range .Pages}}
 {{ if eq .Params.typeOfPage "introduction_forSchoolStaff" }}
@@ -26,17 +19,10 @@
 {{ end }}
 {{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "featuresBenefits_forSchoolStaff" }}
-{{ .Render "featuresBenefits" }}
-{{ end }}
-{{end}}
+{{ .Render "featuresBenefits_forSchoolStaff" }}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "services_forSchoolStaff" }}
-{{ .Render "services" }}
-{{ end }}
-{{end}}
+{{ .Render "services_forSchoolStaff" }}
+
 
 {{ .Render "solutionsForm" }}
 

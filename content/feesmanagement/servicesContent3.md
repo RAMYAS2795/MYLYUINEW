@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/payment.png"
 alternateText: "online fees collection"
 heading: "Online Fees Collection"

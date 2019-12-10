@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : "/image/secure.png"
 alternateText: "Secure & Safe"
 heading: "Secure & Safe"

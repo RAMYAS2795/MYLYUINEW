@@ -1,12 +1,12 @@
 ---
-title: "Attendance"
-image : "/image/compose.jpg"
-alternateText: "Compose message"
-heading: "Compose message"
+title: "student Information System"
+image : "/image/time.png"
+alternateText: "Access anywhere, anytime"
+heading: "Access anywhere, anytime"
 typeOfPage: "services"
 series: "services"
 weight: 6
 draft: false
 ---
 
-<p>Send a message to the teachers who teach your ward. No need to visit the school or wait on phone to speak to the teacher. Connect anytime!</p>
+<p>Since myly is hosted on the cloud, you can access the system from anywhere in the world, at anytime. All you need is a computer or smart-phone connected to the Internet.</p>

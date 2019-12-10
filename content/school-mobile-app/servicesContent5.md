@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "forParents"
 image : "/image/leave.jpg"
 alternateText: "Apply for leave"
 heading: "Apply for leave"

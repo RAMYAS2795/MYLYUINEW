@@ -1,11 +1,11 @@
 ---
-title: "Attendance"
+title: "forSchoolStaff"
 image : "/image/course-work.jpg"
 alternateText: "Coursework"
 heading: "Coursework"
 typeOfPage: "services"
-series: "services"
-weight: 9
+series: "services_forSchoolStaff"
+weight: 3
 draft: false
 ---
 

@@ -8,12 +8,7 @@
 {{ end }}
 {{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "featuresBenefits" }}
 {{ .Render "featuresBenefits" }}
-{{ end }}
-{{end}}
-
 
 {{ .Render "services" }}
 

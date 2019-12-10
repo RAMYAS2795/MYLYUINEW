@@ -1,0 +1,24 @@
+{{ $cols := 3 }}
+{{ $len := len .Pages }}
+{{ range  $key,$value := where .Pages "Params.series" "==" "services_forSchoolStaff" }}
+{{ if modBool $key $cols }}
+<div class="row">
+{{ end }}
+
+    <div class="col-sm-4 text-center">
+        <i class="icon-fms-features" aria-hidden="true"><img src="{{ .Params.image }}" alt="{{ .Params.alternateText }}" /></i>
+        <h3>{{ .Params.heading }}</h3>
+        {{.Content}}
+    </div>
+{{ if or (modBool (add $key 1) $cols) (eq (add $key 1) $len) }}
+</div>
+{{ end }}
+{{ end }}
+<div class="clearfix"></div>
+</div>
+</section>
+
+<div class="clearfix"></div>
+
+
+

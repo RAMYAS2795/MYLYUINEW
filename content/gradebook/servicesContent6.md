@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Gradebook"
 image : "/image/pdf-report.jpg"
 alternateText: "PDF report cards"
 heading: "PDF report cards"

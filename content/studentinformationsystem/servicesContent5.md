@@ -1,12 +1,12 @@
 ---
-title: "Attendance"
-image : "/image/leave.jpg"
-alternateText: "Apply for leave"
-heading: "Apply for leave"
+title: "student Information System"
+image : "/image/bace-back-up.jpg"
+alternateText: "Data Backup"
+heading: "Data Backup"
 typeOfPage: "services"
 series: "services"
 weight: 5
 draft: false
 ---
 
-<p>Have a sick child or traveling out of town? Apply for leave from the app itself. Select dates for leave, reason and even send attachments if needed.</p>
+<p>We still take internal data back-up of your system for that rarest of the rare situations. You can take a copy of you data back-up as often as you want using your School Admin login.</p>

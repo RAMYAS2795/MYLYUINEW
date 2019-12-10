@@ -8,17 +8,9 @@
 {{ end }}
 {{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "featuresBenefits" }}
 {{ .Render "featuresBenefits" }}
-{{ end }}
-{{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "services" }}
 {{ .Render "services" }}
-{{ end }}
-{{end}}
 
 {{range .Pages}}
 {{ if eq .Params.typeOfPage "workflow" }}

@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "forParents"
 image : "/image/request.jpg"
 alternateText: "Send request"
 heading: "Send request"

@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/errorfree.png"
 alternateText: "Error-free"
 heading: "Error-free"

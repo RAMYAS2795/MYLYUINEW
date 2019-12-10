@@ -1,11 +1,11 @@
 ---
-title: "Attendance"
+title: "forSchoolStaff"
 image : "/image/photo-album.jpg"
 alternateText: "Photo Album"
 heading: "Photo Album"
 typeOfPage: "services"
-series: "services"
-weight: 9
+series: "services_forSchoolStaff"
+weight: 6
 draft: false
 ---
 

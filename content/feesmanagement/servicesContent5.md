@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/analytics.jpg"
 alternateText: "real-time analytics"
 heading: Real-time Analytics"

@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "forParents"
 image : "/image/compose.jpg"
 alternateText: "Compose message"
 heading: "Compose message"

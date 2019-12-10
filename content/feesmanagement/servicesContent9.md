@@ -1,5 +1,5 @@
 ---
-title: "Attendance"
+title: "Fees"
 image : "/image/secure.png"
 alternateText: "Secure & Safe"
 heading: "Secure & Safe"

@@ -1,12 +1,12 @@
 ---
-title: "Attendance"
-image : "/image/Academics.jpg"
-alternateText: "Academics"
-heading: "Academics"
+title: "student Information System"
+image : "/image/bace-student.jpg"
+alternateText: "Student Lifecycle Management"
+heading: "Student Lifecycle Management"
 typeOfPage: "services"
 series: "services"
 weight: 1
 draft: false
 ---
 
-<p>Get complete list of all subjects that your ward studies and the names and email IDs of the teachers that teach those subjects</p>
+<p>Manage all activities and records of a student for the complete duration that they were a part of your school for. This may include their laurels, activities, results, disciplinary records etc.</p>
