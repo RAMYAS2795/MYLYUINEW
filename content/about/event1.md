@@ -2,6 +2,7 @@
 title: "About"
 Image: ["/image/garden_cafe1.jpg","/image/garden_cafe2.jpg","/image/garden_cafe3.jpg"]
 typeOfPage: "events"
+series: "events"
 weight: 1
 draft: false
 ---

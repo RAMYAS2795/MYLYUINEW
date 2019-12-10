@@ -1,5 +1,5 @@
 ---
-title: 
+title: "Timetable"
 workflowContent: [
           {
             i : "0",

@@ -1,0 +1,50 @@
+{{ "<!-- footer -->" | safeHTML }}
+<footer id=footer class=footer>
+    <div class=container>
+        
+        <div class=footer-section>
+            <div class=footer-right-side>
+                <div class=footer-logo><img src="/image/logo1.png" alt="myly logo"></div>
+                            {{ range .Site.Menus.privacy }}<a class=trm-policy href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ end }} <span style="float:left;padding:0 5px">|</span> {{ range .Site.Menus.terms }}<a class=trm-policy href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ end }}
+                <div class=clearfix></div>
+                <p class=copy-right> © 2018-19 EduCommerce Technologies Pvt. Ltd. All rights reserved. </p>
+            </div>
+            <div class="footer-right -space-v-1">
+                <div class=footer-info>
+                    <ul id=menu-footer class=links>
+                            {{ range .Site.Menus.about }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                     
+                            {{ range .Site.Menus.careers }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                            
+                            {{ range .Site.Menus.contact }}
+                            <li >
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                    </ul>
+                </div>
+                <div class=footer-social>
+                    <ul>
+                        
+                        <li><a id=facebook class=social-icon href=https://www.facebook.com/mylyapp target=_blank alt="myly on Facebook"></a></li>
+                        <li><a id=google-plus class=social-icon href=https://plus.google.com/+Mylyapp/posts target=_blank alt="myly on Google+"></a></li>
+                        <li><a id=twitter class=social-icon href=https://twitter.com/mylyapp target=_blank alt="myly on Twitter"></a></li>
+                        <li><a id=linkedin class=social-icon href=https://www.linkedin.com/company/mylyapp target=_blank alt="myly on LinkedIn"></a></li>
+                        <li><a id=youtube class=social-icon href=https://www.youtube.com/channel/UCoqMaXL11uSeUL4VEoYDQtg target=_blank alt="myly on Youtube"></a></li>
+                        <li><a id=pinterest class=social-icon href=https://www.pinterest.com/mylyapp/technologies-in-schools/ target=_blank alt="myly on Pinterest"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>

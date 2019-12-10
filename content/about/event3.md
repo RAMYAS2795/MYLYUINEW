@@ -2,6 +2,7 @@
 title: "About"
 Image: ["/image/holi-pic1.jpg","/image/holi-pic2.jpg","/image/holi-pic3.jpg"]
 typeOfPage: "events"
+series: "events"
 weight: 3
 draft: false
 ---

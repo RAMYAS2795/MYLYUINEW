@@ -2,6 +2,7 @@
 title: "About"
 Image: ["/image/townhall2.jpg","/image/townhall3.jpg","/image/townhall5.jpg"]
 typeOfPage: "events"
+series: "events"
 weight: 2
 draft: false
 ---

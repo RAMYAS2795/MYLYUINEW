@@ -1,0 +1,79 @@
+
+<header class=header>
+  <div class=headerWidth>
+      <div class="grid -layout-auto">
+          <div class="col header-left"> <a href=/ class=logoLink><img src=/image/logo.png alt="myly logo"></a> </div>
+          <div class="col header-right">
+              <div class=navToggle>
+                  <svg height=24 viewBox="0 0 24 24" width=24 stroke-width=2 stroke-linecap=round class="navToggle-icon -open">
+                      <line x1=2 x2=22 y1=6.5 y2=6.5></line>
+                      <line x1=7 x2=22 y1=12.5 y2=12.5></line>
+                      <line x1=2 x2=22 y1=18.5 y2=18.5></line>
+                      <path d="M50,50 L100,100" style=stroke:#000;fill:none />
+                  </svg> </svg> <img src=/image/cancel.png class="navToggle-icon -close" />
+              </div>
+              <div class=nav>
+                  <nav role=navigation class=nav-menu>
+                          <ul class=sb-menu-center class="menu">
+
+
+                                  {{ with .Site.Data.content.navigationContent }}
+                                  <li id=sb-menu-app-li class=dropdown>
+                                  <a href="#">
+                                  {{ .name }}
+                                  </a><ul id=sb-menu-app class="dropdown-menu dropdown-menu-center" class=sb-menu-center class="sub-menu">
+                                  <script type="text/javascript">
+                                  /*<![CDATA[*/
+                                  $("ul.sb-menu-center li#sb-menu-app-li").hover(function () {
+                                  $(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn(500);
+                                  $(this).addClass('open');
+                                  });
+                                  /*]]>*/
+                                  $(document).click(function (e) {
+                                  //e.stopPropagation();
+                                  var container = $("li#sb-menu-app-li");
+                                  //check if the clicked area is dropDown or not
+                                  if (container.has(e.target).length == 0) {
+                                  $(container).find(".dropdown-menu").hide();
+                                  $(container).parent('.dropdown').removeClass('open');
+                                  }
+                                  });
+                                  </script>
+                                  <script type="text/javascript">
+                                  $(document).ready(function () {
+                                  $("li.sub-menu > a").click(function () {
+                                  if ($(this).parent().hasClass('openSub')) {
+                                  $(this).parent().removeClass('openSub');
+                                  $(this).next('.d').slideUp();
+                                  } else {
+                                  $("li.sub-menu").find('.d').slideUp();
+                                  $("li.sub-menu").removeClass('openSub');
+                                  $(this).parent().addClass('openSub');
+                                  $(this).next('.d').slideDown();
+                                  }
+                                  });
+                                  });
+                                  </script>
+                                  
+                                  {{ range $key,$val := .subMenu }}
+                                  <li class=li-option-base-erp><a href="{{ $val.url | absURL }}">{{ $val.name }}</a></li>
+                                  {{ end }}
+                                  </ul>
+                                  </li>
+                                  {{ end }}
+                                  {{ range .Site.Menus.news }}
+                                  <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+                                  {{ end }}
+                                  <li><a href=https://www.mylyapp.com/blog target=_blank></i>Blog</a></li>
+                                  <li><a href=https://web.mylyapp.com/ target=_blank>Log In</a></li>
+                                  {{ range .Site.Menus.signup }}
+                                  <button class="-secondary -less-padding " type=button ><a href="{{ .URL | absLangURL }}" class=register >{{ .Name }}</a></button>
+                                  {{ end }}
+                                  </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class=header-underline></div>
+</header>

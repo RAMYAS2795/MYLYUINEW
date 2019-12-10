@@ -1,0 +1,5 @@
+{{range where .Pages "Params.series" "==" "metaData"}}
+<title>{{.Params.metaTitle}}</title>
+<meta name="keywords" content="{{.Params.keywords}}" />
+<meta name="description" content="{{.Params.description}}" />
+{{ end }}

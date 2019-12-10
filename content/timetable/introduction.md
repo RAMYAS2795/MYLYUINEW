@@ -1,5 +1,5 @@
 ---
-title: "timetable"
+title: "Timetable"
 heading: "Time Table Software"
 typeOfPage: "introduction"
 weight:

@@ -2,18 +2,16 @@
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
 
+{{- partial "head.html" . -}}
+
 {{ partial "homeHeadScript.html" . }} 
 
 {{ partial "pageheader.html" . }}
 
-{{ if eq .Title "News" }}
-  {{ .Render "newsStyle" }}
-{{ end }}
-
 </head>
 <body>
 <div class=site-page>
-{{ partial "navigation.html" . }}
+{{ partial "header.html" . }}
 
 {{- block "main" . }}{{- end }}
 
