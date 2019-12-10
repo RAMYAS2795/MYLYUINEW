@@ -1,11 +1,9 @@
 ---
 title: 
-servicesContent: [key: [
-{image : "",
-alternateText: "",
-heading: "",
+image : ""
+alternateText: ""
+heading: ""
 paragraph: ""
-}]]
 typeOfPage: "services"
 weight:
 draft: false

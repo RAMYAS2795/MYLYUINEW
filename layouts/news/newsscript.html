@@ -1,0 +1,11 @@
+<div class="col-md-3 col-sm-6 hero-feature">
+    <div class="thumbnail">
+        <img src="{{ .Params.image }}">
+        <div class="caption">
+            {{.Content}}
+            {{ if ne .Params.anchor "not specified" }}
+            <a href="{{.Params.anchor}}" target="_blank" class="btn btn-default">More Info</a>
+            {{ end }}
+        </div>
+    </div>
+</div>

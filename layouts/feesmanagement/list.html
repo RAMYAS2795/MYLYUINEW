@@ -14,11 +14,7 @@
 {{ end }}
 {{end}}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "services" }}
 {{ .Render "services" }}
-{{ end }}
-{{end}}
 
 {{range .Pages}}
 {{ if eq .Params.typeOfPage "workflow" }}

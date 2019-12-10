@@ -2,13 +2,11 @@
 title: 
 fmsImage:
 alternateTextFmsImage:
-contentFeaturesAndBenefits: [{img: "",
-alt:  "",
-imgRes: "",
-altRes: "",
-heading: "",
-description: ""
-}]
+img: ""
+alt:  ""
+imgRes: ""
+altRes: ""
+heading: ""
 weight:
 typeOfPage: "featuresBenefits"
 ---

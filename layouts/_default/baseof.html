@@ -6,6 +6,10 @@
 
 {{ partial "pageheader.html" . }}
 
+{{ if eq .Title "News" }}
+  {{ .Render "newsStyle" }}
+{{ end }}
+
 </head>
 <body>
 <div class=site-page>
