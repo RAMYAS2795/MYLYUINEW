@@ -16,43 +16,6 @@ pygmentsCodeFences = true
 
 # Site Menus
 [menu]
-  
-
-    #navigation url
-    [[menu.news]]
-       name = "News"
-       url = "news"
-
-    #navigation url
-    [[menu.about]]
-       name = "About"
-       url = "about"
-
-    #navigation url
-    [[menu.careers]]
-       name = "Careers"
-       url = "careers"  
-   
-     
-    #navigation url
-    [[menu.contact]]
-       name = "Contact"
-       url = "contact" 
-
-    #navigation url
-    [[menu.privacy]]
-       name = "Privacy Policy"
-       url = "privacy" 
-
-    #navigation url
-    [[menu.terms]]
-       name = "Terms Of Use"
-       url = "terms" 
-
-   #navigation url
-    [[menu.signup]]
-       name = "Sign Up"
-       url = "signup"    
     
 
    

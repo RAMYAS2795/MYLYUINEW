@@ -4,24 +4,32 @@
 
 {{- partial "head.html" . -}}
 
-{{ partial "homeHeadScript.html" . }} 
+<!-- {{ partial "availablecss.html" . }} -->
 
-{{ partial "pageheader.html" . }}
+<!-- {{ partial "owncss.html" . }} -->
+
+{{- partial "homeHeadScript.html" . -}} 
+
+{{- partial "pageheader.html" . -}}
 
 </head>
 <body>
 <div class=site-page>
-{{ partial "header.html" . }}
+{{- partial "header.html" . -}}
 
 {{- block "main" . }}{{- end }}
 
-{{ partial "footer.html" . }} 
+{{- partial "footer.html" . -}} 
 </div>
 </body>
 
-{{ partial "homeFooterScript.html" . }}
+<!-- {{- partial "availablejs.html" . -}} -->
 
-{{ partial "pagefooter.html" . }}
+<!-- {{- partial "ownjs.html" . -}} -->
+
+{{- partial "homeFooterScript.html" . -}}
+
+{{- partial "pagefooter.html" . -}}
 
 </html>
 

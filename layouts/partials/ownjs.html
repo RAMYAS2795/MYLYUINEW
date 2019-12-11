@@ -1,0 +1,73 @@
+<script type=text/javascript src="/js/custom.js"></script>
+<script type="text/javascript" src="/js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="/js/jquery.validationEngine-en.js"></script>
+<script type="text/javascript" src="/js/ServerRequest.js"></script>
+<script type="text/javascript" src="/js/loader.js"></script>
+<script type="text/javascript" src="/js/ValidationCommon.js?v=1.0.2"></script>
+<script type=text/javascript src="/js/home.js"></script>
+<script type=text/javascript src='/js/tilrPaths.js'></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
+
+
+<script type=text/javascript>jQuery(document).ready(function () { $(".storyHeroScroll").click(function (b) { b.preventDefault(); $("html,body").animate({ scrollTop: $(".home-tilrPaths").offset().top - -90 }, 2000) }); $(".storyHeroScroll1").click(function (b) { b.preventDefault(); $("html,body").animate({ scrollTop: $(".tilrPaths-section-third").offset().top - -120 }, 2000) }); $(".storyHeroScroll2").click(function (b) { b.preventDefault(); $("html,body").animate({ scrollTop: $(".tilrPaths-section-four-peter").offset().top - -120 }, 2000) }); $(".storyHeroScroll3").click(function (b) { b.preventDefault(); $("html,body").animate({ scrollTop: $(".tilrPaths-section-four-chirtina").offset().top - -110 }, 2000) }); $(".storyHeroScroll4").click(function (b) { b.preventDefault(); $("html,body").animate({ scrollTop: $(".technology-section").offset().top - +150 }, 2000) }) });</script>
+<script type=application/ld+json>
+    {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://www.mylyapp.com/",
+    "logo": "https://www.mylyapp.com/image/logo.png",
+    }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60009497-3"></script>
+<script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-60009497-3');</script>
+
+<script src="/js/MobileAppBrochure/MobileAppBrochure.js?v=1.0.3" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery("#formMobileAppBrochure").validationEngine({
+            scroll: false, showOneMessage: true, promptPosition: "bottomLeft", "validateMobile": { "mobile": "validateMobile" }
+        });
+    });
+    function ReplaceChars(arg) {
+        if (arg.value.length > 0) {
+            if (arg.value.substr(0, 1) == 0) {
+                arg.value = arg.value.replace(/^0+/g, '');
+            }
+        }
+    }
+    function ReplaceCharsOnPaste(arg) {
+        setTimeout(function () { ReplaceChars(arg) }, 30)
+    }
+</script>
+<script type="text/javascript">jQuery(document).ready(function () { $(".rtpf").click(function (a) { a.preventDefault(); $("html,body").animate({ scrollTop: $("#brocher-info").offset().top - 100 }, 2500) }) });</script>
+<script>var swiper = new Swiper(".swiper-container", { pagination: ".swiper-pagination", nextButton: ".swiper-button-next", prevButton: ".swiper-button-prev", slidesPerView: 1, paginationClickable: true, spaceBetween: 30, loop: true, autoplay: 3000 });</script>
+<script>var swiper = new Swiper(".logoSwiper", { pagination: ".logoPagination", slidesPerView: 1, paginationClickable: true, spaceBetween: 30, loop: true, autoplay: 3000 });</script>
+
+<script type="text/javascript">
+  function callFmsLeftArrow() {
+      //alert('left');
+      $(".tech-slide-panal").slick("slickPrev");
+  }
+  function callFmsRightArrow() {
+      //alert('right');
+      $(".tech-slide-panal").slick("slickNext");
+  }
+</script>
+<script type="text/javascript">
+  $(".swiper-wrapper2").slick({ slidesToShow: 4, slidesToScroll: 4, arrows: false, fade: false, infinite: true, dots: true, autoplay: true, responsive: [{ breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 3, infinite: true, dots: true } }, { breakpoint: 600, settings: { slidesToShow: 2, slidesToScroll: 2 } }, { breakpoint: 800, settings: { slidesToShow: 2, slidesToScroll: 2 } }, { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }] });
+  $(".tech-slide-panal").slick({ asNavFor: ".tech-slide-panal-right", autoplaySpeed: 4500, slidesToShow: 1, slidesToScroll: 1, arrows: false, autoplay: true, infinite: true, centerMode: true, variableWidth: true, responsive: [{ breakpoint: 1024, settings: { slidesToShow: 1, slidesToScroll: 1, infinite: true, dots: false } }, { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 } }, { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }] });
+  //$(".tech-slide-panal-right").slick({ slidesToShow: 1, slidesToScroll: 1, arrows: false, autoplay: false, infinite: true, centerMode: true, variableWidth: true, responsive: [{ breakpoint: 1024, settings: { slidesToShow: 1, slidesToScroll: 1, infinite: true, dots: false } }, { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 } }, { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }] });
+  $(".tech-slide-panal-right").slick({ variableWidth: false, autoplaySpeed: 4500, asNavFor: ".tech-slide-panal", slidesToShow: 1, slidesToScroll: 1, arrows: false, autoplay: true, infinite: true, centerMode: false, responsive: [{ breakpoint: 1024, settings: { slidesToShow: 1, slidesToScroll: 1, infinite: true, dots: false } }, { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 } }, { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }] });
+  $(".slideImages").slick({ slidesToShow: 1, slidesToScroll: 1, arrows: false, autoplay: true, infinite: true, autoplaySpeed: 6000, responsive: [{ breakpoint: 1024, settings: { slidesToShow: 1, slidesToScroll: 1, infinite: true, dots: false } }, { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 } }, { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }] });
+  // $('.tech-slide-panal').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+  //     var elSlide = $(slick.$slides[currentSlide]);
+  //     var dataIndex = elSlide.data('index');
+  //     var slider = $('.tech-slide-panal-right');
+  //     slider[0].slick.slickGoTo(parseInt(dataIndex));
+  // });
+</script>
+
+<script type="text/javascript"> window._mfq = window._mfq || []; (function () { var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true; mf.src = "//cdn.mouseflow.com/projects/dc4c6f71-6939-4fae-92c2-4a4e2d630461.js"; document.getElementsByTagName("head")[0].appendChild(mf); })();    </script>
+
+

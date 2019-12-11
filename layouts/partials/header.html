@@ -17,10 +17,9 @@
                           <ul class=sb-menu-center class="menu">
 
 
-                                  {{ with .Site.Data.content.navigationContent }}
                                   <li id=sb-menu-app-li class=dropdown>
                                   <a href="#">
-                                  {{ .name }}
+                                    Solutions
                                   </a><ul id=sb-menu-app class="dropdown-menu dropdown-menu-center" class=sb-menu-center class="sub-menu">
                                   <script type="text/javascript">
                                   /*<![CDATA[*/
@@ -54,21 +53,20 @@
                                   });
                                   });
                                   </script>
-                                  
-                                  {{ range $key,$val := .subMenu }}
-                                  <li class=li-option-base-erp><a href="{{ $val.url | absURL }}">{{ $val.name }}</a></li>
-                                  {{ end }}
+                                  <li class=li-option-base-erp><a href=/studentinformationsystem>School Information System</a></li>
+                                   <li class=li-option-base-erp><a href=/admission>Admission</a></li>
+                                   <li class=li-option-base-erp><a href=/school-mobile-app>School Mobile App</a></li>
+                                  <li class=li-option-base-erp><a href=/attendance>Attendance</a></li>
+                                   <li class=li-option-base-erp><a href=/feesmanagement>Fees Management</a></li>
+                                   <li class=li-option-base-erp><a href=/timetable>Timetable</a></li>
+                                   <li class=li-option-base-erp><a href=/gradebook>Gradebook</a></li>
+                                   <li class=li-option-base-erp><a href=/transport>Transport</a></li>
                                   </ul>
                                   </li>
-                                  {{ end }}
-                                  {{ range .Site.Menus.news }}
-                                  <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-                                  {{ end }}
+                                  <li><a href=/news>News</a></li>
                                   <li><a href=https://www.mylyapp.com/blog target=_blank></i>Blog</a></li>
                                   <li><a href=https://web.mylyapp.com/ target=_blank>Log In</a></li>
-                                  {{ range .Site.Menus.signup }}
-                                  <button class="-secondary -less-padding " type=button ><a href="{{ .URL | absLangURL }}" class=register >{{ .Name }}</a></button>
-                                  {{ end }}
+                                  <button class="-secondary -less-padding " type=button ><a href="/signup" class=register >Sign Up</a></button>
                                   </ul>
                   </nav>
               </div>

@@ -1,19 +1,14 @@
-{{ $a := cond (eq .Title "SchoolMobileApp")  "fms-features" "base-features" }}
-{{ $b := cond (eq .Title "SchoolMobileApp")  "iph-mobile-admin" "base-features" }}
-{{ $c := cond (eq .Title "SchoolMobileApp") "col-md-4" "col-md-5" }}
-{{ $e := cond (eq .Title "SchoolMobileApp") "mobile lapi-admin" "mobile lapi-fms" }}
-{{ $g := cond (eq .Title "SchoolMobileApp") "col-md-6" "col-md-5" }}
 <div class="clearfix"></div>
-        <section id={{$a}}>
+        <section id="fms-features">
             <div class="container">
                 <h2 class="banner-heading text-center"> <strong>Features &amp; Benefits</strong> </h2>
                 <div class="arrow-fms-left col-sm-1 hidden-xs visible-sm visible-md visible-lg" onclick="callFmsLeftArrow()"><i class="fa fa-angle-left" style="cursor:pointer" aria-hidden="true"></i></div>
-                <div class="col-xs-12 col-sm-10 {{ $c }} hidden-xs visible-sm visible-md visible-lg">
-                    <div class="iph-mobile {{ $b }} right-align tofade animated fadeInUp">
+                <div class="col-xs-12 col-sm-10 col-md-4 hidden-xs visible-sm visible-md visible-lg">
+                    <div class="iph-mobile iph-mobile-admin right-align tofade animated fadeInUp">
                         <p>
                             <img alt="hand-iphone" src="/image/admin-mobile.png" class="alignnone" />
                    
-                            <div id="mobile" class="{{ $e }}">
+                            <div id="mobile" class="mobile lapi-admin">
                                 <div class="tech-slide-panal">
                                     {{range $key,$value := where .Pages "Params.series" "==" "featuresBenefits_forSchoolStaff"}}
                                     <div data-index="1">
@@ -28,7 +23,7 @@
                 <div class="col-sm-1 hidden-xs visible-sm hidden-md hidden-lg">
                     <div class="arrow-fms-right" onclick="callFmsRightArrow()"><i class="fa fa-angle-right" style="cursor:pointer" aria-hidden="true"></i></div>
                 </div>
-                <div class="col-xs-12 col-sm-12 {{ $g }} hidden-xs visible-sm visible-md visible-lg">
+                <div class="col-xs-12 col-sm-12 col-md-6 hidden-xs visible-sm visible-md visible-lg">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-right">
                        {{range where .Pages "Params.series" "==" "featuresBenefits_forSchoolStaff"}}
                       <div class="col-slide" data-id="1">

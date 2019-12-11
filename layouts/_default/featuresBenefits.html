@@ -1,8 +1,8 @@
-{{ $a := cond (eq .Title "SchoolMobileApp")  "fms-features" "base-features" }}
-{{ $b := cond (eq .Title "SchoolMobileApp")  "iph-mobile-admin" "base-features" }}
-{{ $c := cond (eq .Title "SchoolMobileApp") "col-md-4" "col-md-5" }}
-{{ $e := cond (eq .Title "SchoolMobileApp") "mobile lapi-admin" "mobile lapi-fms" }}
-{{ $g := cond (eq .Title "SchoolMobileApp") "col-md-6" "col-md-5" }}
+{{ $a := cond (eq .Title "myly - School Mobile App")  "fms-features" "base-features" }}
+{{ $b := cond (eq .Title "myly - School Mobile App")  "iph-mobile-admin" "base-features" }}
+{{ $c := cond (eq .Title "myly - School Mobile App") "col-md-4" "col-md-5" }}
+{{ $e := cond (eq .Title "myly - School Mobile App") "mobile lapi-admin" "mobile lapi-fms" }}
+{{ $g := cond (eq .Title "myly - School Mobile App") "col-md-6" "col-md-5" }}
 <div class="clearfix"></div>
         <section id={{$a}}>
             <div class="container">
@@ -11,7 +11,7 @@
                 <div class="col-xs-12 col-sm-10 {{ $c }} hidden-xs visible-sm visible-md visible-lg">
                     <div class="iph-mobile {{ $b }} right-align tofade animated fadeInUp">
                         <p>
-                            {{ if ne .Title "SchoolMobileApp" }}
+                            {{ if ne .Title "myly - School Mobile App" }}
                             <img alt="hand-iphone" src="/image/webpanel-three.png" class="alignnone" />
                             {{ else }}
                             <img alt="hand-iphone" src="/image/admin-mobile.png" class="alignnone" />
