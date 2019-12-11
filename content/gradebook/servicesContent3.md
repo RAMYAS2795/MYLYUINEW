@@ -3,8 +3,7 @@ title: "Gradebook"
 image : "/image/profiles.png"
 alternateText: "Role-based access"
 heading: "Role-based access"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 3
 draft: false
 ---

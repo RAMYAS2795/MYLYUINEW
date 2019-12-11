@@ -6,8 +6,7 @@ imgRes: "/image/Fees-Scheduling-res.jpg"
 altRes :  "myly is for parent teacher student messaging" 
 heading: "Access Control"  
 weight: 1
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

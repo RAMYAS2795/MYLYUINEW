@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/002.png"
 heading: "Fees Collection"
 weight: 5
-typeOfPage: "contentIndexSchoolManagement"
-series: "contentIndexSchoolManagement"
+typeofpage: "contentIndexSchoolManagement"
 draft: false
 ---
 

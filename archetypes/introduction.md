@@ -1,7 +1,7 @@
 ---
-title: 
+title: ""
 heading: ""
-typeOfPage: "introduction"
 weight:
+typeOfPage: "introduction"
 draft: false
 ---

@@ -5,8 +5,7 @@ alternateText: "Jigar Shah"
 heading: "Jigar Shah, Chairman,"
 span: "Nirmala Niketan High School, Bhayandar, Maharashtra"
 weight: 4
-typeOfPage: "customerSaySection"
-series : "customerSaySection"
+typeofpage: "customerSaySection"
 draft: false
 ---     
 

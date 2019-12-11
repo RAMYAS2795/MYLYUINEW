@@ -6,8 +6,7 @@ imgRes: /image/attendance-analytics-res.png"
 altRes: "Attendance analytics"
 heading: "Attendance analytics"
 weight: 5
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

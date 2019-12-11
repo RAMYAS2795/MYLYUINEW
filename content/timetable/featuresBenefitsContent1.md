@@ -6,8 +6,7 @@ imgRes: "/image/class-wise-time-table-res.jpg"
 altRes: "Class-wise Time-table"
 heading: "Class-wise Timetable"
 weight: 1
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

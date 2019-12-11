@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/Academics.jpg"
 alternateText: "Academics"
 heading: "Academics"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 1
 draft: false
 ---

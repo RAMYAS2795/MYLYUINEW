@@ -6,8 +6,7 @@ imgRes : "/image/attendance-res.jpg"
 altRes : "Take Attendance"
 heading : "Take attendance"
 weight: 5
-typeOfPage: "featuresBenefits_forSchoolStaff"
-series: "featuresBenefits_forSchoolStaff"
+typeofpage: "featuresBenefits_forSchoolStaff"
 draft: false
 ---
 

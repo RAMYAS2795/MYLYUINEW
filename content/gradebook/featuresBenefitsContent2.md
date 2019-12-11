@@ -6,8 +6,7 @@ imgRes: "/image/result-upload-res.png"
 altRes: "result upload"
 heading: "Result Upload"
 weight: 2
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
  

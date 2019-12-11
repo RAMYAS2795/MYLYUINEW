@@ -3,10 +3,9 @@ title: "Fees"
 image : "/image/secure.png"
 alternateText: "Secure & Safe"
 heading: "Secure & Safe"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 6
 draft: false
 ---
 
-<p>Secure encryption technology and highly secure data centers always keep your financial data safe.</p>
+Secure encryption technology and highly secure data centers always keep your financial data safe.

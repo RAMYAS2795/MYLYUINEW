@@ -6,8 +6,7 @@ imgRes: "/image/student-promotion-res.png.png"
 altRes: "Attendance Management"
 heading: "Student Promotion"
 weight: 4
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

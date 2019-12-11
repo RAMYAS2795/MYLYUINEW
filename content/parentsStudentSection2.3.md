@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/006.png"
 heading: "Multi-Branch/Franchise Management"
 weight: 6
-typeOfPage: "contentIndexParentStudent"
-series: "contentIndexParentStudent"
+typeofpage: "contentIndexParentStudent"
 draft: false
 ---
 

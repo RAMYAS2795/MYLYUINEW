@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/request.jpg"
 alternateText: "Send request"
 heading: "Send request"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 7
 draft: false
 ---

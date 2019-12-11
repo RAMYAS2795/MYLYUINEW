@@ -6,8 +6,7 @@ imgRes: "/image/upload-attendance-by-excel-file-res.png"
 altRes: "Upload attendance by excel file"
 heading: "Upload attendance by excel file"
 weight: 3
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

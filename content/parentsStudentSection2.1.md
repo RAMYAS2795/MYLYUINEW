@@ -4,8 +4,7 @@ class: "fourthSection serviceSection"
 image: "/image/services-icon/004.png"
 heading: "Student Security"
 weight: 4
-typeOfPage: "contentIndexParentStudent"
-series: "contentIndexParentStudent"
+typeofpage: "contentIndexParentStudent"
 draft: false
 ---
 

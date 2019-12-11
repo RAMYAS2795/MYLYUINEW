@@ -28,8 +28,7 @@ workflowContent: [
           
         ]
   
-typeOfPage: "workflow"
-series: "workflow"
+typeofpage: "workflow"
 weight:
 draft: false
 ---

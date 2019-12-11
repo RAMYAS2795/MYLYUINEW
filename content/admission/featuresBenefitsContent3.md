@@ -6,8 +6,7 @@ imgRes: "/image/Receipt-Generation-res.jpg"
 altRes :  "download myly for institute event management" 
 heading: "Apply Fees" 
 weight: 3
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

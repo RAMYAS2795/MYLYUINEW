@@ -3,8 +3,9 @@ title: "News"
 image: "/image/img-star.png"
 anchor: "http://therodinhoods.com/forum/topics/how-i-started-my-company-over-masala-chai-and-kids"  
 weight: 13
-typeOfPage : "News"
+typeofpage : "News"
+draft: false
 ---
 
-<p>How Madhup Bansal and Gaurav Mundra Started myly</p>
+How Madhup Bansal and Gaurav Mundra Started myly
 

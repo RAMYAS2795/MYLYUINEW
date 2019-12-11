@@ -6,8 +6,7 @@ imgRes: "/image/teacher-data-management-res.png"
 altRes: "Teacher Data Management"
 heading: "Teacher Data Management"
 weight: 2
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

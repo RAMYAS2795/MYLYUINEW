@@ -6,8 +6,7 @@ imgRes: "/image/report-card-remarks-res.png"
 altRes: "report card remarks"
 heading: "Report Card Remarks"
 weight: 4
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
  

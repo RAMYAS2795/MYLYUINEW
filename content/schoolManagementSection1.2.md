@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/008.png"
 heading: "Gradebook Software"
 weight: 2
-typeOfPage: "contentIndexSchoolManagement"
-series: "contentIndexSchoolManagement"
+typeofpage: "contentIndexSchoolManagement"
 draft: false
 ---
 

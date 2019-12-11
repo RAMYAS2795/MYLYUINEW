@@ -1,8 +1,7 @@
 ---
 title: "Fees"
 heading: "School Fees Management Simplified"
-typeOfPage: "introduction"
-series: "introduction"
+typeofpage: "introduction"
 weight:
 draft: false
 ---

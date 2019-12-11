@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/007.png"
 heading: "Attendance & Leave"
 weight: 4
-typeOfPage: "contentSchoolStaff"
-series: "contentSchoolStaff"
+typeofpage: "contentSchoolStaff"
 draft: false
 ---
 

@@ -3,8 +3,7 @@ title: "forSchoolStaff"
 image : "/image/newsletter.jpg"
 alternateText: "Newsletter"
 heading: "Newsletter"
-typeOfPage: "services"
-series: "services_forSchoolStaff"
+typeofpage: "services_forSchoolStaff"
 weight: 4
 draft: false
 ---

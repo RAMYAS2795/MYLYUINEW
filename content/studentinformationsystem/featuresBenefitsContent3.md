@@ -6,8 +6,7 @@ imgRes: "/image/access-management-res.png"
 altRes: "Access Management"
 heading: "Access Management"
 weight: 3
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

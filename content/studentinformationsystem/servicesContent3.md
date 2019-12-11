@@ -3,8 +3,7 @@ title: "student Information System"
 image : "/image/bace-dashboard.jpg"
 alternateText: "Dashboard, Reports & Analytics"
 heading: "Dashboard, Reports & Analytics"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 3
 draft: false
 ---

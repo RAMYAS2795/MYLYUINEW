@@ -20,9 +20,9 @@
                    
                             <div id="mobile" class="{{ $e }}">
                                 <div class="tech-slide-panal">
-                                    {{range $key,$value := where .Pages "Params.series" "==" "featuresBenefits"}}
+                                    {{range $key,$value := where .Pages "Params.typeofpage" "featuresBenefits"}}
                                     <div data-index="1">
-                                    {{ if eq .Params.typeOfPage "featuresBenefits_forParents" }}
+                                    {{ if eq .Params.title "forParents" }}
                                      <img src="{{.Params.img}}" alt="{{.Params.alt}}" />
                                      {{ else }}    
                                     <img class="zoomIt fees-slide-mgmt" id="zoom_02" src="{{.Params.img}}" alt="{{.Params.alt}}" />
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 {{ $g }} hidden-xs visible-sm visible-md visible-lg">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-right">
-                       {{range where .Pages "Params.series" "==" "featuresBenefits"}}
+                       {{range where .Pages "Params.typeofpage" "featuresBenefits"}}
                       <div class="col-slide" data-id="1">
                             <h4 class="feature-heading"><strong>{{.Params.heading}}</strong></h4>
                             <p class="features-text"> {{.Content}}</p>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-5 hidden-md hidden-lg hidden-sm visible-xs">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-res">
-                    {{range where .Pages "Params.series" "==" "featuresBenefits"}}
+                    {{range where .Pages "Params.typeofpage" "featuresBenefits"}}
                       <div class="col-slide">
                             <h4 class="feature-heading"><strong>{{.Params.heading}}</strong></h4>
                             {{.Content}}

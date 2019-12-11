@@ -3,8 +3,7 @@ title: "forSchoolStaff"
 image : "/image/photo-album.jpg"
 alternateText: "Photo Album"
 heading: "Photo Album"
-typeOfPage: "services"
-series: "services_forSchoolStaff"
+typeofpage: "services_forSchoolStaff"
 weight: 6
 draft: false
 ---

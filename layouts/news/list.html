@@ -120,10 +120,8 @@
           <div class="row text-center">
               <div>
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "News" }}
+{{range where .Pages "Params.typeofpage" "News"}}
 {{ .Render "newsScript" }}
-{{ end }}
 {{end}}
 
 </div>

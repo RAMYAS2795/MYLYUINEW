@@ -6,8 +6,7 @@ imgRes: "/image/connect-RFID-res.jpg"
 altRes: "Connect with RFID"
 heading: "Connect with RFID"
 weight: 3
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

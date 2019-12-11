@@ -5,8 +5,7 @@ alternateText: "Nitesh Mathur"
 heading: "Nitesh Mathur, Owner, Super Kids,"
 span: "Jaipur, Rajasthan"
 weight: 3
-typeOfPage: "customerSaySection"
-series: "customerSaySection"
+typeofpage: "customerSaySection"
 draft: false
 --- 
     

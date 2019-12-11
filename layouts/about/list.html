@@ -22,7 +22,7 @@
             <div class="leadership-panel">
              
 
-{{range $key,$value := where .Pages "Params.series" "==" "bio"}}
+{{range $key,$value := where .Pages "Params.typeofpage" "bio"}}
 {{ $cols := 2 }}
 {{ $len := len .Pages }}
 {{ if modBool $key $cols}}
@@ -45,7 +45,7 @@
 <div class="life-panel">
     <div class="row">
 
-{{range where .Pages "Params.series" "==" "events"}}
+{{range where .Pages "Params.typeofpage"  "events"}}
 {{ .Render "events" }}
 {{ end }}
 

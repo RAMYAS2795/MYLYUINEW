@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/012.png"
 heading: "Academics information"
 weight: 2
-typeOfPage: "contentSchoolStaff"
-series: "contentSchoolStaff"
+typeofpage: "contentSchoolStaff"
 draft: false
 ---
 

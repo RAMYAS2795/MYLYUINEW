@@ -3,8 +3,7 @@ title: ""
 image": "/image/services-icon/008.png"
 heading": "Exam-Result"
 weight: 5
-typeOfPage: "contentSchoolStaff"
-series: "contentSchoolStaff"
+typeofpage: "contentSchoolStaff"
 draft: false
 ---
 

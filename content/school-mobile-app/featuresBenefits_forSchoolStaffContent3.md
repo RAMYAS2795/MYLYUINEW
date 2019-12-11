@@ -6,8 +6,7 @@ imgRes : "/image/Events-Calendar-res.jpg"
 altRes : "Events Calendar"
 heading : "Events Calendar" 
 weight: 3
-typeOfPage: "featuresBenefits_forSchoolStaff"
-series: "featuresBenefits_forSchoolStaff"
+typeofpage: "featuresBenefits_forSchoolStaff"
 draft: false
 ---
 

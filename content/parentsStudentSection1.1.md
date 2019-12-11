@@ -4,8 +4,7 @@ class: "fourthSection serviceSection"
 image: "/image/services-icon/001.png"
 heading: "Admission Management"
 weight: 1
-typeOfPage: "contentIndexParentStudent"
-series: "contentIndexParentStudent"
+typeofpage: "contentIndexParentStudent"
 draft: false
 ---
 

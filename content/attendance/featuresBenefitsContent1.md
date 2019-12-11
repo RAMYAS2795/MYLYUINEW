@@ -6,8 +6,7 @@ imgRes: "/image/mark-attendance-from-web-panel-res.png"
 altRes: "Mark attendance from Web-panel"
 heading: "Mark attendance from Web-panel"
 weight: 1
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

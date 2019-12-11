@@ -5,8 +5,7 @@ alternateText : "Parvez Alam"
 heading : "Parvez Alam, Relationship Manager,"
 span" : "GEMS Akademia International School, Kolkata, West Bengal"
 weight: 2
-typeOfPage: "customerSaySection"
-series: "customerSaySection"
+typeofpage: "customerSaySection"
 draft: false
 ---
 

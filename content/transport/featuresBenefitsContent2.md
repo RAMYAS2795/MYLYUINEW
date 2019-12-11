@@ -6,8 +6,7 @@ imgRes: "/image/see-vehicles-res.jpg"
 altRes: "See all your vehicles on one screen"
 heading: "See all your vehicles on one screen"
 weight: 2
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

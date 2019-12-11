@@ -6,8 +6,7 @@ imgRes: "/image/multiple-subjects-period-res.jpg"
 altRes: "Multiple subjects per period"
 heading: "Multiple subjects per period"
 weight: 4
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

@@ -6,8 +6,7 @@ imgRes: "/image/create-groups-students-res.jpg"
 altRes: "Create groups of students for each vehicle"
 heading: "Create groups of students for each vehicle"
 weight: 1
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
               

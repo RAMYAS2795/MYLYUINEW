@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/007.png"
 heading: "Attendance Management"
 weight: 1
-typeOfPage: "contentIndexSchoolManagement"
-series: "contentIndexSchoolManagement"
+typeofpage: "contentIndexSchoolManagement"
 draft: false
 ---
 

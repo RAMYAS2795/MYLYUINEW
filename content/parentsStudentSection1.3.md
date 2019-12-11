@@ -4,8 +4,7 @@ class: "fourthSection serviceSection"
 image: "/image/services-icon/003.png"
 heading: "Communication Control"
 weight: 3
-typeOfPage: "contentIndexParentStudent"
-series: "contentIndexParentStudent"
+typeofpage: "contentIndexParentStudent"
 draft: false
 ---
 

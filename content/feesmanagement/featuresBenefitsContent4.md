@@ -6,8 +6,7 @@ imgRes:  "/image/Fees-Reconcilation-res.jpg"
 altRes: "myly is for parent teacher student messaging"
 heading: "Fees Reconciliation"
 weight: 4
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

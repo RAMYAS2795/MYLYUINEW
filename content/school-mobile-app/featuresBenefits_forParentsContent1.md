@@ -6,8 +6,7 @@ imgRes : "/image/admin-mobile-screen-res.jpg"
 altRes : "School messages"
 heading : "School messages"
 weight: 1
-typeOfPage : "featuresBenefits_forParents"
-series: "featuresBenefits"
+typeofpage : "featuresBenefits"
 draft: false
 ---
 

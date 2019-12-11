@@ -1,6 +1,6 @@
 {{ $cols := 3 }}
 {{ $len := len .Pages }}
-{{ range  $key,$value := where .Pages "Params.series" "==" "services" }}
+{{ range  $key,$value := where .Pages "Params.typeofpage" "services" }}
 {{ if modBool $key $cols }}
 <div class="row">
 {{ end }}
@@ -12,6 +12,8 @@
     </div>
 {{ if or (modBool (add $key 1) $cols) (eq (add $key 1) $len) }}
 </div>
+<br>
+<br>
 {{ end }}
 {{ end }}
 <div class="clearfix"></div>

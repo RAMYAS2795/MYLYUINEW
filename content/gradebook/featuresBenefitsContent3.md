@@ -6,8 +6,7 @@ imgRes: "/image/custom-report-card-printing-res.png"
 altRes: "custom report card printing"
 heading: "Custom Report Card Printing"
 weight: 3
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

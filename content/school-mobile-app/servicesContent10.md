@@ -3,8 +3,7 @@ title: "forSchoolStaff"
 image : "/image/message-student.jpg"
 alternateText: "Message to students"
 heading: "Message to students"
-typeOfPage: "services"
-series: "services_forSchoolStaff"
+typeofpage: "services_forSchoolStaff"
 weight: 1
 draft: false
 ---

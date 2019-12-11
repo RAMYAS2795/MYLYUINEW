@@ -10,7 +10,7 @@
                    
                             <div id="mobile" class="mobile lapi-admin">
                                 <div class="tech-slide-panal">
-                                    {{range $key,$value := where .Pages "Params.series" "==" "featuresBenefits_forSchoolStaff"}}
+                                    {{range $key,$value := where .Pages "Params.typeofpage" "featuresBenefits_forSchoolStaff"}}
                                     <div data-index="1">
                                     <img class="zoomIt" id="zoom_02" style="width:17%;" src="{{.Params.img}}" alt="{{.Params.alt}}" />
                                     </div>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 hidden-xs visible-sm visible-md visible-lg">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-right">
-                       {{range where .Pages "Params.series" "==" "featuresBenefits_forSchoolStaff"}}
+                       {{range where .Pages "Params.typeofpage" "featuresBenefits_forSchoolStaff"}}
                       <div class="col-slide" data-id="1">
                             <h4 class="feature-heading"><strong>{{.Params.heading}}</strong></h4>
                             <p class="features-text"> {{.Content}}</p>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-5 hidden-md hidden-lg hidden-sm visible-xs">
                     <div class="iph-mobile right-fmsalign tofade animated fadeInUp tech-slide-panal-res">
-                            {{range where .Pages "Params.series" "==" "featuresBenefits_forSchoolStaff"}}
+                            {{range where .Pages "Params.typeofpage" "featuresBenefits_forSchoolStaff"}}
                             <div class="col-slide">
                             <h4 class="feature-heading"><strong>{{.Params.heading}}</strong></h4>
                             {{.Content}}

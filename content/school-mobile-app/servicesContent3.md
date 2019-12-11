@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/newsletter.jpg"
 alternateText: "Newsletter"
 heading: "Newsletter"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 3
 draft: false
 ---

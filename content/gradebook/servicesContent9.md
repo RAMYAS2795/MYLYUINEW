@@ -3,10 +3,9 @@ title: "Gradebook"
 image : "/image/secure.png"
 alternateText: "Secure & Safe"
 heading: "Secure & Safe"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 9
 draft: false
 ---
 
-<p>Secure encryption technology and highly secure data centers always keep your data safe</p>
+Secure encryption technology and highly secure data centers always keep your data safe

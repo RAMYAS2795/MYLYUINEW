@@ -6,8 +6,7 @@ imgRes : "/image/coursework-res.jpg"
 altRes : "Coursework"
 heading : "Coursework"
 weight: 2
-typeOfPage : "featuresBenefits_forParents"
-series: "featuresBenefits"
+typeofpage : "featuresBenefits"
 draft: false
 ---
 

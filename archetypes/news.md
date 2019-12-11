@@ -1,6 +1,8 @@
 ---
-title: 
-image: 
+title: ""
+image: ""
 anchor: 
-typeOfPage : "News"
+weight: 
+typeOfpage : "News"
+draft: false
 ---

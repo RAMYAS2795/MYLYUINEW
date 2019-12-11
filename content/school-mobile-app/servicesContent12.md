@@ -3,8 +3,7 @@ title: "forSchoolStaff"
 image : "/image/course-work.jpg"
 alternateText: "Coursework"
 heading: "Coursework"
-typeOfPage: "services"
-series: "services_forSchoolStaff"
+typeofpage: "services_forSchoolStaff"
 weight: 3
 draft: false
 ---

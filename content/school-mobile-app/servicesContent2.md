@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/club-house.jpg"
 alternateText: "Club/House"
 heading: "Club/House"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 2
 draft: false
 ---

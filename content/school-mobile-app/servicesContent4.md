@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/quesion.jpg"
 alternateText: "Quiz"
 heading: "Quiz"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 4
 draft: false
 ---

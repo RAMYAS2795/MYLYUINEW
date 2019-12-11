@@ -6,8 +6,7 @@ imgRes : "/image/exam-result-parent-res.jpg"
 altRes : "Exam-Result Updates" 
 heading : "Exam-Result Updates"
 weight: 5
-typeOfPage : "featuresBenefits_forParents"
-series: "featuresBenefits"
+typeofpage : "featuresBenefits"
 draft: false
 ---
 

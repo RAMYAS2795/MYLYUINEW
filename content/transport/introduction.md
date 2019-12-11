@@ -1,8 +1,7 @@
 ---
 title: "Transport"
 heading: "Transport Solution"   
-typeOfPage: "introduction"
-series: "introduction"
+typeofpage: "introduction"
 weight:
 draft: false
 ---

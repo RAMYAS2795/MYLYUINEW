@@ -32,8 +32,7 @@ workflowContent: [
           heading: "Reports for school admin"
         }
       ]
-typeOfPage: "workflow"
-series: "workflow"
+typeofpage: "workflow"
 weight:
 draft: false
 ---

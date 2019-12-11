@@ -6,8 +6,7 @@ imgRes: "/image/Offline-Fees-Collection-res.jpg"
 altRes: "download myly for institute event management"
 heading: "Offline Fees Collection"
 weight: 6
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

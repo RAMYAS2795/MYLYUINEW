@@ -6,8 +6,7 @@ imgRes: "/image/New-Admission-res.jpg"
 altRes :  "myly student attendance management software" 
 heading: "Capture Details" 
 weight: 2
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

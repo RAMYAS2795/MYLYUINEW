@@ -6,8 +6,7 @@ imgRes: "/image/multiple-teachers-per-period-res.jpg"
 altRes: "Multiple teachers per period"
 heading: "Multiple teachers per period"
 weight: 5
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

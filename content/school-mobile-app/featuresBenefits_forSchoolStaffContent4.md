@@ -6,8 +6,7 @@ imgRes : "/image/magic-button-res.jpg"
 altRes : "Magic Button"
 heading : "Magic Button"  
 weight: 4
-typeOfPage: "featuresBenefits_forSchoolStaff"
-series: "featuresBenefits_forSchoolStaff"
+typeofpage: "featuresBenefits_forSchoolStaff"
 draft: false
 ---
 

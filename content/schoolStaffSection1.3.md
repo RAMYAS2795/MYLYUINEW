@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/002.png"
 heading: "Fees reminders & payment"
 weight: 3
-typeOfPage: "contentSchoolStaff"
-series: "contentSchoolStaff"
+typeofpage: "contentSchoolStaff"
 draft: false
 ---
 

@@ -6,8 +6,7 @@ imgRes: "/image/group-and-club-management-res.png"
 altRes: "Group & Club Management"
 heading: "Group & Club Management"
 weight: 6
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

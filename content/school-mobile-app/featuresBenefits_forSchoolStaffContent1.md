@@ -6,8 +6,7 @@ imgRes : "/image/intuitive-layout-res.jpg"
 altRes : "Intuitive Layout"
 heading : "Intuitive Layout" 
 weight: 1
-typeOfPage: "featuresBenefits_forSchoolStaff"
-series: "featuresBenefits_forSchoolStaff"
+typeofpage: "featuresBenefits_forSchoolStaff"
 draft: false
 ---
 

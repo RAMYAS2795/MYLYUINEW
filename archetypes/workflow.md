@@ -1,7 +1,12 @@
 ---
-title: 
-workflowContent: 
-typeOfPage: "workflow"
+title: ""
+workflowContent: [{
+           i : "",
+           image : "",
+           alternateText : "",
+           heading : ""
+}]
+typeofpage: "workflow"
 weight:
 draft: false
 ---

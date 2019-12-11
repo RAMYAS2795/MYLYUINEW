@@ -206,7 +206,7 @@
     <h2>myly for School Management</h2>
     <div class=sectionContent>
         <div class=row>
-           {{ range $key,$val := where .Pages ".Params.series" "==" "contentIndexParentStudent" }}
+           {{ range $key,$val := where .Pages ".Params.typeofpage" "contentIndexParentStudent" }}
              {{ .Render "serviceBox"}}
             {{ end }}
         </div>
@@ -220,7 +220,7 @@
         <h2>myly for School Staff</h2>
         <div class=sectionContent>
             <div class=row>
-               {{ range $key,$val := where .Pages ".Params.series" "==" "contentIndexSchoolManagement" }}
+               {{ range $key,$val := where .Pages ".Params.typeofpage" "contentIndexSchoolManagement" }}
                    {{ .Render "serviceBox"}}
                 {{ end }}
             </div>
@@ -235,7 +235,7 @@
             <h2>myly for Parents & Students</h2>
             <div class=sectionContent>
                 <div class=row>
-                   {{ range $key,$val := where .Pages ".Params.series" "==" "contentIndexSchoolManagement" }}
+                   {{ range $key,$val := where .Pages ".Params.typeofpage" "contentIndexSchoolManagement" }}
                         {{ .Render "serviceBox"}}
                     {{ end }}
                 </div>
@@ -259,7 +259,7 @@
     <div class="swiper-container logoSwiper">
         <h2 class=text-center>Some of our Esteemed Clients</h2><br><br>
         <div class="swiper-wrapper">
-            {{ range  where .Pages "Params.series" "==" "clientSection" }}
+            {{ range  where .Pages "Params.typeofpage" "clientSection" }}
                {{ range $key,$val := .Params.clientSection }}   
                {{ range $key,$val := $val }} 
                 <div class="swiper-slide">
@@ -304,7 +304,7 @@
         <h2 class=text-center>What our customers say</h2>
         <br>
         <div class=swiper-wrapper>
-            {{ range $key,$val := where .Pages ".Params.series" "==" "customerSaySection" }}
+            {{ range $key,$val := where .Pages ".Params.typeofpage" "customerSaySection" }}
             <div class=swiper-slide>
                 <div class=slide-bg>
                     <div class=auther-img> <img class=img-responsive src="{{ .Params.image }}" alt="{{ .Params.alternateText }}" /> </div>

@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/009.png"
 heading: "Transport Management"
 weight: 3
-typeOfPage: "contentIndexSchoolManagement"
-series: "contentIndexSchoolManagement"
+typeofpage: "contentIndexSchoolManagement"
 draft: false
 ---
 

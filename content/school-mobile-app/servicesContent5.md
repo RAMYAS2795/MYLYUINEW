@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/leave.jpg"
 alternateText: "Apply for leave"
 heading: "Apply for leave"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 5
 draft: false
 ---

@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/010.png"
 heading: "Timetable Management"
 weight: 4
-typeOfPage: "contentIndexSchoolManagement"
-series: "contentIndexSchoolManagement"
+typeofpage: "contentIndexSchoolManagement"
 draft: false
 ---
 

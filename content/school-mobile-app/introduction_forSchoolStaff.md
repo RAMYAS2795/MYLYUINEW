@@ -1,8 +1,7 @@
 ---
 title: "forSchoolStaff"
 heading: "myly Admin App for Teachers"
-typeOfPage: "introduction_forSchoolStaff"
-series: "introduction_forSchoolStaff"
+typeofpage: "introduction_forSchoolStaff"
 weight:
 draft: false
 ---

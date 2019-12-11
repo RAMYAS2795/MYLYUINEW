@@ -6,8 +6,7 @@ imgRes: "/image/create-custom-exam-patterns-res.png"
 altRes: "create custom exam patterns"
 heading: "Create Custom Exam Patterns"
 weight: 1
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

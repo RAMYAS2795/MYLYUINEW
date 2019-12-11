@@ -1,6 +1,7 @@
 ---
 title: "About"
 Image: []
-weight:
 typeOfPage: "events"
+weight: 
+draft: false
 ---

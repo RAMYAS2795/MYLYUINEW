@@ -3,8 +3,7 @@ title: "forSchoolStaff"
 image : "/image/reducedelay.png"
 alternateText: "Create Events"
 heading: "Create Events"
-typeOfPage: "services"
-series: "services_forSchoolStaff"
+typeofpage: "services_forSchoolStaff"
 weight: 5
 draft: false
 ---

@@ -4,8 +4,8 @@ profileImage:
 alternateText: 
 name: 
 designation:  
-bio: 
-linkedInUrl: 
-align:
+linkedInUrl: "" 
+typeofpage: "bio"
 weight: 
+draft: false
 ---

@@ -1,8 +1,7 @@
 ---
 title: "Timetable"
 heading: "Time Table Software"
-typeOfPage: "introduction"
-series: "introduction"
+typeofpage: "introduction"
 weight:
 draft: false
 ---

@@ -1,10 +1,9 @@
 ---
-title: 
+title: ""
 image : ""
 alternateText: ""
 heading: ""
-paragraph: ""
-typeOfPage: "services"
-weight:
+typeofpage: "services"
+weight: 
 draft: false
 ---

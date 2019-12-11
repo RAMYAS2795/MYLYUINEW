@@ -3,10 +3,9 @@ title: "Fees"
 image : "/image/time.png"
 alternateText: "Save Time"
 heading: "Save Time"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 6
 draft: false
 ---
 
-<p>School fees can be collected one-time/monthly/quarterly/half-yearly/yearly.</p>
+School fees can be collected one-time/monthly/quarterly/half-yearly/yearly.

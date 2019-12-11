@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/003.png"
 heading: "School Communication"
 weight: 1
-typeOfPage: "contentSchoolStaff"
-series: "contentSchoolStaff"
+typeofpage: "contentSchoolStaff"
 draft: false
 ---
 

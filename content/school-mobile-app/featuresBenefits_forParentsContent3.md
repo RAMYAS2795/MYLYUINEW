@@ -6,8 +6,7 @@ imgRes : "/image/attendance-parent-res.jpg"
 altRes : "Attendance"
 heading : "Attendance"
 weight: 3
-typeOfPage : "featuresBenefits_forParents"
-series: "featuresBenefits"
+typeofpage : "featuresBenefits"
 draft: false
 ---
 

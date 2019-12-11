@@ -6,8 +6,7 @@ imgRes: "/image/Schedule-assembly-breaks-res.jpg"
 altRes: "Schedule assembly and breaks"
 heading: "Schedule assembly and breaks"
 weight: 2
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

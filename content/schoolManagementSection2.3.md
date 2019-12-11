@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/011.png"
 heading: "Library Management"
 weight: 6
-typeOfPage: "contentIndexSchoolManagement"
-series: "contentIndexSchoolManagement"
+typeofpage: "contentIndexSchoolManagement"
 draft: false
 ---
 

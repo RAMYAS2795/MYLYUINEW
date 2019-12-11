@@ -6,8 +6,7 @@ imgRes: "/image/Reports-&-Analytics-res.jpg"
 altRes: "myly student attendance management software"
 heading: "Reports & Analytics"
 weight: 5
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

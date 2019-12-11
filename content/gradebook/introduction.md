@@ -1,8 +1,7 @@
 ---
 title: "Gradebook" 
 heading: "Exam Result Management"
-typeOfPage: "introduction"
-series: "introduction"
+typeofpage: "introduction"
 weight:
 draft: false
 ---

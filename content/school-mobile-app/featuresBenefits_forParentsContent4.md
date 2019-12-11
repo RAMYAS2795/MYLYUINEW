@@ -6,8 +6,7 @@ imgRes : "/image/time-table-parent-res.jpg"
 altRes : "Time-table"
 heading: "Timetable"
 weight: 4
-typeOfPage : "featuresBenefits_forParents"
-series: "featuresBenefits"
+typeofpage : "featuresBenefits"
 draft: false
 ---
 

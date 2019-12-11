@@ -5,8 +5,7 @@ alternateText : "Dr. George A Arvind"
 heading : "Dr. H. George Arvind, M.B.B.S., Deputy Chairman,"
 span : "Sunbeam Matric Hr. Sec. School Vellore"
 weight: 1
-typeOfPage: "customerSaySection"
-series: "customerSaySection"
+typeofpage: "customerSaySection"
 draft: false
 ---
 

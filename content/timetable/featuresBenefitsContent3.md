@@ -5,8 +5,7 @@ alt: "Different daily plan"
 imgRes: "/image/different-daily-plan-res.jpg"
 heading: "Different daily plan"
 weight: 3
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

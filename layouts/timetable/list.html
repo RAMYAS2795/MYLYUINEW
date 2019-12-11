@@ -2,7 +2,7 @@
 
 <div class="hero-panel timeTableBannerBg"><img style="margin-left:150px;" src="/image/hero-time-table.jpg" alt="Time Table" /></div>
 
-{{range where .Pages "Params.series" "==" "introduction"}}
+{{range where .Pages "Params.typeofpage" "introduction"}}
 {{ .Render "introduction" }}
 {{end}}
 
@@ -14,7 +14,7 @@
 </div>
 </div>
 
-{{range where .Pages "Params.series" "==" "workflow"}}
+{{range where .Pages "Params.typeofpage" "workflow"}}
 {{ .Render "workflow" }}
 {{end}}
 

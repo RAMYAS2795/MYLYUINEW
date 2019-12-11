@@ -1,7 +1,8 @@
 {{ define "main" }}
 
 <div class="hero-panel"><img style="margin-left:150px" src="/image/hero-base-erp.jpg" alt="Base ERP" /></div>
-{{range where .Pages "Params.series" "==" "introduction"}}
+
+{{range where .Pages "Params.typeofpage" "introduction"}}
 {{ .Render "introduction" }}
 {{end}}
 

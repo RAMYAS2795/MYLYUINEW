@@ -6,8 +6,7 @@ imgRes: "/image/many-periods-res.jpg"
 altRes: "As many periods as you want"
 heading: "As many periods as you want"
 weight: 6
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

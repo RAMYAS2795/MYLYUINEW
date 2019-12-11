@@ -80,8 +80,7 @@ four:
 ]
 
 weight: 1
-typeOfPage: "clientSection"
-series: "clientSection"
+typeofpage: "clientSection"
 draft: false
 ---
 

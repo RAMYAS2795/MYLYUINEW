@@ -3,8 +3,7 @@ title: ""
 image: "/image/services-icon/009.png"
 heading: "School Bus Tracking"
 weight: 6
-typeOfPage: "contentSchoolStaff"
-series: "contentSchoolStaff"
+typeofpage: "contentSchoolStaff"
 draft: false
 ---
 

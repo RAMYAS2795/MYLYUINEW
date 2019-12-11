@@ -4,8 +4,7 @@ class: "fourthSection serviceSection"
 image: "/image/services-icon/002.png"
 heading: "Fees Management"
 weight: 2
-typeOfPage: "contentIndexParentStudent"
-series: "contentIndexParentStudent"
+typeofpage: "contentIndexParentStudent"
 draft: false
 ---
 

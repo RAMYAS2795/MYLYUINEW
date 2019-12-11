@@ -1,12 +1,11 @@
 ---
-title: 
-fmsImage:
-alternateTextFmsImage:
+title: ""
 img: ""
-alt:  ""
-imgRes: ""
-altRes: ""
-heading: ""
-weight:
-typeOfPage: "featuresBenefits"
+alt: ""
+imgRes: "" 
+altRes :  ""
+heading: "" 
+weight: 
+typeofpage: "featuresBenefits"
+draft: false
 ---

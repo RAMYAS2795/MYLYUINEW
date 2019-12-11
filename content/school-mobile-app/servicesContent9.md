@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/gallery.jpg"
 alternateText: "Image Gallery"
 heading: "Image Gallery"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 9
 draft: false
 ---

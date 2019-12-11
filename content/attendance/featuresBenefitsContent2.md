@@ -6,8 +6,7 @@ imgRes: "/image/mark-attendance-from-myly-admin-app-res.png"
 altRes: "Mark Attendance from myly admin App"
 heading: "Mark Attendance from myly admin App"
 weight: 2
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

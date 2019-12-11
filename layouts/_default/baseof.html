@@ -2,15 +2,14 @@
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
 
-{{- partial "head.html" . -}}
+<!-- {{- partial "head.html" . -}}
 
-<!-- {{ partial "availablecss.html" . }} -->
+{{- partial "homeHeadScript.html" . -}}  -->
 
-<!-- {{ partial "owncss.html" . }} -->
+{{ partial "homeHeadScript.html" . }} 
 
-{{- partial "homeHeadScript.html" . -}} 
+{{ partial "pageheader.html" . }}
 
-{{- partial "pageheader.html" . -}}
 
 </head>
 <body>
@@ -22,10 +21,12 @@
 {{- partial "footer.html" . -}} 
 </div>
 </body>
+<!-- 
+{{- partial "ownjs.html" . -}} -->
 
-<!-- {{- partial "availablejs.html" . -}} -->
+{{ partial "homeFooterScript.html" . }}
 
-{{- partial "ownjs.html" . -}}
+{{ partial "pagefooter.html" . }}
 
 
 </html>

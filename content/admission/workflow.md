@@ -32,8 +32,7 @@ workflowContent: [
           heading : "Approve admission"
         }
       ] 
-typeOfPage: "workflow"
-series: "workflow"
+typeofpage: "workflow"
 weight:
 draft: false
 ---

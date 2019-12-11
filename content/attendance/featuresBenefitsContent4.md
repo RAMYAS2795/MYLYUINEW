@@ -6,8 +6,7 @@ imgRes: "/image/approve-reject-leaves-res.png"
 altRes: "Approve/Reject Leaves"
 heading: "Approve/Reject Leaves"
 weight: 4
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

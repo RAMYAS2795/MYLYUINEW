@@ -6,8 +6,7 @@ imgRes : "/image/message-wall-res.jpg"
 altRes : "Message Wall"
 heading : "Message Wall"  
 weight: 2
-typeOfPage: "featuresBenefits_forSchoolStaff"
-series: "featuresBenefits_forSchoolStaff"
+typeofpage: "featuresBenefits_forSchoolStaff"
 draft: false
 ---
 

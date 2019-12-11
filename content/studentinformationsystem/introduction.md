@@ -1,8 +1,7 @@
 ---
 title: 
 heading: "Student Information System"
-typeOfPage: "introduction"
-series: "introduction"
+typeofpage: "introduction"
 weight:
 draft: false
 ---

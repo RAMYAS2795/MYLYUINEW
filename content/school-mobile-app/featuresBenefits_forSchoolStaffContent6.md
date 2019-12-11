@@ -5,8 +5,7 @@ imgRes : "/image/work-offline-res.jpg"
 altRes : "Work Offline"
 heading : "Work Offline"  
 weight: 6
-typeOfPage: "featuresBenefits_forSchoolStaff"
-series: "featuresBenefits_forSchoolStaff"
+typeofpage: "featuresBenefits_forSchoolStaff"
 draft: false
 ---
 

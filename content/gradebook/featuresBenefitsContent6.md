@@ -5,8 +5,7 @@ alt: "result analytics"
 imgRes: "/image/result-analytics-res.png"
 heading: "Result Analytics"
 weight: 6
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

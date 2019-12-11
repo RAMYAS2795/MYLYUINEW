@@ -3,8 +3,7 @@ title: "forParents"
 image : "/image/calendar.jpg"
 alternateText: "Calendar"
 heading: "Calendar"
-typeOfPage: "services"
-series: "services"
+typeofpage: "services"
 weight: 8
 draft: false
 ---

@@ -6,8 +6,7 @@ imgRes: "/image/unscheduled-exams-res.png"
 altRes: "unscheduled exams"
 heading: "Unscheduled Exams"
 weight: 5
-typeOfPage: "featuresBenefits"
-series: "featuresBenefits"
+typeofpage: "featuresBenefits"
 draft: false
 ---
 

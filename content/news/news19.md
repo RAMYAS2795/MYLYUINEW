@@ -3,8 +3,9 @@ title: "News"
 image: "/image/crunch-base.jpg"
 anchor: "https://www.crunchbase.com/organization/myly-educommerce-technologies#/entity"  
 weight: 19
-typeOfPage : "News"
+typeofpage : "News"
+draft: false
 ---
 
-<p>myly - EduCommerce Technologies</p>
+myly - EduCommerce Technologies
 

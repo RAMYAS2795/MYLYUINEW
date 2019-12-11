@@ -6,8 +6,7 @@ imgRes : "/image/fees-payment-from-app-res.jpg"
 altRes : "Fees Payment from App"
 heading : "Fees Payment from App"
 weight: 6
-typeOfPage : "featuresBenefits_forParents"
-series: "featuresBenefits"
+typeofpage : "featuresBenefits"
 draft: false
 ---
 

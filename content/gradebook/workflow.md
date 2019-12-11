@@ -32,8 +32,7 @@ workflowContent: [
           heading: "Reports & Analytics"
         }
       ] 
-typeOfPage: "workflow"
-series: "workflow"
+typeofpage: "workflow"
 weight:
 draft: false
 ---
