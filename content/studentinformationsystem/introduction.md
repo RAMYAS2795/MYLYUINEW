@@ -2,6 +2,7 @@
 title: 
 heading: "Student Information System"
 typeOfPage: "introduction"
+series: "introduction"
 weight:
 draft: false
 ---

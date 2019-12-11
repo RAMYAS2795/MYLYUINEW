@@ -3,7 +3,7 @@ title: "Admission"
 heading: "School Admission Management"
 typeOfPage: "introduction"
 weight:
-series: "abc"
+series: "introduction"
 draft: false
 ---
 

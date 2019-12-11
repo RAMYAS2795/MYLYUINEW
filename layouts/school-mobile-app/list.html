@@ -2,10 +2,8 @@
 
 <div class="hero-panel" style="text-align:center;"><img src="/image/parent-app-banner.jpg" alt="Parent App Banner" /></div>
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "introduction_forParents" }}
+{{range where .Pages "Params.series" "==" "introduction_forParents"}}
 {{ .Render "introduction" }}
-{{ end }}
 {{end}}
 
 {{ .Render "featuresBenefits" }}
@@ -13,10 +11,8 @@
 {{ .Render "services" }}
 
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "introduction_forSchoolStaff" }}
+{{range where .Pages "Params.series" "==" "introduction_forSchoolStaff"}}
 {{ .Render "introduction" }}
-{{ end }}
 {{end}}
 
 {{ .Render "featuresBenefitsForSchoolStaff" }}

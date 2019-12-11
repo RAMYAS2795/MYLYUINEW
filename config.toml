@@ -1,21 +1,11 @@
-baseURL = "https://mylyapp.tech/"
+baseURL = "http://mylyapp.com/"
+languageCode = "en-us"
 title = "myly - School Management App, School ERP"
-theme = "navigator-hugo"
-summaryLength = 10
+googleAnalytics = "UA-60009497-3"
+
 publishDir = "public"
 
-# Build robots.txt file
-enableRobotsTXT = true
-# google analytics tracking id
-googleAnalytics = ""
 
-enableGitInfo = false
-pygmentsCodeFences = true
-
-
-
-# Site Menus
-[menu]
     
 
    

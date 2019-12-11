@@ -2,6 +2,7 @@
 title: "Attendance"
 heading: "Attendance and Leave Management"
 typeOfPage: "introduction"
+series: "introduction"
 weight:
 draft: false
 ---

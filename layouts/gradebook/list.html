@@ -2,10 +2,8 @@
 
 <div class="hero-panel examResultBannerBg"><img style="margin-left:150px;" src="/image/hero-exam-result.jpg" alt="Exam Result" /></div>
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "introduction" }}
+{{range where .Pages "Params.series" "==" "introduction"}}
 {{ .Render "introduction" }}
-{{ end }}
 {{end}}
 
 {{ .Render "featuresBenefits" }}
@@ -13,10 +11,8 @@
 {{ .Render "services" }}
 
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "workflow" }}
+{{range where .Pages "Params.series" "==" "workflow"}}
 {{ .Render "workflow" }}
-{{ end }}
 {{end}}
 
 {{ .Render "solutionsForm" }}

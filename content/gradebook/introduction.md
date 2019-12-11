@@ -2,6 +2,7 @@
 title: "Gradebook" 
 heading: "Exam Result Management"
 typeOfPage: "introduction"
+series: "introduction"
 weight:
 draft: false
 ---

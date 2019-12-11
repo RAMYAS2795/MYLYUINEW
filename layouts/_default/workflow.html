@@ -4,8 +4,8 @@
     
                 <div class="container-two">
                     <div class="container">
+                        {{ $class := cond ( eq .Params.title "Timetable") "cols cols-quiz-section text-center" "cols cols-fees text-center" }}
                         {{ range $key,$val := .Params.workFlowContent }}
-                        {{ $class := cond (or (eq .image "/image/time-table-pattern.jpg") (eq .image "/image/periods-add.jpg") (eq .image "/image/teacher-subject.jpg") (eq .image "/image/publish-parent.jpg") ) "cols cols-quiz-section text-center" "cols cols-fees text-center" }}
                         <div class="{{ $class }}">
                             <img class="img-circle img-responsive img-center" src="{{ $val.image }}" alt="{{ $val.alternateText }}" />
                             <h3>{{ $val.heading }}</h3>

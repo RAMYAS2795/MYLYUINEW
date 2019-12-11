@@ -11,10 +11,8 @@
             <div class="clearfix"></div>
             <br>
 
-            {{range .Pages}}
-            {{ if eq .Params.typeOfPage "operations" }}
+            {{range where .Pages "Params.series" "==" "operations"}}
             {{ .Render "operations" }}
-            {{ end }}
             {{end}}
 
         </div>

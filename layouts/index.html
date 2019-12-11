@@ -207,15 +207,7 @@
     <div class=sectionContent>
         <div class=row>
            {{ range $key,$val := where .Pages ".Params.series" "==" "contentIndexParentStudent" }}
-            <div class="col-sm-6 col-md-4">
-                <div class=serviceBox>
-                    <figure class=serviceImg>
-                        <img src="{{ .Params.image }}" alt=>
-                    </figure>
-                    <h3>{{ .Params.heading }}</h3>
-                    <div class=textDesc>{{.Content}}</div>
-                </div>
-            </div>
+             {{ .Render "serviceBox"}}
             {{ end }}
         </div>
     </div>
@@ -229,15 +221,7 @@
         <div class=sectionContent>
             <div class=row>
                {{ range $key,$val := where .Pages ".Params.series" "==" "contentIndexSchoolManagement" }}
-                <div class="col-sm-6 col-md-4">
-                    <div class=serviceBox>
-                        <figure class=serviceImg>
-                            <img src="{{ .Params.image }}" alt=>
-                        </figure>
-                        <h3>{{ .Params.heading }}</h3>
-                        <div class=textDesc>{{.Content}}</div>
-                    </div>
-                </div>
+                   {{ .Render "serviceBox"}}
                 {{ end }}
             </div>
         </div>
@@ -252,15 +236,7 @@
             <div class=sectionContent>
                 <div class=row>
                    {{ range $key,$val := where .Pages ".Params.series" "==" "contentIndexSchoolManagement" }}
-                    <div class="col-sm-6 col-md-4">
-                        <div class=serviceBox>
-                            <figure class=serviceImg>
-                                <img src="{{ .Params.image }}" alt=>
-                            </figure>
-                            <h3>{{ .Params.heading }}</h3>
-                            <div class=textDesc>{{.Content}}</div>
-                        </div>
-                    </div>
+                        {{ .Render "serviceBox"}}
                     {{ end }}
                 </div>
             </div>

@@ -2,20 +2,16 @@
 
 <div class="hero-panel admissionBannerBg" style="text-align:center;" ><img src="/image/hero-online-assessment.jpg" alt="Admission Process" /></div>
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "introduction" }}
+{{range where .Pages "Params.series" "==" "introduction" }}
 {{ .Render "introduction" }}
-{{ end }}
 {{end}}
 
 {{ .Render "featuresBenefits" }}
 
 {{ .Render "services" }}
 
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "workflow" }}
+{{range where .Pages "Params.series" "==" "workflow"}}
 {{ .Render "workflow" }}
-{{ end }}
 {{end}}
 
 {{ .Render "solutionsForm" }}

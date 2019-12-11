@@ -2,6 +2,7 @@
 title: "forParents"
 heading: "myly App for Parents & Students"
 typeOfPage: "introduction_forParents"
+series: "introduction_forParents"
 weight:
 draft: false
 ---

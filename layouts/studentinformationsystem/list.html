@@ -1,16 +1,13 @@
 {{ define "main" }}
 
 <div class="hero-panel"><img style="margin-left:150px" src="/image/hero-base-erp.jpg" alt="Base ERP" /></div>
-{{range .Pages}}
-{{ if eq .Params.typeOfPage "introduction" }}
+{{range where .Pages "Params.series" "==" "introduction"}}
 {{ .Render "introduction" }}
-{{ end }}
 {{end}}
 
 {{ .Render "featuresBenefits" }}
 
 {{ .Render "services" }}
-
 
 {{ .Render "solutionsForm" }}
 

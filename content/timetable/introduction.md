@@ -2,6 +2,7 @@
 title: "Timetable"
 heading: "Time Table Software"
 typeOfPage: "introduction"
+series: "introduction"
 weight:
 draft: false
 ---
