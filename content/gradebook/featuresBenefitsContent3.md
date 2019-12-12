@@ -4,7 +4,7 @@ img: "/image/custom-report-card-printing.png"
 alt: "custom report card printing"
 imgRes: "/image/custom-report-card-printing-res.png"
 altRes: "custom report card printing"
-heading: "Custom Report Card Printing"
+heading: " Print bulk report cards"
 weight: 3
 typeofpage: "featuresBenefits"
 draft: false

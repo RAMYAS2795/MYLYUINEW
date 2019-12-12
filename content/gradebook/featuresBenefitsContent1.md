@@ -1,10 +1,10 @@
 ---
 title: "Gradebook"
 img: "/image/create-custom-exam-patterns.png"
-alt: "create custom exam patterns"
+alt: "Create custom Gradebook Pattern class wise"
 imgRes: "/image/create-custom-exam-patterns-res.png"
-altRes: "create custom exam patterns"
-heading: "Create Custom Exam Patterns"
+altRes: "Create custom Gradebook Pattern class wise"
+heading: "Create custom Gradebook Pattern class wise"
 weight: 1
 typeofpage: "featuresBenefits"
 draft: false

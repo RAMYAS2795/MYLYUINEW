@@ -1,6 +1,6 @@
 ---
 title: "Fees"
-img: "/image/Offline-Fees-Collection.png"
+img: "/image/offline-fees-collection.png"
 alt: "Offline Fees Collection"
 imgRes: "/image/Offline-Fees-Collection-res.jpg"
 altRes: "download myly for institute event management"

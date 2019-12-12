@@ -4,7 +4,7 @@ img: "/image/report-card-remarks.png"
 alt: "report card remarks"
 imgRes: "/image/report-card-remarks-res.png"
 altRes: "report card remarks"
-heading: "Report Card Remarks"
+heading: "Upload marks through excel sheet"
 weight: 4
 typeofpage: "featuresBenefits"
 draft: false

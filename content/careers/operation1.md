@@ -12,7 +12,7 @@ weight: 1
  <h4>Overview:</h4>
 <p style="margin: 0 0 10px;">
 MYLY is looking for a dynamic, responsive and detail-oriented person for managing operations. This position is ideal for someone who has a keen sense of customer service, understands technology products and is willing to roll his/her sleeves and get hands dirty. You will be reporting directly to the CEO (also the co-founder of MYLY)! <br><br>
-LOCATION: Jaipur, Rajasthan<br>
+LOCATION: Bengaluru, Karnataka<br>
 STATUS: On-premise, full-time<br>
 EDUCATION: Bachelor’s/Master’s degree holder from an accredited college/university<br>
 COMPENSATION: As per experience<br><br>
@@ -22,7 +22,7 @@ COMPENSATION: As per experience<br><br>
     <li>Ensuring all customer complaints, issues &amp; queries are logged and responded under defined turn-around time</li>
     <li>Ensuring all customer emails, phone-calls are well attended and responded satisfactorily</li>
     <li>Coordinating with technology team to get resolution to customer queries</li>
-    <li>Coordinating with product team to plan for incorporation of customer requirements in product development roadmap</li>
+    <li>Coordinating with product team to plan for incorporation of customer requirements in product development roadmap </li>
     <li>Planning and delivery of customer training</li>
     <li>Complete responsibility of customer on-boarding, data upload and go-live</li>
     <li>Manage the operations team ensuring team spirit, job satisfaction and growth for team members</li>

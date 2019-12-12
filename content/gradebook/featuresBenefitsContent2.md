@@ -4,7 +4,7 @@ img: "/image/result-upload.png"
 alt: "result upload"        
 imgRes: "/image/result-upload-res.png"
 altRes: "result upload"
-heading: "Result Upload"
+heading: "Send report on mobile app"
 weight: 2
 typeofpage: "featuresBenefits"
 draft: false
