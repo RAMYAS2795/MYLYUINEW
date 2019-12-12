@@ -1,6 +1,6 @@
 ---
 title: "Admission"
-heading: "Gradebook Software"
+heading: "Admission Software"
 typeofpage: "introduction"
 weight:
 draft: false

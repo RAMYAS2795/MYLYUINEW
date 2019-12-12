@@ -4,7 +4,7 @@ img: "/image/student-data-management.png"
 alt:  "Student Data Management"
 imgRes: "/image/student-data-management-res.png"
 altRes: "Student Data Management"
-heading: "Student Data Managemen"
+heading: "Student Data Management"
 weight: 1
 typeofpage: "featuresBenefits"
 draft: false

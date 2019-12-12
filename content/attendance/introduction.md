@@ -1,6 +1,6 @@
 ---
 title: "Attendance"
-heading: "Attendance and Leave Management"
+heading: "Attendance Software"
 typeOfPage: "introduction"
 weight:
 draft: false

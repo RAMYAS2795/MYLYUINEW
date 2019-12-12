@@ -11,7 +11,7 @@ weight: 2
 
 <h4>Overview:</h4>
 <p style="margin: 0 0 10px;">
-myly is looking for a dynamic, responsive and detail-oriented persons as part of the operations team. This position is ideal for someone with a keen sense of customer service, is willing to understand the products and is willing to roll his/her sleeves and get hands dirwil be reporting to Manager - Operations. <br><br>
+myly is looking for a dynamic, responsive and detail-oriented persons as part of the operations team. This position is ideal for someone with a keen sense of customer service, is willing to understand the products and is willing to roll his/her sleeves and get hands dirty to be reporting to Manager - Operations. <br><br>
 LOCATION: Bengaluru, Karnataka<br>
 STATUS: On-premise, full-time<br>
 EDUCATION: Bachelor’s/Master’s degree holder from an accredited university<br>

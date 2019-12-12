@@ -1,6 +1,6 @@
 ---
 title: "Fees"
-heading: "School Fees Management Simplified"
+heading: "Fees Management Software"
 typeofpage: "introduction"
 weight:
 draft: false
